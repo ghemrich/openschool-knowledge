@@ -2,7 +2,14 @@
 
 ## Kurzus felépítése
 
-A kurzus 13 hétre van bontva (0–12. hét, heti 2 óra), és fokozatosan építi fel a vizsgához szükséges tudást. A vizsga beadása **GitHub Classroom**-on keresztül történik. A diákok anyagai a `doksik/diakok/` mappában találhatók, heti bontásban.
+A kurzus 13 hétre van bontva (0–12. hét, heti 2 óra), és fokozatosan építi fel a vizsgához szükséges tudást. A vizsga beadása **GitHub Classroom**-on keresztül történik.
+
+**Kapcsolódó dokumentumok:**
+- Tanterv: [`doksik/tanterv/tanterv.md`](../tanterv/tanterv.md)
+- Diák leckék: [`doksik/diakok/leckek/`](../diakok/leckek/)
+- Diák feladatok: [`doksik/diakok/feladatok/`](../diakok/feladatok/)
+- GitHub Classroom útmutató: [`github-classroom-utmutato.md`](github-classroom-utmutato.md)
+- Értékelési módszertan: [`ertekeles-modszertan.md`](ertekeles-modszertan.md)
 
 ---
 
@@ -11,11 +18,7 @@ A kurzus 13 hétre van bontva (0–12. hét, heti 2 óra), és fokozatosan épí
 ### 0. hét: Git és GitHub Classroom
 - **Cél:** A diákok beállítják a Git-et, létrehoznak GitHub fiókot, és megtanulják az alapokat
 - **Tipp:** Előre készíts egy GitHub Classroom szervezetet és egy próba-feladatot. Az órán segítsd a diákokat a fióklétrehozásban.
-- **GitHub Classroom beállítás:**
-  1. Hozz létre egy GitHub Organizationt az iskola/osztály részére
-  2. A [classroom.github.com](https://classroom.github.com) oldalon hozz létre egy Classroom-ot
-  3. Készíts template repokat a feladatokhoz (a `vizsgak/filmek/forras/` és `vizsgak/konyvek/forras/` mappákból)
-  4. Hozz létre Assignment-eket a házi feladatokhoz és a vizsgához
+- **Beállítás:** Lásd [`github-classroom-utmutato.md`](github-classroom-utmutato.md)
 - **Házi feladat:** Próba repo: klónozás, `hello.py` létrehozása, commit, push
 
 ### 1–2. hét: Alapok (print, input, változók, szövegkezelés)
@@ -61,59 +64,30 @@ A kurzus 13 hétre van bontva (0–12. hét, heti 2 óra), és fokozatosan épí
 
 ## Vizsgavariánsok
 
-Két vizsga variáns áll rendelkezésre az A/B csoportos dolgozatíráshoz:
+Négy vizsga variáns áll rendelkezésre:
 
-| | A variáns (filmek) | B variáns (konyvek) |
-|---|---|---|
-| **Feladatlap** | `vizsgak/filmek/feladat/vizsga.md` | `vizsgak/konyvek/feladat/vizsga.md` |
-| **Értékelés** | `vizsgak/filmek/feladat/ertekeles.md` | `vizsgak/konyvek/feladat/ertekeles.md` |
-| **Forrásfájlok** | `vizsgak/filmek/forras/` | `vizsgak/konyvek/forras/` |
-| **Megoldás** | `vizsgak/filmek/megoldas/` | `vizsgak/konyvek/megoldas/` |
+| | A – filmek | B – konyvek | C – zenek | D – sportolok |
+|---|---|---|---|---|
+| **Feladatlap** | `vizsgak/filmek/feladat/vizsga.md` | `vizsgak/konyvek/feladat/vizsga.md` | `vizsgak/zenek/feladat/vizsga.md` | `vizsgak/sportolok/feladat/vizsga.md` |
+| **Értékelés** | `vizsgak/filmek/feladat/ertekeles.md` | `vizsgak/konyvek/feladat/ertekeles.md` | `vizsgak/zenek/feladat/ertekeles.md` | `vizsgak/sportolok/feladat/ertekeles.md` |
+| **Forrásfájlok** | `vizsgak/filmek/forras/` | `vizsgak/konyvek/forras/` | `vizsgak/zenek/forras/` | `vizsgak/sportolok/forras/` |
+| **Megoldás** | `vizsgak/filmek/megoldas/` | `vizsgak/konyvek/megoldas/` | `vizsgak/zenek/megoldas/` | `vizsgak/sportolok/megoldas/` |
+| **GitHub Classroom** | `github-classroom/vizsga-filmek/` | `github-classroom/vizsga-konyvek/` | `github-classroom/vizsga-zenek/` | `github-classroom/vizsga-sportolok/` |
 
 **Különbségek:**
-- 1. feladat: felhasználónév generátor vs. email generátor
-- 2. feladat: kártyahúzás (1–13, max 39) vs. kockadobás (1–6, max 18)
-- 3. feladat: filmek (értékelés, kategória) vs. könyvek (bevétel, nyelv/műfaj)
+- 1. feladat: felhasználónév / email / jelszó / becenév generátor
+- 2. feladat: kártyahúzás (3–39) / kockadobás (3–18) / nyerőgép (3–30) / golyóhúzás (4–20)
+- 3. feladat: filmek / könyvek / zenék / sportolók feldolgozása
+
+> **Részletes értékelési módszertan:** lásd `doksik/tanar/ertekeles-modszertan.md`
 
 ---
 
-## Értékelési javaslat
+## Értékelés
 
-| Elem | Arány | Megjegyzés |
-|------|-------|------------|
-| Órai munka | 30% | Aktív részvétel, gyakorlatok |
-| Házi feladatok | 20% | Heti kis feladatok |
-| Próbavizsga | 10% | 12. héten |
-| Szintfelmérő vizsga | 40% | 40 pont, 90 perc |
+Részletes értékelési rendszer, jegyhatárok, code review szempontok és szóbeli kérdések: lásd [`ertekeles-modszertan.md`](ertekeles-modszertan.md).
 
-**Elégséges határ:** 50% (20 pont)
-
----
-
-## Mappaszerkezet a diákoknak (GitHub Classroom)
-
-A vizsgán a diákok a GitHub Classroom által létrehozott repot használják. A repo már tartalmazza a forrásfájlokat:
-
-```
-vizsga-kissanna/          ← GitHub Classroom hozza létre
-  filmek.txt              ← a template-ből
-  filmek.py               ← a template-ből (tartalék)
-  feladat1.py             ← diák írja
-  feladat2.py             ← diák írja
-  feladat3.py             ← diák írja
-  fgv.py                  ← diák írja
-```
-
-### GitHub Classroom vizsga létrehozása
-
-1. Készíts egy **template repository**-t a szervezetben:
-   - Tartalma: `filmek.txt` + `filmek.py` (A variáns) vagy `konyvek.txt` + `konyvek.py` (B variáns)
-   - Adj hozzá egy `README.md`-t a feladatleírással (a `vizsga.md` tartalmával)
-2. Hozz létre egy **Assignment**-et a Classroom-ban:
-   - Individual assignment
-   - Template: a fenti repo
-   - Deadline: a vizsga vége
-3. Oszd ki a meghívó linket a diákoknak
+Vizsga és házi feladat kezelése GitHub Classroom-ban: lásd [`github-classroom-utmutato.md`](github-classroom-utmutato.md).
 
 ---
 

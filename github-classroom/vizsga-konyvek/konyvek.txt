@@ -1,0 +1,105 @@
+A vándor árnyéka;német;fantasy;2005;1250000
+Rejtett igenság;német;krimi;2012;875000
+A csillagok felett;német;sci-fi;2019;2300000
+Az elfeledett város;angol;történelmi;1998;450000
+Végzetes döntés;angol;krimi;2007;1320000
+A jövő árnyai;angol;sci-fi;2022;1900000
+A múlt titkai;német;történelmi;2010;730000
+Árnyék a víz alatt;német;krimi;2015;980000
+A mágus útja;angol;fantasy;2008;1570000
+Tűz és hamu;angol;fantasy;2020;2100000
+Az elveszett kód;német;sci-fi;2018;1640000
+Sötét szövetség;német;krimi;2011;920000
+A király végzete;francia;történelmi;2003;670000
+Holdfény kastély;francia;fantasy;2016;1420000
+Lélektükör;angol;krimi;2014;870000
+A titkos labor;angol;sci-fi;2021;1980000
+Háború és béke;német;történelmi;1995;550000
+A sárkány szíve;francia;fantasy;2009;1330000
+A jég birodalma;angol;sci-fi;2017;1760000
+A rejtély kulcsa;angol;krimi;2013;960000
+Vad vizeken;francia;történelmi;2006;730000
+Éjszakai vadászat;német;fantasy;2023;2150000
+Vérvonal;francia;krimi;2010;1100000
+A holnap árnyai;angol;sci-fi;2019;1870000
+Arany város;német;történelmi;2002;640000
+Az utolsó harcos;angol;fantasy;2015;1350000
+Titkos nyom;német;krimi;2001;920000
+Űrkalózok;német;sci-fi;2024;2050000
+A római örökség;német;történelmi;1996;480000
+Tündérmesék földje;francia;fantasy;2011;1500000
+Sötét völgy;francia;krimi;2004;850000
+A kvantum rejtély;német;sci-fi;2015;1720000
+Legendák földje;német;fantasy;2007;1280000
+Kémjátszma;német;krimi;2023;1980000
+Tengerész történetek;francia;történelmi;2000;530000
+Az elveszett expedíció;angol;sci-fi;2012;1600000
+A fény gyermekei;francia;fantasy;2021;2230000
+Sárga folyó;angol;krimi;2009;1020000
+Cybervilág;német;sci-fi;2016;1950000
+Ősi romok;angol;történelmi;2005;670000
+Bűn és bűnhődés;német;krimi;2008;970000
+Lángoló égbolt;német;sci-fi;2017;1780000
+A király visszatér;francia;történelmi;1999;620000
+A varázsló tornya;francia;fantasy;2014;1490000
+Szellemvadászok;angol;krimi;2006;1050000
+Titkos küldetés;francia;sci-fi;2020;1890000
+Erdők mélyén;francia;történelmi;2013;740000
+Kard és pajzs;francia;fantasy;2018;1700000
+A nagy szökés;francia;krimi;2015;1080000
+Mesterséges intelligencia;francia;sci-fi;2022;2100000
+Világok harca;angol;fantasy;2003;1360000
+A végső döntés;angol;krimi;2002;880000
+A hold bázis;angol;sci-fi;2021;2040000
+Örök sötétség;német;történelmi;1997;460000
+Harcosok földje;német;fantasy;2010;1550000
+A titkok könyve;francia;fantasy;2019;1580000
+Bűnös múlt;német;krimi;2005;910000
+Az űrhajós dilemmája;francia;sci-fi;2017;1840000
+A birodalom végnapjai;német;történelmi;2003;720000
+A fény harcosai;angol;fantasy;2020;1950000
+Az igenság nyomában;francia;krimi;2016;960000
+Csillagközi háború;német;sci-fi;2018;1750000
+A trónörökös végzete;német;történelmi;2009;810000
+Az áruló szövetség;német;fantasy;2022;2100000
+Halálos játszma;német;krimi;2011;990000
+Az idő kapuja;német;sci-fi;2015;1680000
+A történelem rejtélyei;angol;történelmi;2007;670000
+A varázskristály legendája;francia;fantasy;2013;1450000
+A rejtett alvilág;német;krimi;2008;930000
+A mesterséges elme;angol;sci-fi;2021;1980000
+Az elveszett nép;angol;történelmi;2004;620000
+A vér szerződése;német;fantasy;2010;1530000
+Az utolsó nyomozás;angol;krimi;2019;1040000
+A galaktikus küldetés;angol;sci-fi;2024;2200000
+A múlt árnyéka;angol;történelmi;1998;590000
+Sárkányok földje;német;fantasy;2015;1650000
+Baleset a hídon;német;krimi;2006;870000
+A fekete lyuk mélyén;német;sci-fi;2012;1750000
+A felemelkedés kora;francia;történelmi;2011;730000
+Az utolsó varázsló;német;fantasy;2018;1770000
+Gyilkosság a kikötőben;francia;krimi;2003;920000
+A dimenziók között;német;sci-fi;2016;1880000
+Ősi birodalmak nyomában;francia;történelmi;2000;680000
+A mágus élete;francia;fantasy;2023;2080000
+Titkok és árulások;angol;krimi;2009;980000
+A Mars expedíció;német;sci-fi;2014;1910000
+A római háborúk;angol;történelmi;1997;620000
+A sötét torony titka;angol;fantasy;2011;1400000
+Bűnök éjszakája;német;krimi;2005;860000
+A galaxis határán;francia;sci-fi;2019;2000000
+A palota összeesküvése;francia;történelmi;2006;750000
+A harcos próbatétele;angol;fantasy;2020;1830000
+Nyom nélkül;német;krimi;2017;1070000
+Az idegen kapcsolat;angol;sci-fi;2023;2180000
+Középkori rejtélyek;francia;történelmi;2002;690000
+A mágia ereje;francia;fantasy;2012;1500000
+A végzetes bizonyíték;német;krimi;2010;950000
+Űrkorszak hajnalán;német;sci-fi;2015;1700000
+A sötétség hatalma;angol;történelmi;2008;730000
+A legendák kora;francia;fantasy;2016;1800000
+Végjáték az alvilágban;angol;krimi;2014;990000
+A csillagkapu rejtélye;angol;sci-fi;2022;2150000
+A nagy hódítás;német;történelmi;1999;710000
+A varázsló tanítványa;német;fantasy;2013;1600000
+Az árulás éjszakája;francia;krimi;2007;890000

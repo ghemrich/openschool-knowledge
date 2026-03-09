@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "1/A – feladat1.py létezik",
+      "setup": "",
+      "run": "test -f feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "1/B – feladat1.py legalább 3 függvényt tartalmaz",
+      "setup": "",
+      "run": "test $(grep -c '^def ' feladat1.py) -ge 3 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "1/C – feladat1.py lefut bemenettel",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "Kiss\nAnna\n2004\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "2/A – feladat2.py létezik és random-ot használ",
+      "setup": "",
+      "run": "test -f feladat2.py && grep -q 'import random' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "2/B – feladat2.py while ciklust és függvényeket használ",
+      "setup": "",
+      "run": "grep -qE 'while' feladat2.py && test $(grep -c '^def ' feladat2.py) -ge 2 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "2/C – feladat2.py lefut és kiírja Talált",
+      "setup": "",
+      "run": "timeout 10 python3 feladat2.py",
+      "input": "4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n",
+      "output": "Talált",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 5
+    },
+    {
+      "name": "2/D – feladat2.py megköszöni a játékot",
+      "setup": "",
+      "run": "timeout 10 python3 feladat2.py",
+      "input": "4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n",
+      "output": "szönjük",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 4
+    },
+    {
+      "name": "3/A – fgv.py és feladat3.py létezik, importálva van",
+      "setup": "",
+      "run": "test -f fgv.py && test -f feladat3.py && grep -qE 'import fgv|from fgv' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/B – fgv.py legalább 5 függvényt tartalmaz",
+      "setup": "",
+      "run": "test $(grep -c '^def ' fgv.py) -ge 5 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/C – beolvasas() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_beolvasas",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/D – darabszam() helyes értéket ad",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_darabszam",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3/E – nemzetisegek_szama() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_nemzetisegek_szama",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/F – legtobb_legkevesebb_erem() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_legtobb_legkevesebb_erem",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/G – sportolo_keresese() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_sportolo_keresese",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/H – sportolo_fajlba_iras() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_sportolo_fajlba_iras",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3/I – sportaghoz_tartozo_sportolok() helyesen működik",
+      "setup": "",
+      "run": "python3 .github/classroom/test_fgv.py test_sportaghoz_tartozo_sportolok",
+      "input": "",
+      "output": "PASS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

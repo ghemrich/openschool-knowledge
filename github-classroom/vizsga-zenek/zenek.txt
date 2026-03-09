@@ -1,0 +1,100 @@
+Éjféli dal;pop;2005;214;7.2
+Aranyeső;pop;2012;198;6.8
+Szívdobbanás;pop;2019;185;8.1
+A tenger hangja;pop;2001;230;5.9
+Csillagfény;pop;2015;205;7.5
+Napsütés;pop;2008;192;6.3
+Álmodj velem;pop;2020;210;8.4
+Boldog vasárnap;pop;2003;178;7.0
+Szép emlékek;pop;2017;225;6.5
+Lila köd;pop;2010;195;7.8
+Nyári szél;pop;2022;188;8.6
+Holdvilág;pop;2006;215;6.1
+Tavaszi nap;pop;2014;200;7.3
+Téli álom;pop;2018;182;5.7
+Reggeli fény;pop;2002;220;6.9
+Szerelmes dal;pop;2023;195;8.2
+Hajnali szél;pop;2009;208;7.6
+Aranykor;pop;2016;175;6.4
+Szárnyalás;pop;2021;212;7.9
+Ezüst eső;pop;2004;190;5.5
+Mosolyogj;pop;2013;202;8.0
+Csöndes pillanatok;pop;2007;185;6.7
+Tündér éj;pop;2024;198;8.3
+Életérzés;pop;2011;215;7.1
+Örök nyár;pop;1998;205;6.0
+Tüzes éjszaka;rock;2006;265;7.4
+Vihar előtt;rock;2013;280;6.6
+Szabad lélek;rock;2019;248;8.0
+Lázadás;rock;2001;295;5.8
+Acélszív;rock;2015;270;7.7
+Fekete rózsa;rock;2009;258;6.2
+Mennydörgés;rock;2020;275;8.5
+Sötét utak;rock;2004;250;7.1
+Villámcsapás;rock;2017;288;6.8
+Robbanás;rock;2011;245;7.3
+Szikla;rock;2022;262;8.2
+Metálszív;rock;2007;295;5.6
+Erőszak nélkül;rock;2014;278;7.9
+Hangrobbanás;rock;2018;255;6.5
+Gitárhős;rock;2003;260;7.0
+Szabad világ;rock;2023;272;8.7
+Hosszú út;rock;2008;285;6.3
+Zúzós;rock;2016;268;7.5
+Lelke mélyén;rock;2021;252;8.1
+Szédítő tempó;rock;2005;290;5.4
+Vonzás;rock;2012;275;7.8
+Visszahang;rock;2010;258;6.0
+Tűzvihar;rock;2024;262;8.4
+Lendület;rock;2002;245;6.9
+Végtelen út;rock;1999;280;7.2
+Sötét dallamok;elektronikus;2005;195;7.6
+Bass dropp;elektronikus;2012;178;8.3
+Neon fények;elektronikus;2019;165;6.9
+Szintetikus álom;elektronikus;2000;210;5.8
+Gépi zene;elektronikus;2015;188;7.4
+Digitális szív;elektronikus;2008;200;8.8
+Hanghullám;elektronikus;2020;175;6.5
+Pulzus;elektronikus;2003;192;7.0
+Lézerfény;elektronikus;2017;205;8.1
+Kódolt ritmus;elektronikus;2010;168;7.3
+Virtuális világ;elektronikus;2022;185;8.5
+Frekvencia;elektronikus;2006;198;5.9
+Szintézis;elektronikus;2014;172;7.7
+Algoritmus;elektronikus;2018;195;6.4
+Bitek tánca;elektronikus;2002;215;7.2
+Mátrix;elektronikus;2023;180;8.9
+Csatorna;elektronikus;2009;168;6.7
+Pixelek;elektronikus;2016;202;7.8
+Adatáram;elektronikus;2021;175;8.0
+Bináris kód;elektronikus;2004;188;5.5
+Hullámhossz;elektronikus;2013;195;7.5
+Szikra;elektronikus;2007;210;6.1
+Digitalizáció;elektronikus;2024;172;8.6
+Impulzus;elektronikus;2011;182;7.1
+Rezonancia;elektronikus;1997;205;6.3
+Búcsúlevél;hiphop;2006;198;7.3
+Utcai álmok;hiphop;2013;215;6.8
+Szabad vers;hiphop;2019;185;8.2
+Beton dzsungel;hiphop;2001;225;5.7
+Rímfaragó;hiphop;2015;202;7.6
+Flow mester;hiphop;2009;210;6.4
+Mikrofonháború;hiphop;2020;195;8.5
+Beatkészítő;hiphop;2004;218;7.0
+Szóáradat;hiphop;2017;208;6.9
+Városi ritmus;hiphop;2011;195;7.4
+Hangfalból szól;hiphop;2022;185;8.7
+Rímek királya;hiphop;2007;225;5.6
+Szövegíró;hiphop;2014;212;7.8
+Beat boxing;hiphop;2018;198;6.2
+Freestyle;hiphop;2003;205;7.1
+Lemezlovas;hiphop;2023;192;8.3
+Beatre fel;hiphop;2008;215;6.5
+MC bajnok;hiphop;2016;228;7.5
+Rapszódia;hiphop;2021;195;8.0
+Mikrofon harcosok;hiphop;2005;202;5.3
+Szólóban;hiphop;2012;210;7.9
+Dalszöveg;hiphop;2010;185;6.0
+Rímpárbaj;hiphop;2024;198;8.4
+Hangstúdió;hiphop;2002;215;6.7
+Underground;hiphop;1998;225;7.2
