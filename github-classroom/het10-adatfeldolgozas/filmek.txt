@@ -1,0 +1,100 @@
+Végső visszaszámlálás;akció;2005;118;7.2
+A tűz gyűrűje;akció;2012;132;6.8
+Halálos sebesség;akció;2019;105;8.1
+Az acél törvénye;akció;2001;142;5.9
+Fekete vihar;akció;2015;98;7.5
+Robbanáspont;akció;2008;125;6.3
+A vadász ösztöne;akció;2020;115;8.4
+Veszélyzóna;akció;2003;108;7.0
+Fegyvertársak;akció;2017;138;6.5
+Az utolsó bevetés;akció;2010;95;7.8
+Túlélők szigete;akció;2022;128;8.6
+Bosszú napja;akció;2006;112;6.1
+A felderítő;akció;2014;145;7.3
+Lángoló nyár;akció;2018;102;5.7
+Célpont;akció;2002;130;6.9
+Törvényen kívül;akció;2023;120;8.2
+Menekülés az éjben;akció;2009;110;7.6
+A zsoldos;akció;2016;135;6.4
+Támadás hajnalban;akció;2021;108;7.9
+Szökés a sötétből;akció;2004;115;5.5
+Páncéltörő;akció;2013;140;8.0
+Az ököl ereje;akció;2007;98;6.7
+Harcmező;akció;2024;122;8.3
+A végső csapás;akció;2011;105;7.1
+Erőpróba;akció;1998;132;6.0
+Szerencsés baleset;vígjáték;2006;92;7.4
+A szomszéd kertje;vígjáték;2013;105;6.6
+Félreértés;vígjáték;2019;88;8.0
+Bolondok napja;vígjáték;2001;95;5.8
+A nagy balhé;vígjáték;2015;110;7.7
+Kétbalkezes hős;vígjáték;2009;102;6.2
+Családi kalamajka;vígjáték;2020;98;8.5
+Nyári szerelem;vígjáték;2004;90;7.1
+A pechsorozat;vígjáték;2017;115;6.8
+Rossz szomszédok;vígjáték;2011;88;7.3
+Az álomesküvő;vígjáték;2022;105;8.2
+Titkok és tévedések;vígjáték;2007;95;5.6
+Életem legszebb napja;vígjáték;2014;112;7.9
+A nagy csere;vígjáték;2018;92;6.5
+Pánikszoba;vígjáték;2003;100;7.0
+Barkácskirály;vígjáték;2023;108;8.7
+Összekeverve;vígjáték;2008;85;6.3
+A fogadás;vígjáték;2016;118;7.5
+Nyaralás kalandjai;vígjáték;2021;95;8.1
+Osztálytalálkozó;vígjáték;2005;98;5.4
+A tökéletes terv;vígjáték;2012;105;7.8
+Apák napja;vígjáték;2010;92;6.0
+Szerelemben;vígjáték;2024;100;8.4
+A feltaláló;vígjáték;2002;88;6.9
+Kalandvágyók;vígjáték;1999;110;7.2
+Árnyékban;dráma;2005;135;7.6
+A hallgatás ára;dráma;2012;148;8.3
+Eső után;dráma;2019;120;6.9
+Az idő foglyai;dráma;2000;155;5.8
+Sorsfordító;dráma;2015;130;7.4
+A zongorista;dráma;2008;142;8.8
+Hűség és árulás;dráma;2020;125;6.5
+Elveszett tavasz;dráma;2003;118;7.0
+A festő álma;dráma;2017;138;8.1
+Visszatérés;dráma;2010;110;7.3
+Az örökség súlya;dráma;2022;145;8.5
+Töréspont;dráma;2006;128;5.9
+A tanár úr;dráma;2014;115;7.7
+Szürke napok;dráma;2018;132;6.4
+Mélyvíz;dráma;2002;140;7.2
+A döntés pillanata;dráma;2023;122;8.9
+Hazatérés;dráma;2009;105;6.7
+Az utolsó lecke;dráma;2016;150;7.8
+Újrakezdés;dráma;2021;118;8.0
+Ártatlanság kora;dráma;2004;135;5.5
+A második esély;dráma;2013;125;7.5
+Határvonal;dráma;2007;142;6.1
+Emlékezz rám;dráma;2024;110;8.6
+A híd;dráma;2011;128;7.1
+Várakozás;dráma;1997;145;6.3
+Éjféli árnyak;horror;2006;95;7.3
+A pince titka;horror;2013;102;6.8
+Rémálom ébrenlét;horror;2019;88;8.2
+Sötét folyosók;horror;2001;110;5.7
+Lélekvesztő;horror;2015;98;7.6
+A kísértés háza;horror;2009;115;6.4
+Véres hajnal;horror;2020;92;8.5
+Csontváz a szekrényben;horror;2004;105;7.0
+Disztópia;horror;2017;120;6.9
+Ködben;horror;2011;95;7.4
+Az elhagyott kórház;horror;2022;108;8.7
+Halálcsapda;horror;2007;88;5.6
+Suttogások;horror;2014;112;7.8
+Szellemjárás;horror;2018;98;6.2
+A bábmester;horror;2003;100;7.1
+Rémségek éjszakája;horror;2023;105;8.3
+Búvóhely;horror;2008;92;6.5
+Az átok;horror;2016;118;7.5
+Árnyékvilág;horror;2021;95;8.0
+Halálos vizek;horror;2005;102;5.3
+A tükör mögött;horror;2012;108;7.9
+Végzetes játék;horror;2010;85;6.0
+Borzalom háza;horror;2024;110;8.4
+Másvilág;horror;2002;98;6.7
+Éjszakai műszak;horror;1998;115;7.2

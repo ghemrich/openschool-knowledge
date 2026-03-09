@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "Próbavizsga – feladat1.py létezik",
+      "setup": "",
+      "run": "test -f feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Próbavizsga – feladat1.py három függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def bekeres' feladat1.py && grep -q 'def generalas' feladat1.py && grep -q 'def kiiras' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Próbavizsga – feladat1.py lefut",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "Kiss\nAnna\n2010\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Próbavizsga – feladat2.py létezik",
+      "setup": "",
+      "run": "test -f feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Próbavizsga – feladat2.py random-ot használ",
+      "setup": "",
+      "run": "grep -q 'import random' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Próbavizsga – feladat2.py ciklust használ",
+      "setup": "",
+      "run": "grep -qE 'while|for' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Próbavizsga – feladat2.py lefut tippekkel",
+      "setup": "",
+      "run": "timeout 5 python3 feladat2.py",
+      "input": "10\n5\n15\n1\n20\nn\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    },
+    {
+      "name": "Próbavizsga – feladat3.py létezik",
+      "setup": "",
+      "run": "test -f feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Próbavizsga – fgv.py létezik",
+      "setup": "",
+      "run": "test -f fgv.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Próbavizsga – feladat3.py importálja fgv modult",
+      "setup": "",
+      "run": "grep -qE 'import fgv|from fgv' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Próbavizsga – fgv.py legalább 3 függvényt tartalmaz",
+      "setup": "",
+      "run": "test $(grep -c 'def ' fgv.py) -ge 3 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Próbavizsga – feladat3.py lefut a filmek.txt-vel",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "akcio\nVégső visszaszámlálás\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "Próbavizsga – hibak.py létezik",
+      "setup": "",
+      "run": "test -f hibak.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Próbavizsga – Legalább 5 commit",
+      "setup": "",
+      "run": "test $(git log --oneline | wc -l) -ge 5 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

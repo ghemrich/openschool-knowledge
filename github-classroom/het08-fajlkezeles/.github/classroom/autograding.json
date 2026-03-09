@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "8.1 – feladat1.py lefut és naplo.txt-t hoz létre",
+      "setup": "",
+      "run": "python3 feladat1.py && test -f naplo.txt && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "8.1 – naplo.txt legalább 3 sort tartalmaz",
+      "setup": "",
+      "run": "python3 feladat1.py && test $(wc -l < naplo.txt) -ge 3 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "8.2 – feladat2.py beolvassa és kiírja a naplo.txt-t",
+      "setup": "echo -e 'sor1\nsor2\nsor3' > naplo.txt",
+      "run": "python3 feladat2.py",
+      "input": "",
+      "output": "sor1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "8.3 – feladat3.py lefut a minta.txt-vel",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "8.3 – feladat3.py open()-t használ",
+      "setup": "",
+      "run": "grep -q 'open' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "8.4 – feladat4.py lefut a tanulok.txt-vel",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "",
+      "output": "Kiss Anna",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "8.4 – feladat4.py split-et használ",
+      "setup": "",
+      "run": "grep -q 'split' feladat4.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "8.5 – feladat5.py létezik és menü logikát tartalmaz",
+      "setup": "",
+      "run": "test -f feladat5.py && grep -qE 'while|menu' feladat5.py && grep -q 'open' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "8.5 – feladat5.py hozzáfűzés módot használ",
+      "setup": "",
+      "run": "grep -qE '\"a\"|\\x27a\\x27' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

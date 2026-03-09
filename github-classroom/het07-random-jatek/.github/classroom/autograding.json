@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "7.1 – feladat1.py lefut és számot ír ki (1-6)",
+      "setup": "",
+      "run": "python3 feladat1.py | grep -qE '[1-6]' && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "7.1 – feladat1.py random-ot használ",
+      "setup": "",
+      "run": "grep -q 'import random' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "7.2 – feladat2.py lefut dobásszámmal",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "5\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "7.3 – feladat3.py lefut kő-papír-olló játékkal",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "ko\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7.4 – feladat4.py lefut és 5 számot generál",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "7.4 – feladat4.py random-ot használ",
+      "setup": "",
+      "run": "grep -q 'random' feladat4.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "7.5 – feladat5.py létezik és tippelős logikát tartalmaz",
+      "setup": "",
+      "run": "grep -q 'random' feladat5.py && grep -qE 'while|for' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7.6 – feladat6.py létezik és time modult használ",
+      "setup": "",
+      "run": "test -f feladat6.py && grep -q 'import time' feladat6.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

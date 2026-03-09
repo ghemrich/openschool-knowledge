@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "3.1 – feladat1.py pozitív számot felismer",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "5\n",
+      "output": "pozit",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3.1 – feladat1.py negatív számot felismer",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "-3\n",
+      "output": "negat",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3.1 – feladat1.py nullát felismer",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "0\n",
+      "output": "nulla",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3.2 – feladat2.py gyerekjegyet számol (10 éves)",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "10\n",
+      "output": "500",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3.2 – feladat2.py felnőttjegyet számol (30 éves)",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "30\n",
+      "output": "1000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3.3 – feladat3.py jeles osztályzatot ír (95%)",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "95\n",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3.3 – feladat3.py elégtelen osztályzatot ír (20%)",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "20\n",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "3.4 – feladat4.py létezik és lefut",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "5\n5\n5\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3.5 – feladat5.py szökőévet felismer (2000)",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "2000\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "3.6 – feladat6.py létezik és lefut",
+      "setup": "",
+      "run": "python3 feladat6.py",
+      "input": "teljes\n100\n2\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

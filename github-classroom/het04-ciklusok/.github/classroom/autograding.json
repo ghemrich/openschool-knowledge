@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "4.1 – feladat1.py visszaszámol és kiírja Start!-ot",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "Start",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "4.1 – feladat1.py tartalmaz 10-et a kimenetben",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "4.2 – feladat2.py kiírja a páros számokat",
+      "setup": "",
+      "run": "python3 feladat2.py | grep -q '2' && python3 feladat2.py | grep -q '50' && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "4.3 – feladat3.py szorzótáblát ír ki",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "5\n",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "4.4 – feladat4.py összegez és átlagot számol",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "10\n20\n30\n0\n",
+      "output": "60",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "4.5 – feladat5.py létezik és lefut helyes jelszóval",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "titok123\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "4.5 – feladat5.py zárol 3 rossz tipp után",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "aaa\nbbb\nccc\n",
+      "output": "rolva",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "4.6 – feladat6.py létezik és lefut",
+      "setup": "",
+      "run": "python3 feladat6.py",
+      "input": "5\n",
+      "output": "*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "4.7 – feladat7.py kiírja a 6-ot (tökéletes szám)",
+      "setup": "",
+      "run": "python3 feladat7.py",
+      "input": "",
+      "output": "6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

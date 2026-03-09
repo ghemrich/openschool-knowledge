@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "6.1 – feladat1.py def koszont-ot használ",
+      "setup": "",
+      "run": "grep -q 'def koszont' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.1 – feladat1.py lefut",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "Szia",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.2 – feladat2.py területszámító függvényeket tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def teglalap_terulet' feladat2.py && grep -q 'def kor_terulet' feladat2.py && grep -q 'def haromszog_terulet' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.2 – feladat2.py lefut",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.3 – feladat3.py két átváltó függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def celsius_fahrenheit' feladat3.py && grep -q 'def fahrenheit_celsius' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.3 – feladat3.py lefut",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "100\n1\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.4 – feladat4.py def legkisebb függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def legkisebb' feladat4.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.4 – feladat4.py lefut 5 számmal",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "10\n3\n7\n1\n5\n",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.5 – feladat5.py három függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def bekeres' feladat5.py && grep -q 'def generalas' feladat5.py && grep -q 'def kiiras' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "6.5 – feladat5.py lefut",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "Kiss\nAnna\nkutya\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.6 – feladat6.py def prim_e függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def prim_e' feladat6.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "6.6 – feladat6.py kiírja a prímeket (tartalmazza a 2-t és 97-et)",
+      "setup": "",
+      "run": "python3 feladat6.py | grep -q '97' && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

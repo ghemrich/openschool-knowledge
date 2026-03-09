@@ -2,9 +2,9 @@
 
 ## Kurzus áttekintés
 
-**Cél:** A diákok elsajátítsák a Python programozás alapjait, és felkészüljenek a szintfelmérő vizsgára.
-**Időtartam:** 12 hét (heti 2 óra = 24 tanóra)
-**Vizsga:** 40 pontos szintfelmérő (90 perc)
+**Cél:** A diákok elsajátítsák a Python programozás és a Git/GitHub alapjait, és felkészüljenek a szintfelmérő vizsgára.
+**Időtartam:** 13 hét (heti 2 óra = 26 tanóra)
+**Vizsga:** 40 pontos szintfelmérő (90 perc, GitHub Classroom-on keresztül)
 
 ---
 
@@ -25,10 +25,22 @@
 | Összetett adatszerkezetek (lista listája, szótárak listája) | 3. feladat |
 | Szűrés, számlálás, min/max keresés | 3. feladat |
 | Saját modul készítése és importálása | 3. feladat |
+| Git alapok, GitHub Classroom | vizsga beadás, házi feladatok |
 
 ---
 
 ## Heti bontás
+
+### 0. hét – Git és GitHub alapok
+**0. óra: Git bevezetés**
+- Mi a Git? Mi a GitHub?
+- Git telepítés és beállítás (`git config`)
+- Alapfogalmak: repository, commit, push, clone
+- Alapparancsok: `git add`, `git commit`, `git push`, `git status`
+- GitHub Classroom: feladat elfogadása, klónozás, beadás
+- Gyakorlat: első repo létrehozása és commit
+
+---
 
 ### 1. hét – Bevezetés és alapok
 **1. óra: A Python világa**
@@ -223,4 +235,6 @@
 
 - **IDE:** VS Code vagy Thonny
 - **Python verzió:** 3.10+
+- **Git:** 2.x+
+- **GitHub fiók:** minden diáknak kell (ingyenes)
 - **Segédanyagok:** órai kódpéldák a `doksik/diakok/` mappában

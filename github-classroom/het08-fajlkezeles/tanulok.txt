@@ -1,0 +1,5 @@
+Kiss Anna;16;Budapest;4.5
+Nagy Béla;17;Debrecen;3.8
+Tóth Csaba;16;Szeged;4.2
+Szabó Dóra;17;Pécs;4.8
+Horváth Eszter;16;Győr;3.5

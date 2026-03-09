@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "10.1 – feladat1.py lefut és szavakat számol",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "alma",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "10.2 – feladat2.py lefut kategória szűréssel",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "gyumolcs\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "10.3 – feladat3.py lefut és min/max-ot keres",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "10.3 – feladat3.py nem használ min()/max()-ot",
+      "setup": "",
+      "run": "grep -vE '(def |#)' feladat3.py | grep -qE '\\bmin\\b|\\bmax\\b' && echo FAIL || echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "10.4 – feladat4.py beolvassa a filmek.txt-t",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "10.4 – feladat4.py open és split használ",
+      "setup": "",
+      "run": "grep -q 'open' feladat4.py && grep -q 'split' feladat4.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "10.5 – feladat5.py lefut kategóriával",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "akcio\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.5 – feladat5.py rendezést tartalmaz",
+      "setup": "",
+      "run": "grep -qE 'sort|sorted' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "10.6 – feladat6.py lefut és riport.txt-t hoz létre",
+      "setup": "",
+      "run": "python3 feladat6.py && test -f riport.txt && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.6 – riport.txt tartalmat tartalmaz",
+      "setup": "",
+      "run": "python3 feladat6.py && test $(wc -l < riport.txt) -ge 3 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

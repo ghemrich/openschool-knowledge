@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "9.1 – feladat1.py lefut és mátrixot ír ki",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "9.1 – feladat1.py lista listáját használ",
+      "setup": "",
+      "run": "grep -qE '\\[\\[' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "9.2 – feladat2.py lefut szókereséssel",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "kutya\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "9.2 – feladat2.py szótárt használ",
+      "setup": "",
+      "run": "grep -qE '\\{.*:.*\\}' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "9.3 – feladat3.py lefut és átlagot számol",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "9.4 – feladat4.py lefut termékekkel",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "alma\n100\n5\nnem\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "9.5 – feladat5.py lefut a tanulok.txt-vel",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "9.5 – feladat5.py split és open használ",
+      "setup": "",
+      "run": "grep -q 'split' feladat5.py && grep -q 'open' feladat5.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

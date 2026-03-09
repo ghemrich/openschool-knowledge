@@ -1,0 +1,5 @@
+Ez egy minta szövegfájl a szószámláló feladathoz.
+A fájl több sort tartalmaz különböző szavakkal.
+Minden sor más-más hosszúságú, hogy érdekes legyen a feladat.
+A programodnak meg kell számolnia a sorokat, szavakat és karaktereket.
+Sok sikert a megoldáshoz!

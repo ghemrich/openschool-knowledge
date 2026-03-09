@@ -2,11 +2,21 @@
 
 ## Kurzus felépítése
 
-A kurzus 12 hétre van bontva (heti 2 óra), és fokozatosan építi fel a vizsgához szükséges tudást. A diákok anyagai a `doksik/diakok/` mappában találhatók, heti bontásban.
+A kurzus 13 hétre van bontva (0–12. hét, heti 2 óra), és fokozatosan építi fel a vizsgához szükséges tudást. A vizsga beadása **GitHub Classroom**-on keresztül történik. A diákok anyagai a `doksik/diakok/` mappában találhatók, heti bontásban.
 
 ---
 
 ## Heti ütemterv és javaslatok
+
+### 0. hét: Git és GitHub Classroom
+- **Cél:** A diákok beállítják a Git-et, létrehoznak GitHub fiókot, és megtanulják az alapokat
+- **Tipp:** Előre készíts egy GitHub Classroom szervezetet és egy próba-feladatot. Az órán segítsd a diákokat a fióklétrehozásban.
+- **GitHub Classroom beállítás:**
+  1. Hozz létre egy GitHub Organizationt az iskola/osztály részére
+  2. A [classroom.github.com](https://classroom.github.com) oldalon hozz létre egy Classroom-ot
+  3. Készíts template repokat a feladatokhoz (a `vizsgak/filmek/forras/` és `vizsgak/konyvek/forras/` mappákból)
+  4. Hozz létre Assignment-eket a házi feladatokhoz és a vizsgához
+- **Házi feladat:** Próba repo: klónozás, `hello.py` létrehozása, commit, push
 
 ### 1–2. hét: Alapok (print, input, változók, szövegkezelés)
 - **Cél:** A diákok kényelmesen írjanak egyszerű programokat
@@ -45,7 +55,7 @@ A kurzus 12 hétre van bontva (heti 2 óra), és fokozatosan építi fel a vizsg
 
 ### 12. hét: Vizsgafelkészítés
 - **Cél:** Próbavizsga, hibaelemzés
-- **Tipp:** Valódi vizsgakörülmények között dolgozzanak
+- **Tipp:** Valódi vizsgakörülmények között dolgozzanak – a próbavizsga is GitHub Classroom-on keresztül történjen
 
 ---
 
@@ -80,18 +90,30 @@ Két vizsga variáns áll rendelkezésre az A/B csoportos dolgozatíráshoz:
 
 ---
 
-## Mappaszerkezet a diákoknak
+## Mappaszerkezet a diákoknak (GitHub Classroom)
 
-A vizsgán a diákok saját nevükkel hozzanak létre mappát, és abban dolgozzanak:
+A vizsgán a diákok a GitHub Classroom által létrehozott repot használják. A repo már tartalmazza a forrásfájlokat:
 
 ```
-KissAnna/
-  feladat1.py
-  feladat2.py
-  feladat3.py
-  fgv.py
-  filmek.txt (vagy konyvek.txt – a forras mappából másolva)
+vizsga-kissanna/          ← GitHub Classroom hozza létre
+  filmek.txt              ← a template-ből
+  filmek.py               ← a template-ből (tartalék)
+  feladat1.py             ← diák írja
+  feladat2.py             ← diák írja
+  feladat3.py             ← diák írja
+  fgv.py                  ← diák írja
 ```
+
+### GitHub Classroom vizsga létrehozása
+
+1. Készíts egy **template repository**-t a szervezetben:
+   - Tartalma: `filmek.txt` + `filmek.py` (A variáns) vagy `konyvek.txt` + `konyvek.py` (B variáns)
+   - Adj hozzá egy `README.md`-t a feladatleírással (a `vizsga.md` tartalmával)
+2. Hozz létre egy **Assignment**-et a Classroom-ban:
+   - Individual assignment
+   - Template: a fenti repo
+   - Deadline: a vizsga vége
+3. Oszd ki a meghívó linket a diákoknak
 
 ---
 
@@ -104,3 +126,5 @@ KissAnna/
 | `UnicodeDecodeError` | Hiányzik az `encoding="utf-8"` paraméter |
 | `ModuleNotFoundError: fgv` | A `fgv.py` és a főprogram nem ugyanabban a mappában van |
 | `TypeError: can't concat str to int` | Elfelejtett `int()` vagy `str()` konverzió |
+| `git push` sikertelen | Ellenőrizd: van-e commit? A megfelelő mappában vagy-e? |
+| GitHub Classroom link nem működik | A diák nincs bejelentkezve GitHubra, vagy nem tagja a szervezetnek |

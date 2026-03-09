@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "1.1 – feladat1.py létezik",
+      "setup": "",
+      "run": "test -f feladat1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "1.1 – feladat1.py lefut és kiír szöveget",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "1.2 – feladat2.py létezik",
+      "setup": "",
+      "run": "test -f feladat2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "1.2 – feladat2.py lefut és tartalmaz számításokat",
+      "setup": "",
+      "run": "python3 feladat2.py | grep -E '[0-9]'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "1.3 – feladat3.py létezik és lefut",
+      "setup": "",
+      "run": "test -f feladat3.py && python3 feladat3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "1.4 – feladat4.py lefut és type() hívást tartalmaz",
+      "setup": "",
+      "run": "test -f feladat4.py && grep -q 'type' feladat4.py && python3 feladat4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "1.5 – feladat5.py létezik és lefut",
+      "setup": "",
+      "run": "test -f feladat5.py && python3 feladat5.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "1.5 – feladat5.py változókat használ",
+      "setup": "",
+      "run": "grep -cE '^[a-z_]+ *=' feladat5.py | awk '{if ($1 >= 3) exit 0; else exit 1}'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

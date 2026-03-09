@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "11.1 – matek.py modul létezik",
+      "setup": "",
+      "run": "test -f matek.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11.1 – matek.py három függvényt tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def osszeg' matek.py && grep -q 'def szorzat' matek.py && grep -q 'def hatvany' matek.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11.1 – foprogram.py lefut és importálja matek-et",
+      "setup": "",
+      "run": "grep -qE 'import matek|from matek' foprogram.py && python3 foprogram.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "11.2 – szoveg_eszkozok.py létezik és függvényeket tartalmaz",
+      "setup": "",
+      "run": "grep -q 'def nagybetus' szoveg_eszkozok.py && grep -q 'def szavak_szama' szoveg_eszkozok.py && grep -q 'def forditott' szoveg_eszkozok.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "11.2 – foprogram2.py lefut",
+      "setup": "",
+      "run": "python3 foprogram2.py",
+      "input": "Hello vilag\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11.3 – fgv.py modul létezik",
+      "setup": "",
+      "run": "test -f fgv.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "11.3 – feladat3.py létezik és importálja fgv-t",
+      "setup": "",
+      "run": "test -f feladat3.py && grep -qE 'import fgv|from fgv' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "11.3 – feladat3.py lefut a filmek.txt-vel",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "akcio\nVadász\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "11.3 – fgv.py legalább 3 függvényt tartalmaz",
+      "setup": "",
+      "run": "test $(grep -c 'def ' fgv.py) -ge 3 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "11.4 – Saját projekt fájljai léteznek",
+      "setup": "",
+      "run": "test -f sajat_fgv.py && test -f sajat_foprogram.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "11.4 – sajat_fgv.py legalább 4 függvényt tartalmaz",
+      "setup": "",
+      "run": "test $(grep -c 'def ' sajat_fgv.py) -ge 4 && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "2.1 – feladat1.py lefut és köszönt",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "Anna\n",
+      "output": "Anna",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "2.1 – feladat1.py input()-ot használ",
+      "setup": "",
+      "run": "grep -q 'input' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "2.2 – feladat2.py lefut születési évvel",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "2010\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "2.2 – feladat2.py int() konverziót használ",
+      "setup": "",
+      "run": "grep -q 'int' feladat2.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "2.3 – feladat3.py lefut és tizedesjegyeket ír ki",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "5\n3\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "2.3 – feladat3.py f-stringet használ",
+      "setup": "",
+      "run": "grep -qE 'f\"|f\\x27' feladat3.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "2.4 – feladat4.py lefut névvel",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "Kiss\nAnna\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "2.5 – feladat5.py lefut és jelszót generál",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "Kovacs\n42\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "2.6 – feladat6.py lefut km-rel",
+      "setup": "",
+      "run": "python3 feladat6.py",
+      "input": "10\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

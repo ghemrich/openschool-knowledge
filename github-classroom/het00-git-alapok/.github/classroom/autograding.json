@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "0.1 – bemutatkozas.py létezik",
+      "setup": "",
+      "run": "test -f bemutatkozas.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "0.1 – bemutatkozas.py lefut",
+      "setup": "",
+      "run": "python3 bemutatkozas.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "0.2 – Legalább 3 commit van",
+      "setup": "",
+      "run": "test $(git log --oneline | wc -l) -ge 3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "0.3 – git_naplo.txt létezik",
+      "setup": "",
+      "run": "test -f git_naplo.txt && cat git_naplo.txt | head -1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

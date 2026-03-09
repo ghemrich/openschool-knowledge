@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "5.1 – feladat1.py létezik és lefut",
+      "setup": "",
+      "run": "python3 feladat1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "5.1 – feladat1.py enumerate-et használ",
+      "setup": "",
+      "run": "grep -q 'enumerate' feladat1.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "5.2 – feladat2.py kiírja a páros számokat",
+      "setup": "",
+      "run": "python3 feladat2.py",
+      "input": "",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "5.2 – feladat2.py nem ír ki páratlan számot",
+      "setup": "",
+      "run": "python3 feladat2.py | grep -vE '^$' | while read line; do for num in $line; do echo $num; done; done | grep -E '^[0-9]+$' | while read n; do if [ $((n % 2)) -ne 0 ]; then exit 1; fi; done && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "5.3 – feladat3.py lefut 5 számmal",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "10\n20\n30\n40\n50\n",
+      "output": "150",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "5.3 – feladat3.py átlagot számol",
+      "setup": "",
+      "run": "python3 feladat3.py",
+      "input": "10\n20\n30\n40\n50\n",
+      "output": "30",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "5.4 – feladat4.py létezik és lefut",
+      "setup": "",
+      "run": "python3 feladat4.py",
+      "input": "3\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "5.5 – feladat5.py lefut és rendez",
+      "setup": "",
+      "run": "python3 feladat5.py",
+      "input": "Csaba\nAnna\nBéla\n\n",
+      "output": "Anna",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "5.6 – feladat6.py lista comprehension-t használ",
+      "setup": "",
+      "run": "grep -qE '\\[.*for.*in.*\\]' feladat6.py && echo OK",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "5.6 – feladat6.py lefut",
+      "setup": "",
+      "run": "python3 feladat6.py",
+      "input": "Szia vilag\n",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
