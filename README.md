@@ -10,7 +10,9 @@ Oktatási keretrendszer, amely az iskolai programozástanulást a valódi fejles
 
 ### A probléma
 
-Egy programozástanár félévente ugyanazokat a feladatokat végzi el kézzel: repók létrehozása, feladatok kiosztása, megoldások ellenőrzése, pontok összesítése, kommunikáció a diákokkal. Ez rengeteg ismétlődő munka, ami elveszi az időt az oktatástól.
+A programozásoktatás gyakran iskolai platformokra épül: a diák feltölt egy fájlt, a tanár kézzel javít, a visszajelzés napokkal később érkezik. A diák nem találkozik verziókezeléssel, automatikus tesztekkel vagy aszinkron kommunikációs csatornákkal — azokkal az eszközökkel, amelyeket az első munkanapján használnia kell majd. Az iskola megtanítja a nyelvet, de nem a szakmát.
+
+A tanár oldalán ugyanez tükröződik: félévente kézzel épít fel repókat, kézzel javít, kézzel összesít. Az ismétlődő adminisztráció elnyeli azt az időt, amit kódátnézésre, egyéni mentorálásra és valódi visszajelzésre kellene fordítani.
 
 ### A megoldás
 
