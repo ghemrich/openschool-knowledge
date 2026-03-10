@@ -1,8 +1,8 @@
-# Kurzusok
+# DevSchool
 
-Programozás kurzusok középiskolai és felnőttképzési diákok számára, GitHub Classroom integrációval és automatizált értékeléssel.
+Oktatási keretrendszer, amely az iskolai programozástanulást a valódi fejlesztői munkafolyamatokra építi — Git, CI/CD, aszinkron kommunikáció és automatikus tesztelés az első naptól.
 
-**Operációs rendszer:** Windows 10+, Linux, macOS – minden útmutató és eszköz mindhárom platformon működik.
+**Operációs rendszer:** Windows 10+, Linux, macOS
 
 ---
 
