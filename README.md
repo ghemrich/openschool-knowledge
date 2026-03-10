@@ -1,6 +1,6 @@
 # DevSchool
 
-Oktatási keretrendszer, amely az iskolai programozástanulást a valódi fejlesztői munkafolyamatokra építi — Git, CI/CD, aszinkron kommunikáció és automatikus tesztelés az első naptól.
+Oktatási keretrendszer, amely az iskolai programozástanulást a valódi fejlesztői munkafolyamatokra építi — Git, CI/CD, csapatkommunikáció és automatikus tesztelés az első naptól.
 
 **Operációs rendszer:** Windows 10+, Linux, macOS
 
@@ -10,7 +10,7 @@ Oktatási keretrendszer, amely az iskolai programozástanulást a valódi fejles
 
 ### A probléma
 
-A programozásoktatás gyakran iskolai platformokra épül: a diák feltölt egy fájlt, a tanár kézzel javít, a visszajelzés napokkal később érkezik. A diák nem találkozik verziókezeléssel, automatikus tesztekkel vagy aszinkron kommunikációs csatornákkal — azokkal az eszközökkel, amelyeket az első munkanapján használnia kell majd. Az iskola megtanítja a nyelvet, de nem a szakmát.
+A programozásoktatás gyakran iskolai platformokra épül: a diák feltölt egy fájlt, a tanár kézzel javít, a visszajelzés napokkal később érkezik. A diák nem találkozik verziókezeléssel, automatikus tesztekkel vagy fejlesztői kommunikációs csatornákkal — azokkal az eszközökkel, amelyeket az első munkanapján használnia kell majd. Az iskola megtanítja a nyelvet, de nem a szakmát.
 
 A tanár oldalán ugyanez tükröződik: félévente kézzel épít fel repókat, kézzel javít, kézzel összesít. Az ismétlődő adminisztráció elnyeli azt az időt, amit kódátnézésre, egyéni mentorálásra és valódi visszajelzésre kellene fordítani.
 
@@ -22,7 +22,7 @@ A diákok nem iskolai platformon dolgoznak, hanem **ugyanazokkal az eszközökke
 |----------------|-----------------|-------------------|
 | GitHub repóba pushol | Fejlesztő commitol és pushol | Verziókezelés, commitolási kultúra, kódtörténet |
 | GitHub Actions futtatja a teszteket | CI pipeline ellenőriz minden PR-t | Automatikus tesztelés, zöld build = kész |
-| Discord szálakban kérdez | Slack/Discord csatornákon kommunikál a csapat | Aszinkron kommunikáció, kérdésfeltevés, segítségkérés |
+| Discord szálakban kérdez | Slack/Discord csatornákon kommunikál a csapat | Csapatkommunikáció, kérdésfeltevés, segítségkérés |
 | VS Code + terminál | Ipari fejlesztőkörnyezet | Szerkesztő, CLI, git parancsok |
 | Docker + PostgreSQL (13. évf.) | Konténerizált fejlesztés | Reprodukálható környezet, adatbáziskezelés |
 | pytest / shell tesztek | Unit és integrációs tesztek | Tesztvezérelt gondolkodás |
