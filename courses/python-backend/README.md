@@ -6,14 +6,14 @@
 
 | Mappa | Tartalom |
 |-------|----------|
-| [`doksik/`](doksik/) | Összes dokumentáció (diákok, tanár, tanterv) |
+| [`doksik/`](doksik/) | Összes dokumentáció (tanulók, mentor, tanterv) |
 | [`vizsgak/`](vizsgak/) | Vizsgavariánsok (feladatlapok, értékelések, megoldások, forrásfájlok) |
 | [`github-classroom/`](github-classroom/) | GitHub Classroom template repók (heti házi + vizsgák) |
 
 ## Gyors navigáció
 
-- **Diákoknak:** [Leckék](doksik/diakok/leckek/) · [Feladatok](doksik/diakok/feladatok/)
-- **Tanárnak:** [Tanári útmutató](doksik/tanar/tanari-utmutato.md) · [GitHub Classroom útmutató](doksik/tanar/github-classroom-utmutato.md) · [Értékelési módszertan](doksik/tanar/ertekeles-modszertan.md)
+- **Tanulóknak:** [Leckék](doksik/tanulok/leckek/) · [Feladatok](doksik/tanulok/feladatok/)
+- **Mentornak:** [Mentori útmutató](doksik/mentor/mentori-utmutato.md) · [GitHub Classroom útmutató](doksik/mentor/github-classroom-utmutato.md) · [Értékelési módszertan](doksik/mentor/ertekeles-modszertan.md)
 - **Tanterv:** [25 hetes tanterv](doksik/tanterv/tanterv.md)
 - **Vizsgák:** [4 variáns](vizsgak/) (todo-api, blog-api, webshop-api, recept-api)
 
@@ -31,7 +31,7 @@
 
 - [Kezdő útmutató — Hogyan kezdj hozzá?](../../guides/kezdo-utmutato.md)
 - [Környezet beállítás](../../guides/kornyezet-beallitas.md) (Python, Git, VS Code, Docker telepítés)
-- [GitHub Classroom — Diák útmutató](../../guides/github-classroom-diak-utmutato.md)
+- [GitHub Classroom — Tanuló útmutató](../../guides/github-classroom-tanulo-utmutato.md)
 - [Git puskalap](../../guides/git-puskalap.md)
 - [Docker puskalap](../../guides/docker-puskalap.md)
 - [Hibaelhárítás és GYIK](../../guides/hibaelharitas.md)

@@ -56,6 +56,6 @@ A kurzus során épített kód egy külön repóban él: `openschool-platform`
 
 ### Első lépések
 
-1. [Környezet beállítás](doksik/diakok/kornyezet-beallitas.md) — szoftverek telepítése
-2. [Discord csatlakozás](doksik/diakok/discord-hasznalat.md) — közösség és segítségkérés
+1. [Környezet beállítás](doksik/tanulok/kornyezet-beallitas.md) — szoftverek telepítése
+2. [Discord csatlakozás](doksik/tanulok/discord-hasznalat.md) — közösség és segítségkérés
 3. [Modul 1](doksik/modulok/01-projekt-inditas.md) — indulás!

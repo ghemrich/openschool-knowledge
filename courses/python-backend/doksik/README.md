@@ -2,22 +2,22 @@
 
 ## Tartalomjegyzék
 
-### Diákoknak
+### Tanulóknak
 
-- [Leckék](diakok/leckek/) – Heti tananyagok (0–24. hét)
-- [Feladatok](diakok/feladatok/) – Gyakorló feladatok heti bontásban
-- [Discord használat](diakok/discord-hasznalat.md) – Csatlakozás, kódküldés, szabályok
+- [Leckék](tanulok/leckek/) – Heti tananyagok (0–24. hét)
+- [Feladatok](tanulok/feladatok/) – Gyakorló feladatok heti bontásban
+- [Discord használat](tanulok/discord-hasznalat.md) – Csatlakozás, kódküldés, szabályok
 
-→ Részletes tartalomjegyzék: [diakok/README.md](diakok/)
+→ Részletes tartalomjegyzék: [tanulok/README.md](tanulok/)
 
-### Tanárnak
+### Mentornak
 
-- [Tanári útmutató](tanar/tanari-utmutato.md) – Heti ütemterv, tippek, vizsgavariánsok
-- [GitHub Classroom útmutató](tanar/github-classroom-utmutato.md) – Template repók, házi feladatok, autograding
-- [Értékelési módszertan](tanar/ertekeles-modszertan.md) – Szinthatárok, code review, szóbeli kérdések
+- [Mentori útmutató](mentor/mentori-utmutato.md) – Heti ütemterv, tippek, vizsgavariánsok
+- [GitHub Classroom útmutató](mentor/github-classroom-utmutato.md) – Template repók, házi feladatok, autograding
+- [Értékelési módszertan](mentor/ertekeles-modszertan.md) – Szinthatárok, code review, szóbeli kérdések
 - [Discord szerver útmutató](../../../../guides/discord-szerver-utmutato.md) – Szerver létrehozása, csatornák, jogosultságok, botok (közös dokumentum)
 
-→ Részletes tartalomjegyzék: [tanar/README.md](tanar/)
+→ Részletes tartalomjegyzék: [mentor/README.md](mentor/)
 
 ### Tanterv
 

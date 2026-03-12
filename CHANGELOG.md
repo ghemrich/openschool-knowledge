@@ -12,7 +12,7 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/hu/1.0.0/) ajánlás
 - **Kezdő útmutató** (`guides/kezdo-utmutato.md`) — tanulási útvonal, kurzus előfeltételek, hogyan kezdj hozzá
 - **Környezet beállítás** (`guides/kornyezet-beallitas.md`) — Python, Git, VS Code, Docker telepítés minden OS-re
 - **Közösségi útmutató** (`guides/kozossegi-utmutato.md`) — Discord csatornák, szerepkörök, viselkedési kódex
-- **GitHub Classroom diák útmutató** (`guides/github-classroom-diak-utmutato.md`) — feladat elfogadás, tesztek értelmezése
+- **GitHub Classroom tanuló útmutató** (`guides/github-classroom-tanulo-utmutato.md`) — feladat elfogadás, tesztek értelmezése
 - **Mentor útmutató** (`guides/mentor-utmutato.md`) — mentorálás, kód-átnézés, visszajelzés
 - **Kurzus készítési útmutató** (`guides/kurzus-keszitesi-utmutato.md`) — mappastruktúra, elnevezési konvenciók, autograding
 - **Hibaelhárítás és GYIK** (`guides/hibaelharitas.md`) — gyakori problémák és megoldásaik kurzusonként

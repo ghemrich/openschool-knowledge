@@ -71,7 +71,7 @@ Progress
 
 ## 3.4 GitHub API integráció
 
-Az OpenSchool automatikusan ellenőrzi, hogy a diák feladat-repójában fut-e zöld CI pipeline.
+Az OpenSchool automatikusan ellenőrzi, hogy a tanuló feladat-repójában fut-e zöld CI pipeline.
 
 **GitHub API endpoint:**
 ```
@@ -81,7 +81,7 @@ Authorization: Bearer {github_token}
 
 **Logika:**
 1. A feladat (`Exercise`) tárolja a repó név mintát (pl. `het01-alapok`)
-2. A diák GitHub Classroom repója: `{repo_prefix}-{github_username}`
+2. A tanuló GitHub Classroom repója: `{repo_prefix}-{github_username}`
 3. A rendszer lekérdezi a legutolsó workflow run-t
 4. Ha `conclusion == "success"` → a feladat teljesítve
 

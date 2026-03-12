@@ -1,6 +1,6 @@
 # Integrált munkafolyamat útmutató
 
-A tanári munkafolyamat két eszközre épül: **GitHub Classroom** (feladatok kiadása és automatikus értékelés) és **Discord** (kommunikáció és értesítések). Ez a dokumentum leírja, hogyan kapcsolódnak össze.
+A mentori munkafolyamat két eszközre épül: **GitHub Classroom** (feladatok kiadása és automatikus értékelés) és **Discord** (kommunikáció és értesítések). Ez a dokumentum leírja, hogyan kapcsolódnak össze.
 
 ---
 

@@ -13,7 +13,7 @@
 Írj programot (`feladat2.py`). Adott szótárak listája (termékek: név, ár, kategória). Kérd be egy kategóriát, és írd ki a hozzá tartozó termékeket.
 
 ## 10.3 – Min/max keresés ⭐⭐
-Írj programot (`feladat3.py`). Adott szótárak listája (diákok: név, pontszám). Keresd meg és írd ki a legjobb és legrosszabb pontszámú diákot (ne használj `min()`/`max()` beépített függvényt!).
+Írj programot (`feladat3.py`). Adott szótárak listája (tanulók: név, pontszám). Keresd meg és írd ki a legjobb és legrosszabb pontszámú tanulót (ne használj `min()`/`max()` beépített függvényt!).
 
 ## 10.4 – Statisztika fájlból ⭐⭐
 Írj programot (`feladat4.py`). Olvasd be a `filmek.txt` fájlt, és írd ki:

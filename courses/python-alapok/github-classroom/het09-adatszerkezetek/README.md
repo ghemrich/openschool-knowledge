@@ -12,8 +12,8 @@
 ## 9.2 – Szótár alapok ⭐
 Írj programot (`feladat2.py`). Hozz létre egy szótárat 5 magyar-angol szópárral. Kérd be egy magyar szót, és írd ki az angol megfelelőjét, vagy „Nem található", ha nincs benne.
 
-## 9.3 – Diákok szótárban ⭐⭐
-Írj programot (`feladat3.py`). Hozz létre egy szótárak listáját 3 diák adataival (név, kor, jegyek listája). Írd ki mindegyik diák nevét és jegyeinek átlagát.
+## 9.3 – Tanulók szótárban ⭐⭐
+Írj programot (`feladat3.py`). Hozz létre egy szótárak listáját 3 tanuló adataival (név, kor, jegyek listája). Írd ki mindegyik tanuló nevét és jegyeinek átlagát.
 
 ## 9.4 – Mini adatbázis ⭐⭐
 Írj programot (`feladat4.py`), amely `input()`-tal kéri be termékek adatait (név, ár, mennyiség), szótárak listájában tárolja, és a végén kiírja:
@@ -26,7 +26,7 @@
 ```
 név;kor;város;átlag
 ```
-Írd ki az adatokat táblázatszerűen, és keresd meg a legjobb átlagú diákot.
+Írd ki az adatokat táblázatszerűen, és keresd meg a legjobb átlagú tanulót.
 
 ---
 

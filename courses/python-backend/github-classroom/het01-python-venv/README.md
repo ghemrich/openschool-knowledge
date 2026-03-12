@@ -13,7 +13,7 @@ Hozz létre virtuális környezetet (`venv`), aktiváld, telepítsd a `requests`
 Írj programot (`feladat2.py`), amely létrehoz 8 különböző típusú változót (int, float, str, bool, list, dict, tuple, set) és kiírja mindegyik értékét és típusát.
 
 ## 1.3 – Szótár feldolgozás ⭐⭐
-Írj programot (`feladat3.py`), amely egy szótárban 5 diák nevét és jegyét tárolja. Írja ki az átlagot, a legjobb diákot és rendezze a neveket ábécé sorrendben.
+Írj programot (`feladat3.py`), amely egy szótárban 5 tanuló nevét és jegyét tárolja. Írja ki az átlagot, a legjobb tanulót és rendezze a neveket ábécé sorrendben.
 
 ## 1.4 – Fájl feldolgozás ⭐⭐
 Írj programot (`feladat4.py`), amely beolvassa az `input.txt` fájlt, megszámolja a sorok, szavak és karakterek számát, és kiírja az eredményt. Hozd létre az `input.txt` fájlt is legalább 5 sorral.

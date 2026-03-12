@@ -29,4 +29,4 @@
 
 ## Beállítás
 
-Részletes útmutató a GitHub Classroom beállításhoz: [Tanári GitHub Classroom útmutató](../doksik/tanar/github-classroom-utmutato.md)
+Részletes útmutató a GitHub Classroom beállításhoz: [Mentori GitHub Classroom útmutató](../doksik/mentor/github-classroom-utmutato.md)

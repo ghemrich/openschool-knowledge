@@ -70,8 +70,8 @@ A kód-átnézés a tanulási folyamat egyik legfontosabb eleme. A cél: **segí
 
 A részletes code review ellenőrzőlistákat a kurzusok értékelési módszertana tartalmazza:
 
-- [Python Alapok — Code review szempontok](../courses/python-alapok/doksik/tanar/ertekeles-modszertan.md#4-tanári-kód-átnézés-code-review)
-- [Backend FastAPI — Code review szempontok](../courses/python-backend/doksik/tanar/ertekeles-modszertan.md#4-tanári-kód-átnézés-code-review)
+- [Python Alapok — Code review szempontok](../courses/python-alapok/doksik/mentor/ertekeles-modszertan.md#4-mentori-kód-átnézés-code-review)
+- [Backend FastAPI — Code review szempontok](../courses/python-backend/doksik/mentor/ertekeles-modszertan.md#4-mentori-kód-átnézés-code-review)
 
 ### Visszajelzés formátuma
 
@@ -98,8 +98,8 @@ GitHub-on (Pull Request vagy commit megjegyzés):
 
 A Git history elemzés részletes módszertanát (ellenőrizendő szempontok, piros zászlók, git parancsok) a kurzusok értékelési módszertana tartalmazza:
 
-- [Python Alapok — Git history elemzés](../courses/python-alapok/doksik/tanar/ertekeles-modszertan.md#5-git-history-elemzés)
-- [Backend FastAPI — Git history elemzés](../courses/python-backend/doksik/tanar/ertekeles-modszertan.md#5-git-history-elemzés)
+- [Python Alapok — Git history elemzés](../courses/python-alapok/doksik/mentor/ertekeles-modszertan.md#5-git-history-elemzés)
+- [Backend FastAPI — Git history elemzés](../courses/python-backend/doksik/mentor/ertekeles-modszertan.md#5-git-history-elemzés)
 
 Ha gyanús mintát látsz, ne vádolj — kérdezz:
 > „Látom, hogy egy commitban jött az egész feladat. Előfordult, hogy nem commitoltál közben, vagy szükséged van-e segítségre a Git munkafolyamatban?"
@@ -110,8 +110,8 @@ Ha gyanús mintát látsz, ne vádolj — kérdezz:
 
 Ha a kód-átnézés során kérdés merül fel, informális szóbeli visszakérdezéssel tisztázhatod. A kurzus-specifikus példakérdéseket és az értékelési hatást a részletes módszertan tartalmazza:
 
-- [Python Alapok — Szóbeli ellenőrzés](../courses/python-alapok/doksik/tanar/ertekeles-modszertan.md#6-szóbeli-ellenőrzés)
-- [Backend FastAPI — Szóbeli ellenőrzés](../courses/python-backend/doksik/tanar/ertekeles-modszertan.md#6-szóbeli-ellenőrzés)
+- [Python Alapok — Szóbeli ellenőrzés](../courses/python-alapok/doksik/mentor/ertekeles-modszertan.md#6-szóbeli-ellenőrzés)
+- [Backend FastAPI — Szóbeli ellenőrzés](../courses/python-backend/doksik/mentor/ertekeles-modszertan.md#6-szóbeli-ellenőrzés)
 
 ### Hogyan reagálj
 
@@ -159,5 +159,5 @@ Ha a kód-átnézés során kérdés merül fel, informális szóbeli visszakér
 
 **Kapcsolódó útmutatók:**
 - [Közösségi útmutató](kozossegi-utmutato.md)
-- [GitHub Classroom — Diák útmutató](github-classroom-diak-utmutato.md)
+- [GitHub Classroom — Tanuló útmutató](github-classroom-tanulo-utmutato.md)
 - [Kezdő útmutató](kezdo-utmutato.md)

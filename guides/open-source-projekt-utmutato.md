@@ -113,7 +113,7 @@ Ha több dokumentum van, kell egy rendszer, amivel bárki megtalálja, amit kere
 
 ### 2.3 Dokumentáció nyelve
 
-Ha a közösség egy nyelvet beszél (pl. magyar diákok), írj azon a nyelven. Ha nemzetközi közönséget célzol, angolul. Ne keverd a kettőt — egy nyelv, végig.
+Ha a közösség egy nyelvet beszél (pl. magyar tanulók), írj azon a nyelven. Ha nemzetközi közönséget célzol, angolul. Ne keverd a kettőt — egy nyelv, végig.
 
 ---
 

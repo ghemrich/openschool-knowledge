@@ -1,4 +1,4 @@
-# Discord szerver – Tanári útmutató
+# Discord szerver – Mentori útmutató
 
 Ez a dokumentum elmagyarázza, hogyan kell egy közös Discord szervert létrehozni és kezelni az összes kurzushoz. Egyetlen szerver szolgál minden kurzus kommunikációs platformjaként – kurzusonként egy-egy kategória (csatornacsoport) biztosítja az elkülönítést.
 
@@ -24,7 +24,7 @@ Az alábbi struktúra egyetlen szerveren kezeli az összes kurzust. Új kurzus h
 ```
 📋 INFORMÁCIÓ
   #szabályzat           → Szerver szabályok, viselkedési kódex
-  #közlemények           → Tanári bejelentések, minden kurzushoz (csak olvasható diákoknak)
+  #közlemények           → Mentori bejelentések, minden kurzushoz (csak olvasható tanulóknak)
   #hasznos-linkek        → Dokumentációk, tutorialok, eszközök
 
 🐍 PYTHON ALAPOK
@@ -46,7 +46,7 @@ Az alábbi struktúra egyetlen szerveren kezeli az összes kurzust. Új kurzus h
   🔊 foglalkozás         → Hangcsatorna online alkalmakhoz (képernyőmegosztás)
 
 🔒 TANÁRI (rejtett)
-  #tanári-szoba          → Tanári megbeszélések, diákok nem látják
+  #mentori-szoba          → Mentori megbeszélések, tanulók nem látják
   #értékelések           → Értékelési feljegyzések
 ```
 
@@ -63,7 +63,7 @@ Ha később új kurzust indítasz, csak adj hozzá egy új kategóriát 2–3 cs
 Heti csatornák helyett a `#kurzus-segítség` csatornákon használj **szálakat**:
 
 1. Minden héten nyiss egy új szálat **évszámmal**: pl. *„2026 – 3. hét – Feltételes elágazások"*
-2. A diákok az adott szálban kérdeznek
+2. A tanulók az adott szálban kérdeznek
 3. A szál automatikusan archiválódik inaktivitás után, de visszanyitható
 
 > **Miért évszám?** A csatornák évről évre ugyanazok. Az évszám a szál nevében biztosítja, hogy a jelenlegi és a korábbi évek szálai ne keveredjenek. A régebbi szálak megmaradnak referenciaként, de egyértelműen elkülönülnek.
@@ -88,11 +88,11 @@ Szerver beállítások → **Roles** → **Create Role**
 
 | Szerepkör | Szín | Jogok |
 |-----------|------|-------|
-| `Tanár` | 🔴 Piros | Adminisztrátor |
+| `Mentor` | 🔴 Piros | Adminisztrátor |
 | `Python Alapok – 2026` | 🟢 Zöld | Üzenetküldés, olvasás, reakciók, fájlcsatolás |
 | `Backend FastAPI – 2026` | 🔵 Kék | Üzenetküldés, olvasás, reakciók, fájlcsatolás |
 
-> **Tipp:** Az évszámot tedd a szerepkör nevébe (pl. `Python Alapok – 2026`), hogy évről évre könnyen kezeld, ki az aktív diák. A kurzusonkénti szerepkörökkel szabályozhatod, ki melyik kurzus csatornáit látja. Ha nem szükséges az elkülönítés, elég egyetlen `Diák – 2026` szerepkör.
+> **Tipp:** Az évszámot tedd a szerepkör nevébe (pl. `Python Alapok – 2026`), hogy évről évre könnyen kezeld, ki az aktív tanuló. A kurzusonkénti szerepkörökkel szabályozhatod, ki melyik kurzus csatornáit látja. Ha nem szükséges az elkülönítés, elég egyetlen `Tanuló – 2026` szerepkör.
 
 > **Tipp:** Érdemes megkérni az új tagokat, hogy felismerhető nevet vagy azonosítót használjanak becenévként (nickname). Beállítás: jobb klikk a felhasználóra → **Change Nickname**.
 
@@ -101,15 +101,15 @@ Szerver beállítások → **Roles** → **Create Role**
 **`#közlemények` csatorna:**
 1. Csatorna beállítások → **Permissions**
 2. `@everyone` → ❌ **Send Messages** (tiltás)
-3. `Tanár` → ✅ **Send Messages** (engedélyezés)
+3. `Mentor` → ✅ **Send Messages** (engedélyezés)
 
 **`🔒 TANÁRI` kategória:**
 1. Kategória beállítások → **Permissions**
 2. `@everyone` → ❌ **View Channel** (tiltás)
-3. `Tanár` → ✅ **View Channel** (engedélyezés)
+3. `Mentor` → ✅ **View Channel** (engedélyezés)
 
 **Kurzus-kategória elrejtése (opcionális):**
-Ha szeretnéd, hogy a Python Alapok diákok ne lássák a Backend FastAPI csatornákat:
+Ha szeretnéd, hogy a Python Alapok tanulók ne lássák a Backend FastAPI csatornákat:
 1. `⚡ BACKEND FASTAPI` kategória → **Permissions**
 2. `@everyone` → ❌ **View Channel**
 3. `Backend FastAPI` szerepkör → ✅ **View Channel**
@@ -123,10 +123,10 @@ Ha szeretnéd, hogy a Python Alapok diákok ne lássák a Backend FastAPI csator
 2. Kattints: **Edit invite link**
 3. Állítsd be:
    - **Expire after**: Never (a szerver évről évre él)
-   - **Max uses**: No limit (vagy az összes diák száma + tartalék)
-4. Másold ki a linket és oszd meg a diákokkal (e-mailben, órán, vagy a GitHub Classroom README-ben)
+   - **Max uses**: No limit (vagy az összes tanuló száma + tartalék)
+4. Másold ki a linket és oszd meg a tanulókkal (e-mailben, órán, vagy a GitHub Classroom README-ben)
 
-> **Biztonság:** Ne tedd közzé a meghívó linket nyilvánosan. Csak a kurzusok diákjainak oszd meg.
+> **Biztonság:** Ne tedd közzé a meghívó linket nyilvánosan. Csak a kurzusok tanulóinak oszd meg.
 
 > **Tipp:** Ugyanazt a meghívó linket használhatod évről évre, ha „Never" lejáratot állítasz be.
 
@@ -160,7 +160,7 @@ A webhook-ok lehetővé teszik, hogy a szkriptek (pl. `discord-webhook.py`) kül
 
 | Webhook neve | Csatorna | Mire kell |
 |--------------|----------|-----------|
-| Közlemények | `#közlemények` | Tanári bejelentések mindkét kurzusnak |
+| Közlemények | `#közlemények` | Mentori bejelentések mindkét kurzusnak |
 | Python Alapok | `#python-alapok-segítség` | Heti szálnyitók, emlékeztetők |
 | Backend FastAPI | `#backend-segítség` | Heti szálnyitók, emlékeztetők |
 
@@ -175,7 +175,7 @@ A webhook-ok lehetővé teszik, hogy a szkriptek (pl. `discord-webhook.py`) kül
    - **Webhooks** → **New Webhook** (Új webhook)
 
 3. Állítsd be:
-   - **Name** (Név): adj leíró nevet (pl. `Tanári Értesítések`, `Python10 Bot`)
+   - **Name** (Név): adj leíró nevet (pl. `Mentori Értesítések`, `Python10 Bot`)
    - **Channel** (Csatorna): ellenőrizd, hogy a megfelelő csatorna van kiválasztva
    - **Avatar** (opcionális): tölts fel egy ikont, hogy megkülönböztesse a bot üzeneteit
 
@@ -270,7 +270,7 @@ Szerver beállítások → **AutoMod**:
 
 - **Pineld** a fontos üzeneteket (jobb klikk → Pin Message)
 - Használj **szálakat** a heti témákhoz — ez tartja tisztán a fő csatornát
-- Ha egy diák privátban ír, irányítsd át a nyilvános csatornára — mások is tanulhatnak a válaszból
+- Ha egy tanuló privátban ír, irányítsd át a nyilvános csatornára — mások is tanulhatnak a válaszból
 - **Reakciókkal** jelezd, hogy láttad a kérdést (👀) vagy hogy megoldódott (✅)
 - A `#közlemények`-ben használj emojit a kurzus jelölésére: 🐍 Python Alapok, ⚡ Backend FastAPI
 
@@ -289,8 +289,8 @@ A szerver évről évre újrahasználható. Az alábbi lépéseket végezd el mi
 ### 8.1 Szerepkörök
 
 1. Hozz létre új éves szerepköröket (pl. `Python Alapok – 2027`, `Backend FastAPI – 2027`)
-2. Az új diákoknak az új szerepkört add ki
-3. A végzett diákoktól vedd el az előző éves szerepkört, vagy hagyd meg – ők továbbra is olvashatják a régi szálakat, de az új szálakban nem aktívak
+2. Az új tanulóknak az új szerepkört add ki
+3. A végzett tanulóktól vedd el az előző éves szerepkört, vagy hagyd meg – ők továbbra is olvashatják a régi szálakat, de az új szálakban nem aktívak
 
 ### 8.2 Szálak
 
@@ -306,7 +306,7 @@ A szerver évről évre újrahasználható. Az alábbi lépéseket végezd el mi
 ### 8.4 Takarítás (opcionális)
 
 - Ha a `#kurzus-általános` csatornákon túl sok a régi üzenet, használd a Discord **Bulk Delete** funkciót (bot segítségével), vagy hagyd – a szálak elkülönítik a lényegi tartalmat
-- A végzett diákok eltávolítása nem kötelező, de csökkenti a szerver létszámát
+- A végzett tanulók eltávolítása nem kötelező, de csökkenti a szerver létszámát
 
 ---
 
@@ -314,10 +314,10 @@ A szerver évről évre újrahasználható. Az alábbi lépéseket végezd el mi
 
 | Probléma | Megoldás |
 |----------|---------|
-| Diák nem tud csatlakozni | Ellenőrizd a meghívó link érvényességét és a max. felhasználók számát |
-| Diák nem lát csatornát | Ellenőrizd, hogy megkapta-e a megfelelő szerepkört |
+| Tanuló nem tud csatlakozni | Ellenőrizd a meghívó link érvényességét és a max. felhasználók számát |
+| Tanuló nem lát csatornát | Ellenőrizd, hogy megkapta-e a megfelelő szerepkört |
 | Bot nem működik | Ellenőrizd a bot jogosultságait a szerver beállításokban |
 | Spam a csatornákon | Kapcsold be a Slowmode-ot (csatorna beállítások → 10 mp) |
-| Diák nem tud írni a `#közlemények`-be | Ez szándékos – csak a `Tanár` szerepkör írhat oda |
+| Tanuló nem tud írni a `#közlemények`-be | Ez szándékos – csak a `Mentor` szerepkör írhat oda |
 | Túl sok szál | Az archivált szálak automatikusan eltűnnek, de visszakereshetők |
 | Régi éves szálak zavarnak | Az évszám prefix segít megkülönböztetni – a régiek archiválva maradnak |

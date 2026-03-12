@@ -2,7 +2,7 @@
 
 ## Kurzus áttekintés
 
-**Cél:** A diákok elsajátítsák a Python programozás és a Git/GitHub alapjait, és felkészüljenek a szintfelmérő vizsgára.
+**Cél:** A tanulók elsajátítsák a Python programozás és a Git/GitHub alapjait, és felkészüljenek a szintfelmérő vizsgára.
 **Időtartam:** 13 hét (heti 2 óra = 26 óra)
 **Vizsga:** 40 pontos szintfelmérő (90 perc, GitHub Classroom-on keresztül)
 
@@ -237,7 +237,7 @@
 - **Python verzió:** 3.10+ (Windows: [python.org](https://www.python.org/downloads/), telepítéskor **"Add Python to PATH"** be legyen pipálva)
 - **Git:** 2.x+ (Windows: [git-scm.com](https://git-scm.com))
 - **Operációs rendszer:** Windows 10+, Linux vagy macOS
-- **GitHub fiók:** minden diáknak kell (ingyenes)
-- **Segédanyagok:** órai kódpéldák a `doksik/diakok/` mappában
+- **GitHub fiók:** minden tanulónak kell (ingyenes)
+- **Segédanyagok:** órai kódpéldák a `doksik/tanulok/` mappában
 
 > **Windows megjegyzés:** A `python3` parancs helyett Windowson `python`-t használj. A terminál lehet PowerShell, Parancssor (cmd), vagy a VS Code beépített terminálja.

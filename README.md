@@ -8,7 +8,7 @@ Nyílt forráskódú, magyar nyelvű programozásoktatási tudásbázis, amely a
 
 ## Miért jó ez a projekt?
 
-A programozásoktatás gyakran iskolai platformokra épül: a diák feltölt egy fájlt, a tanár kézzel javít, a visszajelzés napokkal később érkezik. A diák nem találkozik verziókezeléssel, automatikus tesztekkel vagy fejlesztői kommunikációs csatornákkal — azokkal az eszközökkel, amelyeket az első munkanapján használnia kell majd.
+A programozásoktatás gyakran iskolai platformokra épül: a tanuló feltölt egy fájlt, a mentor kézzel javít, a visszajelzés napokkal később érkezik. A tanuló nem találkozik verziókezeléssel, automatikus tesztekkel vagy fejlesztői kommunikációs csatornákkal — azokkal az eszközökkel, amelyeket az első munkanapján használnia kell majd.
 
 Az OpenSchool megközelítése: **a munkafolyamat maga legyen a tananyag része**.
 
@@ -32,8 +32,8 @@ Az OpenSchool megközelítése: **a munkafolyamat maga legyen a tananyag része*
 
 ### Kinek való?
 
-- **Tanároknak:** magyar nyelvű, strukturált, GitHub Classroom-ra épülő kurzusanyagok
-- **Diákoknak:** leckék, feladatok, vizsgaminták — valódi fejlesztői környezetben
+- **Mentoroknak:** magyar nyelvű, strukturált, GitHub Classroom-ra épülő kurzusanyagok
+- **Tanulóknak:** leckék, feladatok, vizsgaminták — valódi fejlesztői környezetben
 - **Önálló tanulóknak:** teljes tananyag a Python alapoktól a backend fejlesztésig
 
 ---
@@ -59,7 +59,7 @@ A **Projekt Labor** nem hagyományos kurzus: a résztvevő az OpenSchool platfor
 │   ├── kezdo-utmutato.md       #   Hogyan kezdj hozzá?
 │   ├── kornyezet-beallitas.md   #   Fejlesztői környezet telepítése
 │   ├── kozossegi-utmutato.md    #   Közösség, Discord, viselkedési kódex
-│   ├── github-classroom-diak-utmutato.md  # Feladatok beadása
+│   ├── github-classroom-tanulo-utmutato.md  # Feladatok beadása
 │   ├── mentor-utmutato.md       #   Mentorálás, kód-átnézés
 │   ├── kurzus-keszitesi-utmutato.md  # Új kurzus készítése
 │   ├── hibaelharitas.md         #   Gyakori problémák és megoldások
@@ -88,7 +88,7 @@ Kurzusokon átívelő dokumentumok: → [guides/](guides/)
 - **[Közösségi útmutató](guides/kozossegi-utmutato.md)** — Discord csatornák, szerepkörök, viselkedési kódex, hogyan kérdezz jól
 
 ### Tanulóknak
-- **[GitHub Classroom — Diák útmutató](guides/github-classroom-diak-utmutato.md)** — feladat elfogadás, tesztek értelmezése, munkafolyamat
+- **[GitHub Classroom — Tanuló útmutató](guides/github-classroom-tanulo-utmutato.md)** — feladat elfogadás, tesztek értelmezése, munkafolyamat
 - **[Hibaelhárítás és GYIK](guides/hibaelharitas.md)** — gyakori problémák és megoldásaik kurzusonként
 - **[Hogyan keress dokumentációt?](guides/dokumentacio-kereses.md)** — önálló tanulás, hibaüzenet-olvasás, hatékony keresés
 - **[Szótár](guides/szotar.md)** — technikai fogalmak magyar magyarázattal

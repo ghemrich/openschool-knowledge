@@ -127,4 +127,4 @@ Ha valami nem működik, kövesd ezt a sorrendet:
 - [Környezet beállítás](kornyezet-beallitas.md)
 - [Git puskalap](git-puskalap.md)
 - [Docker puskalap](docker-puskalap.md)
-- [GitHub Classroom — Diák útmutató](github-classroom-diak-utmutato.md)
+- [GitHub Classroom — Tanuló útmutató](github-classroom-tanulo-utmutato.md)

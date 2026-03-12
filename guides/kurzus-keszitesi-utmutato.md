@@ -13,9 +13,9 @@ kurzusok/python/<kurzus-neve>/
 ├── README.md                      # Kurzus áttekintés
 ├── doksik/
 │   ├── README.md
-│   ├── diakok/                    # Diákok számára elérhető anyagok
-│   ├── tanar/                     # Mentor/tanári dokumentáció
-│   │   ├── tanari-utmutato.md     # Heti bontású útmutató
+│   ├── tanulok/                    # Tanulók számára elérhető anyagok
+│   ├── mentor/                     # Mentor/mentori dokumentáció
+│   │   ├── mentori-utmutato.md     # Heti bontású útmutató
 │   │   └── ertekeles-modszertan.md # Értékelési módszertan
 │   └── tanterv/                   # Tanterv és tematika
 ├── github-classroom/
@@ -229,11 +229,11 @@ vizsga-filmek/
 
 ---
 
-## Tanári dokumentáció
+## Mentori dokumentáció
 
-Minden kurzushoz készíts tanári útmutatót a `doksik/tanar/` mappába:
+Minden kurzushoz készíts mentori útmutatót a `doksik/mentor/` mappába:
 
-### tanari-utmutato.md tartalma
+### mentori-utmutato.md tartalma
 
 - **Heti bontás** — mit tanítunk, milyen sorrendben
 - **Nehezebb hetek jelölése** — hol kell több idő / több gyakorlat
@@ -262,7 +262,7 @@ Minden kurzushoz készíts tanári útmutatót a `doksik/tanar/` mappába:
 □ A tesztek lokálisan lefutnak? (próbáld ki egy minta megoldással)
 □ A pontszámok arányosak a nehézséggel?
 □ A vizsga variánsok azonos szerkezetűek?
-□ A tanári útmutató frissítve van?
+□ A mentori útmutató frissítve van?
 □ A kurzus README.md hivatkozik az új heti feladatra?
 ```
 
@@ -270,5 +270,5 @@ Minden kurzushoz készíts tanári útmutatót a `doksik/tanar/` mappába:
 
 **Kapcsolódó útmutatók:**
 - [Mentor útmutató](mentor-utmutato.md)
-- [GitHub Classroom — Diák útmutató](github-classroom-diak-utmutato.md)
+- [GitHub Classroom — Tanuló útmutató](github-classroom-tanulo-utmutato.md)
 - [Git puskalap](git-puskalap.md)

@@ -62,7 +62,7 @@ A Discord szerveren kérdezhetsz, segítséget kérhetsz, és megismerheted a t�
 
 ### 4. Ismerd meg a GitHub Classroom-ot
 
-A feladatokat GitHub Classroom-on keresztül adod be. Olvasd el a használati útmutatót: → [GitHub Classroom diák útmutató](github-classroom-diak-utmutato.md)
+A feladatokat GitHub Classroom-on keresztül adod be. Olvasd el a használati útmutatót: → [GitHub Classroom tanuló útmutató](github-classroom-tanulo-utmutato.md)
 
 ---
 

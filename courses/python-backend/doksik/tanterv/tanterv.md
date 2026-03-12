@@ -17,7 +17,7 @@
 
 ## Célkitűzés
 
-A kurzus végére a diák képes önállóan:
+A kurzus végére a tanuló képes önállóan:
 - REST API-t tervezni és implementálni FastAPI-val
 - PostgreSQL adatbázist kezelni Docker környezetben
 - SQLAlchemy ORM-mel dolgozni, migrációkat futtatni (Alembic)
