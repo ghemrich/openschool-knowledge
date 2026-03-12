@@ -214,7 +214,7 @@ A 10. évfolyamos Python kurzus ismeretanyaga:
 - Port mapping: `-p 8000:8000`
 
 **45–46. óra: PostgreSQL Dockerben**
-- `docker run postgres:15`
+- `docker run postgres:16`
 - Környezeti változók: `POSTGRES_USER`, `POSTGRES_PASSWORD`, `POSTGRES_DB`
 - `psql` csatlakozás
 - Alapszintű SQL: `CREATE TABLE`, `INSERT`, `SELECT`
@@ -599,7 +599,7 @@ A 10. évfolyamos Python kurzus ismeretanyaga:
 - Fájlból olvasás és statisztikák
 
 **5. feladat (10 pont) – Docker és tesztelés**
-- Dockerfile (python:3.11-slim, uvicorn, port 8000)
+- Dockerfile (python:3.12-slim, uvicorn, port 8000)
 - requirements.txt
 - pytest tesztek (min. 8 teszt, TestClient)
 

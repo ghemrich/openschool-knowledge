@@ -15,18 +15,19 @@ Az OpenSchool platform előkészítése arra, hogy mások is hozzájáruljanak. 
 
 Az OpenSchool open source — a licencnek engedélyeznie kell a szabad felhasználást.
 
-**Lehetőségek:**
+**Kettős licencelés:**
 
-| Licenc | Jellemző |
-|--------|----------|
-| MIT | Minimális megkötés, bárki használhatja bármire |
-| Apache 2.0 | Mint az MIT, de szabadalmi védelmet is ad |
+Az OpenSchool projektek kettős licencet használnak:
 
-**Ajánlott: MIT** — egyszerű, széles körben elfogadott.
+| Licenc | Vonatkozik | Jellemző |
+|--------|-----------|----------|
+| MIT | Kód (szkriptek, tesztek, konfigurációk) | Minimális megkötés, bárki használhatja bármire |
+| CC BY-SA 4.0 | Oktatási tartalom (leckék, feladatok, útmutatók) | Szabad felhasználás, de a származékos művek is nyíltak maradnak |
 
 **Feladat:**
-- Adj hozzá egy `LICENSE` fájlt a repó gyökerébe
-- A `README.md`-ben is szerepeljen a licenc típus
+- Adj hozzá egy `LICENSE` fájlt (MIT, kódra) a repó gyökerébe
+- Adj hozzá egy `LICENSE-CC-BY-SA` fájlt (CC BY-SA 4.0, tartalomra)
+- A `README.md`-ben is szerepeljen mindkét licenc típus
 
 ## 7.2 CONTRIBUTING.md
 

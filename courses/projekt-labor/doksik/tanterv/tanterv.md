@@ -101,7 +101,7 @@ Minden modulhoz tartozik egy **verifikációs tesztcsomag**, ami kívülről ell
 **Használat:**
 
 ```bash
-# A openschool repóból másold a teszteket a platform repóba
+# Az openschool repóból másold a teszteket a platform repóba
 cp -r courses/projekt-labor/tesztek/ /path/to/openschool-platform/tesztek/
 
 # Futtasd az adott modul tesztjeit
@@ -173,7 +173,7 @@ Automatikus tanúsítvány generálás kurzus befejezésekor, verifikálható UR
 **Témák:**
 - Completion logika: mikor tekinthető befejezettnek egy kurzus
 - Certificate adatmodell (egyedi ID, felhasználó, kurzus, dátum)
-- PDF generálás (ReportLab vagy WeasyPrint)
+- PDF generálás (fpdf2)
 - QR kód generálás a verifikációs URL-lel
 - Publikus verification endpoint: `/verify/{cert_id}`
 - Tanúsítvány sablon tervezés
@@ -195,7 +195,7 @@ Astro-val épített statikus weboldal, amely megjeleníti a kurzusokat és a fel
 - Reszponzív design
 - Build és Docker integráció
 
-**Eredmény:** A openschool.hu-n megjelenik a teljes weboldal: kurzusok böngészése, belépés, haladás követése.
+**Eredmény:** Az openschool.hu-n megjelenik a teljes weboldal: kurzusok böngészése, belépés, haladás követése.
 
 ---
 

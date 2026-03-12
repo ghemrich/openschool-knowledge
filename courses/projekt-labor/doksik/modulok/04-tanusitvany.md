@@ -71,39 +71,54 @@ Két lehetőség:
 
 | Könyvtár | Előny | Hátrány |
 |----------|-------|---------|
-| ReportLab | Könnyű, nincs rendszer-függőség | Alacsony szintű API, nehéz szép dizájnt csinálni |
+| fpdf2 | Könnyű, nincs rendszer-függőség, natív PDF rajzolás | Alacsony szintű API |
 | WeasyPrint | HTML/CSS → PDF, szép eredmény | Rendszer-függőségek (GTK, Pango) |
 
-**Ajánlott: WeasyPrint** — HTML sablonból generálunk PDF-et, a dizájn CSS-sel módosítható.
+**Ajánlott: fpdf2** — könnyű, nincs rendszer-függőség, és natív PDF elemeket (szöveg, QR kód) rajzol közvetlenül.
 
 ```python
 # app/services/pdf.py
-from weasyprint import HTML
-from pathlib import Path
-
-TEMPLATE_DIR = Path(__file__).parent.parent / "templates"
+from fpdf import FPDF
 
 def generate_certificate_pdf(
     name: str,
     course_name: str,
     cert_id: str,
     issued_date: str,
-    verify_url: str
+    verify_url: str,
+    qr_base64: str,
 ) -> bytes:
-    html_content = (TEMPLATE_DIR / "certificate.html").read_text()
-    html_content = html_content.replace("{{name}}", name)
-    html_content = html_content.replace("{{course_name}}", course_name)
-    html_content = html_content.replace("{{cert_id}}", cert_id)
-    html_content = html_content.replace("{{issued_date}}", issued_date)
-    html_content = html_content.replace("{{verify_url}}", verify_url)
+    """Generate a certificate PDF using fpdf2."""
+    pdf = FPDF(orientation="L", unit="mm", format="A4")
+    pdf.add_page()
+    pdf.set_auto_page_break(auto=False)
 
-    return HTML(string=html_content).write_pdf()
+    # Title
+    pdf.set_font("Helvetica", "B", 36)
+    pdf.set_y(30)
+    pdf.cell(0, 15, "OpenSchool", ln=True, align="C")
+
+    # Recipient
+    pdf.set_font("Helvetica", "B", 28)
+    pdf.cell(0, 15, name, ln=True, align="C")
+
+    # Course
+    pdf.set_font("Helvetica", "B", 22)
+    pdf.cell(0, 12, course_name, ln=True, align="C")
+
+    # Date + Certificate ID
+    pdf.set_font("Helvetica", "", 12)
+    pdf.cell(0, 8, f"Issued: {issued_date}", ln=True, align="C")
+    pdf.cell(0, 5, f"Certificate ID: {cert_id}", ln=True, align="C")
+    pdf.cell(0, 5, f"Verify: {verify_url}", ln=True, align="C")
+
+    return pdf.output()
 ```
 
 **Feladat:**
-- Válaszd ki a PDF könyvtárat és add hozzá a `requirements.txt`-hez
-- Hozz létre egy HTML tanúsítvány sablont (`templates/certificate.html`)
-- A sablon tartalmazza: név, kurzus neve, dátum, tanúsítvány ID, QR kód
+- Add hozzá az `fpdf2` csomagot a `requirements.txt`-hez
+- Implementáld a PDF generálást az fpdf2-vel
+- A tanúsítvány tartalmazza: név, kurzus neve, dátum, tanúsítvány ID, QR kód
 - Teszteld: generálj egy minta PDF-et
 
 ## 4.4 QR kód
@@ -170,7 +185,7 @@ def generate_qr_base64(url: str) -> str:
 
 **Feladat:**
 - Írj teszteket minden fenti esetre
-- A PDF generálást mockold a tesztekben (gyorsabb, nincs WeasyPrint függőség)
+- A PDF generálást mockold a tesztekben (gyorsabb)
 - `pytest -v` → minden zöld
 
 ## Háttéranyag
@@ -179,8 +194,7 @@ Ezeket nem kell elejétől végig elolvasni — használd referenciaként, amiko
 
 | Téma | Link | Miért hasznos |
 |------|------|---------------|
-| WeasyPrint | [doc.courtbouillon.org/weasyprint](https://doc.courtbouillon.org/weasyprint/stable/) | HTML → PDF konvertálás Python-ban |
-| ReportLab (alternatíva) | [docs.reportlab.com](https://docs.reportlab.com/) | PDF generálás programozottan (ha nem HTML-ből) |
+| fpdf2 | [py-pdf.github.io/fpdf2](https://py-pdf.github.io/fpdf2/) | Könnyű PDF generálás Python-ban |
 | python-qrcode | [github.com/lincolnloop/python-qrcode](https://github.com/lincolnloop/python-qrcode) | QR kód generálás a verifikációs URL-hez |
 | Jinja2 Templates | [jinja.palletsprojects.com](https://jinja.palletsprojects.com/) | HTML sablonok a tanúsítványhoz |
 | UUID | [docs.python.org/3/library/uuid.html](https://docs.python.org/3/library/uuid.html) | Egyedi tanúsítvány azonosítók generálása |
@@ -201,7 +215,7 @@ pytest tesztek/modul-04/ -v
 | `test_completion.py` | Certificate modell létezik (cert_id, user_id, course_id); `is_course_completed` függvény; Exercise-nek van `required` mezője; PDF és certificate HTML sablon létezik |
 | `test_verify.py` | Verifikációs endpoint létezik; nem létező cert_id → 404; tanúsítvány igénylés és listázás auth-ot igényel; QR modul létezik |
 
-> **Megjegyzés:** A verifikációs tesztek a PDF generálást nem futtatják (nincs WeasyPrint függőség), csak a fájlok létezését ellenőrzik. A részletes PDF teszt a **saját tesztek** feladata.
+> **Megjegyzés:** A verifikációs tesztek a PDF generálást nem futtatják, csak a fájlok létezését ellenőrzik. A részletes PDF teszt a **saját tesztek** feladata.
 
 ## Ellenőrzőlista
 

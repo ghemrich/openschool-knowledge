@@ -9,7 +9,7 @@
 Készíts egy `Dockerfile`-t, amely egy egyszerű Python alkalmazást futtat. Építsd meg az image-et és futtasd a konténert. Írd ki a `docker ps` kimenetét.
 
 ### 7.2 – PostgreSQL konténer ⭐
-Indíts egy PostgreSQL 15 konténert Docker-rel. Csatlakozz hozzá `psql`-lel. Hozz létre egy `teszt` adatbázist és egy `felhasznalok` táblát (id, nev, email).
+Indíts egy PostgreSQL 16 konténert Docker-rel. Csatlakozz hozzá `psql`-lel. Hozz létre egy `teszt` adatbázist és egy `felhasznalok` táblát (id, nev, email).
 
 ### 7.3 – SQL gyakorlás ⭐⭐
 A PostgreSQL konténerben:

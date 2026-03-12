@@ -56,7 +56,7 @@ uploads/
 ```yaml
 services:
   db:
-    image: postgres:15-alpine
+    image: postgres:16-alpine
     environment:
       POSTGRES_DB: backend_db
       POSTGRES_USER: admin

@@ -57,7 +57,7 @@ frontend/
 
 ## 5.2 Landing page
 
-A `openschool.hu` főoldala. Tartalma:
+Az openschool.hu főoldala. Tartalma:
 
 1. **Hero szekció:** rövid bemutatkozás — mi az OpenSchool, kinek szól
 2. **Hogyan működik:** 3 lépés (beiratkozás → feladatok → tanúsítvány)

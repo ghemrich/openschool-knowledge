@@ -271,7 +271,7 @@ Ezeket nem kell elejétől végig elolvasni — használd referenciaként, amiko
 A modul végén futtasd a verifikációs teszteket, hogy ellenőrizd a munkádat:
 
 ```bash
-# Másold a teszteket a openschool-platform repóba (ha még nem tetted)
+# Másold a teszteket az openschool-platform repóba (ha még nem tetted)
 cp -r courses/projekt-labor/tesztek/ /path/to/openschool-platform/tesztek/
 
 # Futtasd

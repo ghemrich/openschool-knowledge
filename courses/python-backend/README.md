@@ -21,7 +21,7 @@
 
 - **Időtartam:** 25 hét (0–24), heti 6 óra
 - **Nyelv:** Python 3.10+, FastAPI keretrendszer
-- **Adatbázis:** PostgreSQL 15 (Docker), SQLAlchemy ORM, Alembic
+- **Adatbázis:** PostgreSQL 16 (Docker), SQLAlchemy ORM, Alembic
 - **Tesztelés:** pytest + TestClient, SQLite in-memory mock DB
 - **Vizsga:** 60 pont, 240 perc, 5 feladat (10 + 20 + 10 + 10 + 10 pont)
 - **Beadás:** GitHub Classroom (automatikus értékelés)

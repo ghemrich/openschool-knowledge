@@ -16,7 +16,7 @@ A **saját tesztek** a tanulási folyamat részei — a modul leírás alapján 
 ### 1. Másold a teszteket a platform repóba
 
 ```bash
-# A openschool repóból másold a tesztek/ mappát a openschool-platform repóba
+# Az openschool repóból másold a tesztek/ mappát az openschool-platform repóba
 cp -r courses/projekt-labor/tesztek/ /path/to/openschool-platform/tesztek/
 ```
 
@@ -82,4 +82,4 @@ Opcionálisan a verifikációs tesztek is futtathatók a CI-ban:
 - **Modulonként futtasd** a teszteket, ne egyszerre az összeset — a későbbi modulok tesztjei addig failelni fognak, amíg nem dolgozol odáig
 - Ha egy teszt FAILED, olvasd el a hibaüzenetet — pontosan megmondja, mit kell csinálni
 - A verifikációs tesztek nem helyettesítik a saját tesztjeidet — a saját tesztek részletesebbek, ezek csak a végeredményt ellenőrzik
-- A tesztek a `openschool-platform` repó gyökeréből keresik a fájlokat — a `tesztek/` mappa legyen a repó gyökerében
+- A tesztek az `openschool-platform` repó gyökeréből keresik a fájlokat — a `tesztek/` mappa legyen a repó gyökerében

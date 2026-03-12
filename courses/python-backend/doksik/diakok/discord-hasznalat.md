@@ -99,7 +99,7 @@ Más nyelvekhez:
 > ```yaml
 > services:
 >   db:
->     image: postgres:15
+>     image: postgres:16
 >     environment:
 >       POSTGRES_PASSWORD: secret
 > ```

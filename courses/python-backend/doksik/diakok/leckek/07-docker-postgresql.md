@@ -90,7 +90,7 @@ docker run -d \
   -e POSTGRES_DB=backenddb \
   -p 5432:5432 \
   -v pgdata:/var/lib/postgresql/data \
-  postgres:15
+  postgres:16
 ```
 
 ### Csatlakozás psql-lel
@@ -134,7 +134,7 @@ Egy `docker-compose.yml` fájlban **több szolgáltatást** definiálunk:
 ```yaml
 services:
   db:
-    image: postgres:15
+    image: postgres:16
     environment:
       POSTGRES_USER: kurzus
       POSTGRES_PASSWORD: jelszo123
