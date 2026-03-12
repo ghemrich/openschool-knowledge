@@ -17,7 +17,7 @@ A közösség elsődleges kommunikációs felülete a Discord. Itt kérdezhetsz,
 ### GitHub
 
 A tananyag és a platform kódja nyílt forráskódú a GitHubon:
-- **Tudásbázis:** [github.com/test-org-hfig/testing](https://github.com/test-org-hfig/testing) — kurzusok, leckék, feladatok
+- **Tudásbázis:** [github.com/ghemrich/openschool-knowledge](https://github.com/ghemrich/openschool-knowledge) — kurzusok, leckék, feladatok
 - **Platform:** [github.com/ghemrich/openschool-platform](https://github.com/ghemrich/openschool-platform) — webalkalmazás
 
 ---
@@ -103,7 +103,7 @@ Egy jó kérdés segít a válaszolóknak gyorsan segíteni:
 
 ### Tananyag javítás / bővítés
 
-1. Forkold a [testing](https://github.com/test-org-hfig/testing) repót
+1. Forkold az [openschool-knowledge](https://github.com/ghemrich/openschool-knowledge) repót
 2. Hozz létre egy branch-et: `git checkout -b javitas/het03-leckeben-eliras`
 3. Végezd el a módosítást
 4. Nyiss egy Pull Request-et
