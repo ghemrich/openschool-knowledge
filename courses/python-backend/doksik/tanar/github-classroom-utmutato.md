@@ -28,7 +28,7 @@ Ez a dokumentum lépésről lépésre elmagyarázza, hogyan kell a GitHub Classr
 2. Itt két lehetőséged van:
    - **Meghívó link** küldése (a diákok magukat adják hozzá)
    - **Névsor feltöltése** (CSV fájl, hogy a diákok nevüket kiválaszthassák)
-3. **Ajánlás:** Töltsd fel a névjegyzéket, hogy a diákok a saját nevüket válasszák ki az első assignment elfogadásakor — így a GitHub felhasználónevük össze lesz rendelve a valódi nevükkel
+3. **Ajánlás:** Töltsd fel a névjegyzéket, hogy a résztvevők a saját azonosítójukat válasszák ki az első assignment elfogadásakor — így a GitHub felhasználónevük össze lesz rendelve a névjegyzékbeli nevükkel
 
 ---
 
