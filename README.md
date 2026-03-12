@@ -12,8 +12,8 @@ A programozásoktatás gyakran iskolai platformokra épül: a diák feltölt egy
 
 Az OpenSchool megközelítése: **a munkafolyamat maga legyen a tananyag része**.
 
-| Iskolai verzió | Ipari megfelelő |
-|----------------|-----------------|
+| Amit a tanuló csinál | Ipari megfelelő |
+|----------------------|-----------------|
 | GitHub repóba pushol | Verziókezelés, commitolási kultúra |
 | GitHub Actions futtatja a teszteket | CI pipeline, automatikus tesztelés |
 | Discord szálakban kérdez | Csapatkommunikáció |
