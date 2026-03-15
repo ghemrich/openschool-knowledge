@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "7.1 – feladat1.css tartalmaz padding és border beállításokat",
+      "setup": "",
+      "run": "test -f feladat1.html && test -f feladat1.css && grep -qi 'padding' feladat1.css && grep -qi 'border' feladat1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "7.2 – feladat2.css tartalmaz margin beállítást",
+      "setup": "",
+      "run": "test -f feladat2.css && grep -qi 'margin' feladat2.css && grep -qi 'width' feladat2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "7.3 – feladat3.css tartalmaz border-radius-t",
+      "setup": "",
+      "run": "test -f feladat3.css && grep -qi 'border-radius' feladat3.css && grep -qi 'padding' feladat3.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7.4 – feladat4.css tartalmaz box-sizing beállítást",
+      "setup": "",
+      "run": "test -f feladat4.css && grep -qi 'box-sizing' feladat4.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7.5 – feladat5.css tartalmaz display beállításokat",
+      "setup": "",
+      "run": "test -f feladat5.css && grep -qi 'display' feladat5.css && grep -qi 'inline-block' feladat5.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7.6 – feladat6.css profil kártya komplex stílusokkal",
+      "setup": "",
+      "run": "test -f feladat6.css && grep -qi 'border-radius' feladat6.css && grep -qi 'max-width' feladat6.css && grep -qi 'padding' feladat6.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}

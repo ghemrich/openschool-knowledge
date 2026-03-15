@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "6.1 – feladat1.html létezik és tartalmaz inline stílust",
+      "setup": "",
+      "run": "test -f feladat1.html && grep -qi 'style=' feladat1.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.2 – feladat2.html tartalmaz belső style elemet",
+      "setup": "",
+      "run": "test -f feladat2.html && grep -qi '<style' feladat2.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "6.3 – feladat3.css létezik és be van kötve",
+      "setup": "",
+      "run": "test -f feladat3.html && test -f feladat3.css && grep -qi 'feladat3.css' feladat3.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "6.4 – feladat4.css tartalmaz osztály szelektorokat",
+      "setup": "",
+      "run": "test -f feladat4.css && grep -cE '\\.' feladat4.css | awk '{if ($1 >= 3) exit 0; else exit 1}'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "6.5 – feladat5.css tartalmaz különböző színmegadásokat",
+      "setup": "",
+      "run": "test -f feladat5.css && grep -qiE '#[0-9a-f]{3,6}|rgb\\(' feladat5.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "6.6 – feladat6.html + feladat6.css komplex formázott cikk",
+      "setup": "",
+      "run": "test -f feladat6.html && test -f feladat6.css && grep -qi 'feladat6.css' feladat6.html && grep -qiE '#[a-z]|\\.' feladat6.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}

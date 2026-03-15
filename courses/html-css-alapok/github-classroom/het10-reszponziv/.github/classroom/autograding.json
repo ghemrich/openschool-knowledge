@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "10.1 – feladat1.html tartalmaz viewport meta tag-et",
+      "setup": "",
+      "run": "test -f feladat1.html && grep -qi 'viewport' feladat1.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "10.2 – feladat2.css tartalmaz @media lekérdezéseket",
+      "setup": "",
+      "run": "test -f feladat2.css && test $(grep -ci '@media' feladat2.css) -ge 2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.3 – feladat3.css tartalmaz reszponzív navigációt media query-vel",
+      "setup": "",
+      "run": "test -f feladat3.css && grep -qi '@media' feladat3.css && grep -qi 'flex-direction' feladat3.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.4 – feladat4.css tartalmaz reszponzív kártyákat flex-wrap-pal",
+      "setup": "",
+      "run": "test -f feladat4.css && grep -qi '@media' feladat4.css && grep -qi 'flex' feladat4.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.5 – feladat5.css tartalmaz reszponzív tipográfiát",
+      "setup": "",
+      "run": "test -f feladat5.css && grep -qi '@media' feladat5.css && grep -qi 'font-size' feladat5.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "10.6 – feladat6.html + feladat6.css teljes reszponzív oldal",
+      "setup": "",
+      "run": "test -f feladat6.html && test -f feladat6.css && grep -qi 'viewport' feladat6.html && test $(grep -ci '@media' feladat6.css) -ge 2 && grep -qi 'flex' feladat6.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
