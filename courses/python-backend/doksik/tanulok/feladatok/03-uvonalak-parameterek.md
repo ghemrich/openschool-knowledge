@@ -1,29 +1,40 @@
-# Feladatok – 3. hét: Útvonalak és paraméterek
+# Kiegészítő gyakorlatok – 3. hét: Útvonalak és paraméterek
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 3.1 – Path paraméterek ⭐
-Készíts végpontot: `GET /koszontes/{nev}` amely visszaadja: `{"uzenet": "Helló, {nev}!"}`.
+### 3.1 – Mértékegység átváltó ⭐
+Készíts végpontot: `GET /atvaltas/{ertek}/{egyseg}` ahol `egyseg` Enum (km, merfold, meter). Adja vissza az értéket a többi mértékegységben.
 
-### 3.2 – Típusos path paraméter ⭐
-Készíts végpontot: `GET /szorzas/{a}/{b}` ahol `a` és `b` integer. Adja vissza a szorzatukat. Teszteld mi történik, ha szöveget adsz meg.
+### 3.2 – Dátumformázó ⭐
+Készíts végpontot: `GET /datum/{ev}/{honap}/{nap}` amely visszaadja a dátumot többféle formátumban:
+- `"magyar": "2024. január 15."`
+- `"iso": "2024-01-15"`
+- `"het_napja": "hétfő"`
 
-### 3.3 – Query paraméterek ⭐⭐
-Készíts végpontot: `GET /kereso` amely `q` (kötelező string) és `limit` (opcionális int, alapértelmezett 10) query paramétereket fogad. Adja vissza: `{"kereses": q, "limit": limit}`.
+Adj 400-as hibát érvénytelen dátumra.
 
-### 3.4 – Enum paraméter ⭐⭐
-Hozz létre egy `Szin` Enum-ot (piros, zold, kek). Készíts végpontot `GET /szin/{szin}` amely visszaadja a szín nevét és hex kódját.
+### 3.3 – Szűrt napló ⭐⭐
+Készíts in-memory naplóbejegyzéseket (időbélyeg, szint, üzenet). `GET /naplo` végpont a következő query paraméterekkel:
+- `szint` (opcionális Enum: info, warning, error)
+- `kulcsszo` (opcionális string, szűrés az üzenetben)
+- `utolso_n` (opcionális int, utolsó N bejegyzés)
 
-### 3.5 – Lapozás ⭐⭐
-Hozz létre egy listát 50 elemmel (pl. `["elem_0", "elem_1", ...]`). Készíts `GET /elemek` végpontot `skip` és `limit` query paraméterekkel. Validáld: `skip >= 0`, `limit` 1 és 50 között.
+### 3.4 – Szöveg átalakító ⭐⭐
+Készíts végpontot: `GET /szoveg/{szoveg}` a következő query paraméterekkel:
+- `muvelet` (Enum: nagybetus, kisbetus, forditott, cimsor)
+- `ismetles` (opcionális int, default 1)
 
-### 3.6 – Kombinált paraméterek ⭐⭐⭐
-Készíts egy `GET /termekek/{kategoria}` végpontot, ahol:
-- `kategoria` path paraméter (Enum: elektronika, ruha, elelmiszer)
-- `min_ar` és `max_ar` opcionális query paraméterek (int, >= 0)
-- `rendezes` opcionális query paraméter (Enum: ar_novekvo, ar_csökkeno, nev)
+Adja vissza az átalakított szöveget: `{"eredeti": "...", "eredmeny": "..."}`.
 
-Adja vissza a szűrési feltételeket JSON-ként.
+### 3.5 – Receptkereső ⭐⭐⭐
+Készíts in-memory receptgyűjteményt (legalább 10 recept). `GET /receptek` végpont:
+- `kategoria` path-ban VAGY query-ben (Enum: leves, foetel, desszert)
+- `max_ido` (opcionális int, elkészítési idő percben)
+- `nehezseg` (opcionális Enum: konnyu, kozepes, nehez)
+- `rendezés` (opcionális Enum: nev, ido_novekvo, ido_csökkeno)
+- `oldal` és `meret` query paraméterek lapozáshoz
+
+Adja vissza a szűrt recepteket az összes szűrési feltétellel együtt.

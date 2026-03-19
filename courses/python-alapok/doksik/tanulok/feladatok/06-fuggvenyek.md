@@ -1,38 +1,44 @@
-# Feladatok – 6. hét: Függvények
+# Kiegészítő gyakorlatok – 6. hét: Függvények
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 6.1 – Köszöntő függvény ⭐
-Írj egy `koszont(nev)` függvényt, amely kiírja: „Szia, [név]! Üdv a programban!" Hívd meg 3 különböző névvel.
+### 6.1 – Páros-e? ⭐
+Írj egy `paros_e(szam)` függvényt, amely `True`-t ad vissza, ha a szám páros, `False`-t ha páratlan. Teszteld 5 különböző számmal a főprogramban.
 
-### 6.2 – Területszámítók ⭐
-Írj függvényeket a következő alakzatok területének kiszámítására:
-- `teglalap_terulet(a, b)`
-- `kor_terulet(r)`
-- `haromszog_terulet(a, m)`
+### 6.2 – Átváltók ⭐
+Írj függvényeket az alábbi átváltásokhoz:
+- `km_merfold(km)` → km-ből mérföld
+- `kg_font(kg)` → kg-ból font (1 kg = 2.20462 font)
+- `celsius_kelvin(c)` → Celsiusból Kelvin (K = C + 273.15)
 
-Teszteld mindegyiket!
+Kérd be az értékeket a főprogramban és hívd meg a függvényeket.
 
-### 6.3 – Hőmérséklet átváltó ⭐⭐
-Írj két függvényt:
-- `celsius_fahrenheit(c)` → átváltás Fahrenheitre
-- `fahrenheit_celsius(f)` → átváltás Celsiusra
+### 6.3 – Szöveg elemző ⭐⭐
+Írj egy `szoveg_elemzo(szoveg)` függvényt, amely visszaad egy szótárat:
+```python
+{"karakterek": 15, "szavak": 3, "maganhangzok": 5, "nagybetuk": 1}
+```
+A főprogramban kérj be egy mondatot, és írd ki az eredményeket formázottan.
 
-A főprogramban kérd be az értéket és az irányt, majd hívd meg a megfelelő függvényt.
+### 6.4 – Medián számítás ⭐⭐
+Írj egy `median(szamok)` függvényt, amely egy számlistából kiszámítja a mediánt:
+- Páratlan elemszámnál a középső elem
+- Páros elemszámnál a két középső elem átlaga
 
-### 6.4 – Legkisebb keresés ⭐⭐
-Írj egy `legkisebb(szamok)` függvényt, amely egy számlistából visszaadja a legkisebb elemet (ne használj `min()`-t!). A főprogramban kérj be 5 számot, és hívd meg a függvényt.
+Ne használj beépített statisztikai modult! Teszteld mindkét esettel.
 
-### 6.5 – Névgenerátor ⭐⭐⭐
-Írj programot **három függvénnyel** (pont mint a vizsga 1. feladatában):
-1. `bekeres()` – bekéri a vezetéknevet, keresztnevet, kedvenc állatot
-2. `generalas(vnev, knev, allat)` – előállít 3 felhasználónevet (legyél kreatív a formátumokkal!)
-3. `kiiras(nev1, nev2, nev3)` – kiírja a neveket
+### 6.5 – Jelszó erősség ⭐⭐⭐
+Írj egy `jelszo_erosség(jelszo)` függvényt, amely 0–5 közötti pontszámot ad. Pontozási szabályok:
+- +1 ha legalább 8 karakter
+- +1 ha tartalmaz kisbetűt
+- +1 ha tartalmaz nagybetűt
+- +1 ha tartalmaz számot
+- +1 ha tartalmaz speciális karaktert (`!@#$%&*`)
 
-A főprogram hívja meg a három függvényt a megfelelő sorrendben.
+Írj egy `ertekeles(pont)` függvényt, amely szöveges értékelést ad: 0–1: „Nagyon gyenge", 2: „Gyenge", 3: „Közepes", 4: „Erős", 5: „Nagyon erős". A főprogram kérjen be jelszavakat, amíg nem kap legalább „Erős" értékelésűt.
 
-### 6.6 – Prímszám ellenőrző ⭐⭐⭐
-Írj egy `prim_e(szam)` függvényt, amely `True`-t ad vissza, ha a szám prím, `False`-t ha nem. A főprogramban írd ki az összes prímet 1 és 100 között!
+### 6.6 – Fibonacci ⭐⭐⭐
+Írj egy `fibonacci(n)` függvényt, amely visszaadja az első `n` Fibonacci számot listában (1, 1, 2, 3, 5, 8, ...). Írd ki az eredményt. Írj egy másik `fibonacci_osszeg(n)` függvényt, amely az első `n` Fibonacci szám összegét adja vissza.

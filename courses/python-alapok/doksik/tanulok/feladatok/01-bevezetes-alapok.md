@@ -1,31 +1,41 @@
-# Feladatok – 1. hét: Bevezetés és alapok
+# Kiegészítő gyakorlatok – 1. hét: Bevezetés és alapok
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 1.1 – Bemutatkozás ⭐
-Írj programot, amely kiírja a neved, a korod, a lakóhelyedet és a kedvenc hobbid külön-külön sorokban. Használj változókat!
+### 1.1 – Kedvenc dolgok ⭐
+Hozz létre változókat a kedvenc színedhez, számhoz, állathoz és évszakodhoz. Írd ki mindegyiket egy-egy mondatban (pl. „A kedvenc színem: kék").
 
-### 1.2 – Számológép ⭐
-Hozz létre két változót (`a = 15`, `b = 4`), és írd ki az összegüket, különbségüket, szorzatukat, hányadosukat és a maradékos osztás eredményét.
+### 1.2 – Típusváltások ⭐
+Hozz létre egy `szam_szoveg = "42"` változót. Alakítsd át `int`-re, majd `float`-ra. Írd ki mindhárom változó értékét és típusát a `type()` függvénnyel. Próbáld ki, mi történik, ha a `"hello"` szöveget próbálod `int()`-re alakítani – írd kommentbe a hibaüzenetet.
 
-### 1.3 – Névjegykártya ⭐⭐
-Tárold változókban a következő adatokat: név, életkor, osztály, iskola neve. Írd ki az adatokat egy szép formázott névjegykártya formájában a `print()` segítségével.
-
-### 1.4 – Típusok felfedezése ⭐⭐
-Hozz létre legalább 6 változót (2 `int`, 2 `float`, 1 `str`, 1 `bool`), és mindegyikről írd ki a `type()` függvénnyel a típusát is.
-
-### 1.5 – Személyi igazolvány ⭐⭐⭐
-Készíts programot, amely változókban tárolja egy személy adatait (név, születési év, személyi szám, lakcím), majd kiírja ezeket formázottan. A kiírás így nézzen ki:
+### 1.3 – Bolti nyugta ⭐⭐
+Hozz létre változókat 3 terméknek (név és ár). Számold ki az összárat és az ÁFA-t (27%). Írd ki az eredményt „nyugta" formában:
 ```
-=========================
-     SZEMÉLYI IGAZOLVÁNY
-=========================
-Név:    Kiss Anna
-Szül.:  2010
-Szem.:  123456AB
-Cím:    Budapest, Fő u. 1.
-=========================
+--- NYUGTA ---
+Kenyér:     350 Ft
+Tej:        280 Ft
+Sajt:       890 Ft
+--------------
+Összesen:  1520 Ft
+ÁFA (27%):  410 Ft
+Fizetendő: 1930 Ft
+--- KÖSZÖNJÜK ---
+```
+
+### 1.4 – ASCII művészet ⭐⭐
+Készíts egy programot, amely `print()` utasításokkal kirajzol egy egyszerű ASCII ábrát (pl. ház, fa, vagy emoji). Használj legalább 5 sort és kreatív karaktereket (`/`, `\`, `|`, `_`, `*`).
+
+### 1.5 – Mértékegység táblázat ⭐⭐⭐
+Hozz létre változókat: `km = 1`. Számold ki az 1 km-nek megfelelő métert, centimétert, millimétert, mérföldet (1 km = 0.621371 mérföld) és yardot (1 km = 1093.61 yard). Írd ki táblázat formában, szépen igazítva:
+```
+=== MÉRTÉKEGYSÉG ÁTVÁLTÓ ===
+1 km  =    1000.00 méter
+1 km  =  100000.00 centiméter
+1 km  = 1000000.00 milliméter
+1 km  =       0.62 mérföld
+1 km  =    1093.61 yard
+============================
 ```

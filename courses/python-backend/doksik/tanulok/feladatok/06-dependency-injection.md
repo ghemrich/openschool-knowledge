@@ -1,33 +1,43 @@
-# Feladatok – 6. hét: Dependency Injection, Router, Config
+# Kiegészítő gyakorlatok – 6. hét: Dependency Injection, Router, Config
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 6.1 – Egyszerű dependency ⭐
-Készíts egy `common_params` függvényt ami `skip` és `limit` query paramétereket fogad, és használd `Depends()`-szel két különböző végpontban.
+### 6.1 – Nyelvi dependency ⭐
+Készíts `get_language` dependency-t, amely az `Accept-Language` headerből kinyeri a nyelvet (alapértelmezett: `hu`). Használd 2 végpontban, hogy a válaszüzenetek a megfelelő nyelven szóljanak.
 
-### 6.2 – APIRouter ⭐⭐
-Szervezd szét a végpontokat: `routers/termekek.py` és `routers/felhasznalok.py`. Használj `APIRouter(prefix=..., tags=[...])` mindkettőhöz. Regisztráld őket a `main.py`-ban.
+### 6.2 – Router tags és prefix ⭐⭐
+Készíts 3 routert külön fájlokban: `routers/auth.py`, `routers/konyvek.py`, `routers/statisztikak.py`. Mindegyiknek legyen saját prefix-e és tag-je. A `/docs`-ban 3 külön szekció jelenjen meg.
 
-### 6.3 – Konfiguráció ⭐⭐
-Hozz létre `config.py`-t `BaseSettings` osztállyal. Kezeld a következő beállításokat: `app_name`, `debug`, `api_prefix`. Készíts `.env` és `.env.example` fájlokat.
+### 6.3 – BaseSettings + .env ⭐⭐
+Készíts `Settings` osztályt a következő konfigurációkkal:
+- `database_url`, `secret_key`, `debug` (bool), `allowed_origins` (list[str])
+- Használj `@lru_cache` mintát a `get_settings()` függvényben
+- Készíts `.env.example` fájlt minden változóval
+- Készíts `GET /config` végpontot, ami kilistázza a nem titkos beállításokat
 
-### 6.4 – Dependency chaining ⭐⭐
-Készíts két egymásra épülő dependency-t: `get_settings()` → `get_api_key(settings)`. A `get_api_key` ellenőrzi, hogy a kérés `X-API-Key` headerje megegyezik-e a beállított kulccsal. Ha nem, 401-et dob.
+### 6.4 – Class-based dependency ⭐⭐
+Készíts `RateLimiter` osztályt, amit dependency-ként használhatsz:
+```python
+class RateLimiter:
+    def __init__(self, max_requests: int, window_sec: int):
+        ...
+    def __call__(self, request: Request):
+        ...
+```
+Használd különböző limitekkel: `Depends(RateLimiter(10, 60))` és `Depends(RateLimiter(100, 60))`.
 
-### 6.5 – Teljes projekt struktúra ⭐⭐⭐
-Készítsd el a teljes projekt struktúrát:
+### 6.5 – Plugin rendszer ⭐⭐⭐
+Készíts moduláris alkalmazást, ahol minden "plugin" egy külön Python csomag:
 ```
 app/
-├── __init__.py
 ├── main.py
 ├── config.py
-├── dependencies.py
-└── routers/
+└── plugins/
     ├── __init__.py
-    ├── termekek.py
-    └── felhasznalok.py
+    ├── users/       (router + dependency-k)
+    └── products/    (router + dependency-k)
 ```
-Az `app/main.py` csak az app-ot hozza létre és regisztrálja a routereket. A végpontok a `routers/` mappában legyenek. Commitold és pushold.
+A `main.py` automatikusan regisztrálja az összes plugin routerjét. Minden plugin tartalmaz egy `router` változót és egy `setup()` függvényt.

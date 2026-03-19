@@ -1,21 +1,41 @@
-# Feladatok – 9. hét: CRUD műveletek
+# Kiegészítő gyakorlatok – 9. hét: CRUD műveletek
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 9.1 – get_db dependency ⭐
-Hozd létre a `get_db` generátor függvényt `yield`-del. Használd `Depends(get_db)`-ként egy végpontban, amely kiírja, hogy "DB kapcsolat OK".
+### 9.1 – Generáló függvény ⭐
+Készíts `seed.py` scriptet, ami generál 20 minta adatot (pl. filmeket vagy termékeket) az adatbázisba. Használd a `get_db` generátort a sessionhöz.
 
-### 9.2 – CRUD modul ⭐⭐
-Készíts `crud.py` modult a `Konyv` modellhez a következő függvényekkel: `get_konyvek(db, skip, limit)`, `get_konyv(db, id)`, `create_konyv(db, konyv)`, `delete_konyv(db, id)`.
+### 9.2 – Szűrés és rendezés ⭐⭐
+Bővítsd a listázó végpontot:
+- `q` query param: szöveges keresés (cím ILIKE)
+- `rendezés` query param (Enum: nev_asc, nev_desc, datum_asc, datum_desc)
+- `min_ar` / `max_ar` q paraméterek árszűréshez
 
-### 9.3 – Pydantic sémák ⭐⭐
-Hozz létre `schemas.py`-t a következő sémákkal: `KonyvBase`, `KonyvCreate(KonyvBase)`, `KonyvResponse(KonyvBase)` (id-vel, `from_attributes = True`). Használd a routerben `response_model`-ként.
+Használd a `query.filter()` és `query.order_by()` metódusokat.
 
-### 9.4 – Teljes CRUD router ⭐⭐
-Készíts teljes CRUD routert: `GET /konyvek`, `GET /konyvek/{id}`, `POST /konyvek`, `PUT /konyvek/{id}`, `DELETE /konyvek/{id}`. Minden végpont a `crud.py` függvényeit használja.
+### 9.3 – Lapozás metaadatokkal ⭐⭐
+Készíts lapozó választ:
+```json
+{
+  "elemek": [...],
+  "osszes": 47,
+  "oldal": 2,
+  "oldalak_szama": 5,
+  "meret": 10
+}
+```
+Használd a `db.query().count()` és `.offset().limit()` metódusokat.
 
-### 9.5 – Keresés és szűrés ⭐⭐⭐
-Adj hozzá keresési lehetőséget: `GET /konyvek?kereses=python` – a cím vagy szerző alapján szűr. Használj SQLAlchemy `filter()` és `ilike()` metódusokat.
+### 9.4 – Soft delete ⭐⭐
+Ahelyett, hogy törölnéd a rekordot, adj hozzá egy `torolve_mikor: datetime | None` mezőt. A `DELETE` végpont csak beállítja ezt az értéket. A listázó végpont alapértelmezésben nem mutatja a "törölt" elemeket, de `torolt=true` query paraméterrel igen.
+
+### 9.5 – Bulk műveletek ⭐⭐⭐
+Készíts bulk végpontokat:
+- `POST /elemek/bulk` – több elem létrehozása egyszerre (list[ElemCreate])
+- `DELETE /elemek/bulk` – több elem törlése ID lista alapján
+- `PATCH /elemek/bulk` – több elem módosítása egyszerre
+
+Használj `db.bulk_save_objects()` vagy tranzakciós kezelést.

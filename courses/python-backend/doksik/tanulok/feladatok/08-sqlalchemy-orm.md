@@ -1,21 +1,30 @@
-# Feladatok – 8. hét: SQLAlchemy ORM
+# Kiegészítő gyakorlatok – 8. hét: SQLAlchemy ORM
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 8.1 – Első modell ⭐
-Hozz létre egy `Konyv` SQLAlchemy modellt (id, cim, szerzo, oldalszam, kiadas_ev). Konfiguráld a `database.py`-t (engine, SessionLocal, Base).
+### 8.1 – Filmadatbázis modell ⭐
+Hozz létre `Film` SQLAlchemy modellt: id, cim, rendezo, ev, ertekeles (Float), mufaj. Konfiguráld a `database.py`-t és hozd létre a táblát.
 
-### 8.2 – Alembic beállítás ⭐⭐
-Inicializáld az Alembic-et a projektben. Generáld le az első migrációt a `Konyv` modellhez. Futtasd a migrációt Docker-ben futó PostgreSQL-en.
+### 8.2 – Alsó-felső korláttal ⭐⭐
+Adj a `Film` modellhez `CheckConstraint`-eket:
+- `ertekeles` 0.0 és 10.0 között
+- `ev` 1888 és 2100 között
 
-### 8.3 – Modell módosítás ⭐⭐
-Adj hozzá egy `ar` (Integer) és egy `elerheto` (Boolean, default True) mezőt a `Konyv` modellhez. Generálj új Alembic migrációt, és futtasd le.
+Próbálj érvénytelen adatot beszúrni és figyeld a hibát.
 
-### 8.4 – Több modell ⭐⭐
-Hozz létre egy `Szerzo` modellt (id, nev, szuletes_ev) és módosítsd a `Konyv` modellt, hogy `szerzo_id` ForeignKey-jel hivatkozzon rá. Generáld és futtasd a migrációt.
+### 8.3 – Több táblás migráció ⭐⭐
+Hozz létre két új modellt egyszerre: `Mufaj` (id, nev) és `Szinesz` (id, nev, szuletesi_ev). Generálj egyetlen Alembic migrációt, ami mindkét táblát létrehozza.
 
-### 8.5 – Relationship ⭐⭐⭐
-Adj hozzá `relationship()` kapcsolatot a `Szerzo` és `Konyv` modellekhez (`back_populates`). Teszteld Python shell-ben, hogy a `szerzo.konyvek` listája elérhető.
+### 8.4 – Many-to-Many ⭐⭐⭐
+Készíts many-to-many kapcsolatot `Film` és `Szinesz` között (asszociációs tábla: `film_szinesz`). Használj `relationship()` + `secondary` paramétert. Generáld a migrációt és teszteld.
+
+### 8.5 – Alembic downgrade ⭐⭐⭐
+Gyakorold az Alembic műveleteket:
+1. Futtasd az `alembic history`-t
+2. Végezz `downgrade -1` műveletet
+3. Ellenőrizd, hogy a tábla eltűnt
+4. Futtasd újra az `upgrade head`-et
+5. Hozz létre "data migration"-t: egy migráció, ami kezdőadatokat szúr be

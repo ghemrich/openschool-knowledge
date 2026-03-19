@@ -1,28 +1,34 @@
-# Feladatok – 9. hét: Összetett adatszerkezetek
+# Kiegészítő gyakorlatok – 9. hét: Összetett adatszerkezetek
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 9.1 – Lista listája ⭐
-Hozz létre egy 3×3-as „mátrixot" (lista listája számokkal), és írd ki formázottan.
+### 9.1 – Telefonkönyv ⭐
+Hozz létre egy szótárat, ahol a kulcs a név, az érték a telefonszám (5 bejegyzés). Kérd be egy nevet, és írd ki a hozzá tartozó számot. Ha nincs benne, írd ki: „Nincs ilyen bejegyzés."
 
-### 9.2 – Szótár alapok ⭐
-Hozz létre egy szótárat 5 magyar-angol szópárral. Kérd be egy magyar szót, és írd ki az angol megfelelőjét, vagy „Nem található", ha nincs benne.
+### 9.2 – Szavazás szótárral ⭐
+Adott a szavazatok listája: `["Anna", "Béla", "Anna", "Csaba", "Anna", "Béla", "Csaba", "Csaba", "Béla", "Anna"]`. Számold meg szótárral, ki hány szavazatot kapott, és keresd meg a nyertest!
 
-### 9.3 – Tanulók szótárban ⭐⭐
-Hozz létre egy szótárak listáját 3 tanuló adataival (név, kor, jegyek listája). Írd ki mindegyik tanuló nevét és jegyeinek átlagát.
+### 9.3 – Receptkönyv ⭐⭐
+Hozz létre egy szótárak listáját 3 recepttel. Minden recept tartalmazza: `nev`, `hozzavalok` (lista), `elkeszitesi_ido` (percben), `nehezseg` (könnyű/közepes/nehéz). Írd ki az összes receptet formázottan, és keresd meg a leggyorsabb receptet.
 
-### 9.4 – Mini adatbázis ⭐⭐
-Írj programot, amely `input()`-tal kéri be termékek adatait (név, ár, mennyiség), szótárak listájában tárolja, és a végén kiírja:
-- Az összes terméket
-- A legdrágább terméket
-- Az összes termék értékét (ár × mennyiség összege)
+### 9.4 – Jegynyilvántartás ⭐⭐
+Készíts programot, ahol:
+- A felhasználó tanulókat ad hozzá (név)
+- Mindegyik tanulóhoz jegyeket rögzít (listában)
+- Kiírja minden tanuló átlagát
+- Kiírja a legjobb és legrosszabb átlagú tanulót
 
-### 9.5 – Fájlból szótárba ⭐⭐⭐
-Olvasd be a tanulók adatait egy pontosvesszővel tagolt fájlból szótárak listájába! A fájl formátuma:
+Használj szótárat, ahol a kulcs a név, az érték a jegyek listája.
+
+### 9.5 – Beágyazott szótár ⭐⭐⭐
+Hozz létre egy komplex adatszerkezetet, amely egy iskola osztályait tartalmazza:
+```python
+iskola = {
+    "9.A": {"osztalyfonok": "Kovács Mária", "tanulok": [...]},
+    "9.B": {"osztalyfonok": "Tóth Péter", "tanulok": [...]}
+}
 ```
-név;kor;város;átlag
-```
-Írd ki az adatokat táblázatszerűen, és keresd meg a legjobb átlagú tanulót.
+Minden tanulónak legyen neve és átlaga. Írd ki osztályonként a tanulók névsorát és az osztályátlagot. Keresd meg az iskola legjobb tanulóját (név, osztály, átlag).

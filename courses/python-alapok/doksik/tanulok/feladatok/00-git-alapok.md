@@ -1,15 +1,15 @@
-# Feladatok – 0. hét: Git és GitHub alapok
+# Kiegészítő gyakorlatok – 0. hét: Git és GitHub alapok
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 0.1 – Első repo ⭐
-Hozz létre egy `bemutatkozas.py` fájlt, amely kiírja a neved. Commitold és pushold GitHubra.
+### 0.1 – .gitignore ⭐
+Hozz létre egy `.gitignore` fájlt a repódban, amely kizárja a `__pycache__/` mappát és a `.pyc` fájlokat. Hozz létre egy `teszt.pyc` fájlt, és ellenőrizd `git status`-szal, hogy a Git nem követi.
 
-### 0.2 – Több commit ⭐
-Módosítsd a `bemutatkozas.py` fájlt háromszor, és mindegyik módosítás után készíts egy külön commitot értelmes üzenettel. Pushold az eredményt.
+### 0.2 – Commit üzenetek ⭐
+Hozz létre egy `jegyzetek.txt` fájlt és módosítsd 5 alkalommal. Minden commit üzenete kövesse az alábbi mintát: `típus: rövid leírás` (pl. `feat: jegyzetek fájl létrehozása`, `fix: elírás javítása`). Futtasd a `git log --oneline`-t és mentsd egy `log.txt` fájlba.
 
-### 0.3 – Git napló ⭐⭐
-Futtasd a `git log --oneline` parancsot, és készíts egy képernyőképet vagy másold be a terminál kimenetét egy `git_naplo.txt` fájlba. Commitold és pushold.
+### 0.3 – Git diff ⭐⭐
+Módosíts egy fájlt anélkül, hogy commitolnád. Futtasd a `git diff` parancsot és másold a kimenetét egy `diff_kimenet.txt` fájlba. Írd fölé kommentben, hogy mit jelentenek a `+` és `-` jelek. Commitold az egészet.

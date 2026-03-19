@@ -1,40 +1,40 @@
-# Feladatok – 11. hét: Modulok és összefoglaló projekt
+# Kiegészítő gyakorlatok – 11. hét: Modulok és összefoglaló projekt
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 11.1 – Első modul ⭐
-Hozz létre egy `matek.py` modult az alábbi függvényekkel:
-- `osszeg(a, b)`
-- `szorzat(a, b)`
-- `hatvany(alap, kitevo)`
+### 11.1 – Konverter modul ⭐
+Hozz létre egy `konverter.py` modult a következő függvényekkel:
+- `km_merfold(km)` → km-ből mérföldre
+- `kg_font(kg)` → kg-ból fontra
+- `celsius_fahrenheit(c)` → Celsiusból Fahrenheitbe
+- `liter_gallon(l)` → literből gallonra
 
-A főprogramban (`foprogram.py`) importáld és teszteld mindhárom függvényt.
+A főprogramban (`foprogram.py`) importáld a modult és teszteld mindegyik függvényt.
 
-### 11.2 – Szöveg modul ⭐⭐
-Hozz létre egy `szoveg_eszkozok.py` modult:
-- `nagybetus(szoveg)` – nagybetűsre alakít
-- `szavak_szama(szoveg)` – visszaadja a szavak számát
-- `forditott(szoveg)` – megfordítja a szöveget
+### 11.2 – Fájl segédmodul ⭐⭐
+Hozz létre egy `fajl_eszkozok.py` modult:
+- `beolvas_sorok(fajlnev)` → beolvassa a fájlt, visszaadja sorok listájaként
+- `sorok_szama(fajlnev)` → visszaadja a sorok számát
+- `keres_szot(fajlnev, szo)` → visszaadja, hányszor fordul elő a szó a fájlban
 
-A főprogramban kérj be egy mondatot és teszteld mindhárom függvényt!
+A főprogramban hozz létre egy szöveges fájlt és teszteld a függvényeket.
 
-### 11.3 – Teljes vizsgafeladat gyakorlás ⭐⭐⭐
-Oldd meg a teljes 3. vizsga feladatot (a `filmek.txt` VAGY `konyvek.txt` alapján):
-1. Beolvasás összetett adatszerkezetbe
+### 11.3 – Vizsgafeladat másik adatfájllal ⭐⭐⭐
+Ha a heti házi feladatban a `filmek.txt`-vel dolgoztál, most oldd meg ugyanazt a `konyvek.txt` (vagy `sportolok.txt`, `zenek.txt`) adatfájllal:
+1. Beolvasás szótárak listájába
 2. Darabszám kiírása
-3. Kategória/nyelv szerinti számlálás
-4. Legjobb/legrosszabb keresése
-5. Cím szerinti keresés + fájlba írás
-6. Kategória/műfaj szerinti szűrés
+3. Kategória/műfaj szerinti számlálás
+4. Legjobb/legrosszabb elem keresése
+5. Keresés cím/név alapján + fájlba írás
+6. Szűrés kategória/műfaj alapján
 
-A függvényeket `fgv.py` modulban helyezd el, a főprogramot `feladat3.py`-ban. Commitold és pushold!
+A függvényeket `fgv2.py` modulban, a főprogramot `feladat_extra.py`-ban helyezd el.
 
-### 11.4 – Saját projekt ⭐⭐⭐
-Válassz egy témát (pl. zenék, sportolók, receptek), és készíts hozzá:
-1. Egy `.txt` adatfájlt legalább 15 rekorddal
-2. Egy `fgv.py` modult legalább 4 függvénnyel (beolvasás, számlálás, keresés, szűrés)
-3. Egy főprogramot, amely használja a modult
-4. Commitold és pushold a repódba!
+### 11.4 – Mini alkalmazás ⭐⭐⭐
+Készíts egy „teendő lista" (todo) alkalmazást moduláris felépítéssel:
+- `todo_fgv.py` modul: `betoltes(fajl)`, `mentes(fajl, lista)`, `hozzaadas(lista, elem)`, `torles(lista, sorszam)`, `listazas(lista)`
+- `todo.py` főprogram: menürendszer (1=listázás, 2=hozzáadás, 3=törlés, 4=kilépés)
+- Az adatok `todok.txt` fájlban tárolódjanak. Indításkor betölti, kilépéskor menti.

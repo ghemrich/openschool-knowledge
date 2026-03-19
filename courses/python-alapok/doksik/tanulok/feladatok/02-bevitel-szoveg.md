@@ -1,27 +1,33 @@
-# Feladatok – 2. hét: Bevitel és szövegkezelés
+# Kiegészítő gyakorlatok – 2. hét: Bevitel és szövegkezelés
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 2.1 – Köszöntő ⭐
-Kérd be a felhasználó nevét, majd írd ki: „Üdvözöllek, [név]!"
+### 2.1 – Összadó ⭐
+Kérd be két szám értékét a felhasználótól! Számold ki és írd ki az összegüket, különbségüket és szorzatukat. Ne felejtsd el `int()`-re vagy `float()`-ra alakítani a bekért értéket!
 
-### 2.2 – Életkor számítás ⭐
-Kérd be a felhasználó születési évét (szám), és számold ki, hány éves lesz idén. Írd ki az eredményt.
+### 2.2 – Kör kerülete ⭐
+Kérd be egy kör sugarát! Számold ki a kerületét (2 × π × r) és a területét (π × r²). Használj f-stringet és 2 tizedesjegy pontosságot. A π értéke legyen 3.14159.
 
-### 2.3 – Téglalap kerülete ⭐⭐
-Kérd be egy téglalap két oldalának hosszát, és számold ki a kerületét és a területét. Írd ki az eredményt 2 tizedesjegy pontossággal f-string segítségével.
+### 2.3 – Szöveg statisztika ⭐⭐
+Kérd be a felhasználótól egy mondatot! Írd ki:
+- A mondat hosszát (karakterszám)
+- A szavak számát
+- A magánhangzók számát (a, e, i, o, u – kis- és nagybetű is)
+- A mondatot csupa nagybetűvel és csupa kisbetűvel
 
-### 2.4 – Monogram ⭐⭐
-Kérd be a felhasználó vezeték- és keresztnevét! Írd ki:
-- A teljes nevet nagybetűsítve
-- A monogramot (pl. „K.A.")
-- A nevet fordítva (keresztnév + vezetéknév)
+### 2.4 – E-mail cím generátor ⭐⭐
+Kérd be a felhasználó vezetéknevét, keresztnevét és születési évét! Generálj 3 e-mail cím javaslatot:
+1. `keresztnev.vezeteknev@iskola.hu` (kisbetűvel)
+2. `vnev_ékezet-nélkül + születési év utolsó 2 számjegye@iskola.hu`
+3. `vezeteknev + keresztnév első betűje@iskola.hu`
 
-### 2.5 – Jelszó generátor ⭐⭐
-Kérd be a felhasználó nevét és kedvenc számát! Állíts elő egy „jelszót" az alábbi képlettel: a név első 3 betűje kisbetűvel + a kedvenc szám + a név utolsó 2 betűje nagybetűvel. Például: név = „Kovács", szám = „42" → „kov42CS"
+### 2.5 – Szöveg titkosítás ⭐⭐
+Kérd be a felhasználótól egy szöveget! Titkosítsd úgy, hogy minden betűt az ábécében 3 hellyel utána lévőre cserélsz (Caesar-rejtjel). Csak az angol kisbetűkkel kell foglalkoznod. Írd ki az eredeti és a titkosított szöveget.
 
-### 2.6 – Egységátváltó ⭐⭐⭐
-Kérd be egy távolságot kilométerben (tizedestört is lehet)! Váltsd át mérföldre (1 km = 0.621371 mérföld), méterre, és centiméterbe. Írd ki mindhárom eredményt 2 tizedesjegyre kerekítve.
+> Tipp: `ord()` karakterből ASCII számot ad, `chr()` visszaalakít.
+
+### 2.6 – Személyleírás ⭐⭐⭐
+Kérd be a következő adatokat: név, magasság (cm), súly (kg), szem színe, haj színe. Számold ki a BMI-t (súly / (magasság_m)²). Írd ki az adatokat formázott „személyleírás" kártya formában, a BMI-t 1 tizedesjegyre kerekítve, és írd mellé, hogy alultáplált (<18.5), normál (18.5–25), túlsúlyos (25–30) vagy elhízott (>30).

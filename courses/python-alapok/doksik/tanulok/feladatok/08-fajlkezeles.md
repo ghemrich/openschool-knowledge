@@ -1,34 +1,44 @@
-# Feladatok – 8. hét: Fájlkezelés
+# Kiegészítő gyakorlatok – 8. hét: Fájlkezelés
 
+> Ezek a feladatok a heti házi feladat melletti **extra gyakorlást** szolgálják.
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
-> A megoldásokat commitold és pushold a GitHub repódba.
 
 ---
 
-### 8.1 – Fájl létrehozás ⭐
-Írj programot, amely létrehoz egy `naplo.txt` fájlt, és beleír 3 sort (pl. a mai nap eseményei).
-
-### 8.2 – Fájl olvasás ⭐
-Írj programot, amely beolvassa a `naplo.txt` fájlt és kiírja a tartalmát sorszámozva.
-
-### 8.3 – Szó számláló ⭐⭐
-Írj programot, amely beolvas egy szövegfájlt, és kiírja:
-- A sorok számát
-- A szavak számát
-- A karakterek számát (szóközök nélkül)
-
-### 8.4 – Tanulói adatok ⭐⭐
-Hozz létre egy `tanulok.txt` fájlt az alábbi tartalommal:
+### 8.1 – Bevásárlólista fájlba ⭐
+Kérd be a felhasználótól 5 bevásárlnivaló nevét és becsült árát. Mentsd el egy `bevasarlolista.txt` fájlba ilyen formában:
 ```
-Kiss Anna;16;Budapest;4.5
-Nagy Béla;17;Debrecen;3.8
-Tóth Csaba;16;Szeged;4.2
+1. Kenyér - 350 Ft
+2. Tej - 280 Ft
+...
+Összesen: 1520 Ft
 ```
-Írj programot, amely beolvassa és kiírja az adatokat formázottan.
 
-### 8.5 – Jegyzetfüzet alkalmazás ⭐⭐⭐
-Készíts programot, amely:
-1. Bekér egy sort a felhasználótól
-2. Hozzáfűzi (`"a"` mód) a `jegyzetek.txt` fájlhoz dátummal (pl. „2026-03-09: szöveg")
-3. Ki tudja listázni az összes korábbi jegyzetet
-4. A program menüből vezérelve fusson (1 = új jegyzet, 2 = listázás, 3 = kilépés)
+### 8.2 – Fájl másoló ⭐
+Írj programot, amely beolvassa az előző feladatban készült `bevasarlolista.txt` tartalmát és kiírja egy `masolat.txt` fájlba úgy, hogy minden sort nagybetűsít.
+
+### 8.3 – Szöveg csere ⭐⭐
+Kérd be egy fájl nevét, egy keresett szót és egy csere szót! A program olvassa be a fájlt, cserélje ki benne a keresett szót a cserére, és írja vissza a fájlba. Írd ki, hány cserét végzett.
+
+### 8.4 – CSV feldolgozás ⭐⭐
+Hozz létre egy `jegyek.csv` fájlt az alábbi tartalommal:
+```
+nev;matek;magyar;tortenelem
+Kiss Anna;4;5;3
+Nagy Béla;3;4;5
+Tóth Csaba;5;3;4
+Szabó Dóra;4;4;4
+```
+Írj programot, amely beolvassa, kiszámolja minden diák átlagát, és kiírja az eredményeket a képernyőre formázottan. Írd ki a tantárgyankénti átlagokat is.
+
+### 8.5 – Napi napló ⭐⭐⭐
+Készíts egy interaktív naplóalkalmazást:
+1. Új bejegyzés hozzáfűzése dátummal (`naplo.txt`)
+2. Keresés kulcsszó alapján a naplóban
+3. Adott dátumú bejegyzések listázása
+4. A napló utolsó 5 bejegyzésének kiírása
+5. Kilépés
+
+A program menüből vezérelt legyen, és minden bejegyzés elé kerüljön az aktuális dátum és idő automatikusan.
+
+> Tipp: `from datetime import datetime` és `datetime.now().strftime("%Y-%m-%d %H:%M")`
