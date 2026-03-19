@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten összekapcsolod az eddig tanultakat egy összetettebb projektben. Haladó CSS technikákat (animációk, átmenetek, árnyékok, CSS változók) használsz, és egy komplett weboldalt építesz fel.
+
+---
+
 ## 11.1 – Hover effektek ⭐
 Készíts egy weboldalt (`feladat1.html`) és stílusfájlt (`feladat1.css`):
 - 3 gomb (link vagy button), mindegyik más hover effekttel:
@@ -51,6 +55,12 @@ Készíts egy teljes weboldalt (`index.html`) és stílusfájlt (`style.css`) eg
   - `box-shadow` legalább egy elemen
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a Python modulokkal és egy összefoglaló projektet készítesz. A modulok segítségével a kódodat külön fájlokba szervezheted, ami áttekinthetőbb és újrafelhasználhatóbb kódot eredményez.
+
+---
+
 ## 11.1 – Első modul ⭐
 Hozz létre egy `matek.py` modult az alábbi függvényekkel:
 - `osszeg(a, b)`
@@ -48,6 +52,13 @@ cím;kategória;év;hossz_perc;értékelés
 ```
 
 Példa: `Végső visszaszámlálás;akció;2005;118;7.2`
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Modulok és projekt](../../doksik/tanulok/leckek/11-modulok-projekt.md)
+- 📝 [Gyakorlófeladatok: Modulok és projekt](../../doksik/tanulok/feladatok/11-modulok-projekt.md)
 
 ## Dokumentáció
 

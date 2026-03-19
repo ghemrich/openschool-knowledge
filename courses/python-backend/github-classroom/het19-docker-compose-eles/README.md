@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod a Docker Compose használatát éles környezetben. Több szolgáltatást (API, adatbázis, Nginx) futtatsz egyszerre, és konfigúrálod a production környezetet.
+
+---
+
 ## Feladat
 
 Készíts production-ready Docker konfigurációt a Termék API-hoz.
@@ -28,6 +32,13 @@ Készíts `entrypoint.sh`-t: alembic migrate → uvicorn start. Teszteld: `docke
 
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Docker Compose éles környezet](../../doksik/tanulok/leckek/19-docker-compose-eles.md)
+- 📝 [Gyakorlófeladatok: Docker Compose éles környezet](../../doksik/tanulok/feladatok/19-docker-compose-eles.md)
 
 ## Beadás
 

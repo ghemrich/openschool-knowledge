@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan fogadj és validálj bejövő adatokat a Pydantic modellek segítségével. A Pydantic automatikusan ellenőrzi az adatokat, és érthető hibaüzeneteket ad, ha valami nem stimmel.
+
+---
+
 ## 4.1 – Pydantic modell ⭐
 Készíts `Termek` Pydantic modellt (`models.py`): `nev` (str), `ar` (int), `leiras` (str). Készíts `POST /termekek` végpontot (`main.py`).
 
@@ -33,6 +37,13 @@ Készíts `TermekUpdate` modellt ahol minden mező opcionális. A `PUT /termekek
 - [Request Body](https://fastapi.tiangolo.com/tutorial/body/)
 - [Pydantic Field](https://fastapi.tiangolo.com/tutorial/body-fields/)
 - [Nested Models](https://fastapi.tiangolo.com/tutorial/body-nested-models/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Request body és Pydantic](../../doksik/tanulok/leckek/04-request-body-pydantic.md)
+- 📝 [Gyakorlófeladatok: Request body és Pydantic](../../doksik/tanulok/feladatok/04-request-body-pydantic.md)
 
 ## Beadás
 

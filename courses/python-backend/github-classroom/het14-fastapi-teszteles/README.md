@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan tesztelj FastAPI végpontokat a `TestClient` segítségével. Az integrációs tesztek ellénőrzik, hogy az egész API a várt módon működik.
+
+---
+
 ## Feladat
 
 Készíts egy **Jegyzet API**-t a `main.py` fájlban, amely in-memory listát használ:
@@ -38,6 +42,13 @@ python3 -c "from fastapi.testclient import TestClient; from main import app; c =
 
 - [FastAPI Testing](https://fastapi.tiangolo.com/tutorial/testing/)
 - [TestClient](https://www.starlette.io/testclient/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: FastAPI tesztelés](../../doksik/tanulok/leckek/14-fastapi-teszteles.md)
+- 📝 [Gyakorlófeladatok: FastAPI tesztelés](../../doksik/tanulok/feladatok/14-fastapi-teszteles.md)
 
 ## Beadás
 

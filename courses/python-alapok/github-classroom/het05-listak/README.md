@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a listákkal, amik több érték tárolására szolgálnak egyetlen változóban. Megtanulod a lista műveleteket (hozzáadás, törlés, rendezés, szeletelés) és a listák bejárását ciklussal.
+
+---
+
 ## 5.1 – Kedvencek ⭐
 Írj programot (`feladat1.py`). Hozz létre egy listát 5 kedvenc ételeddel! Írd ki az elemeket sorszámozva (`enumerate`).
 
@@ -28,6 +32,13 @@
 3. Egy bekért mondat szavainak hosszai (pl. „Szia világ" → [4, 5])
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Listák](../../doksik/tanulok/leckek/05-listak.md)
+- 📝 [Gyakorlófeladatok: Listák](../../doksik/tanulok/feladatok/05-listak.md)
 
 ## Dokumentáció
 

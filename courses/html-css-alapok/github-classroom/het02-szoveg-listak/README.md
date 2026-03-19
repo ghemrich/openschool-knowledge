@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod a szövegformázás és a listák használatát HTML-ben. Rendezett és rendezetlen listákat készítesz, és megtanulod, hogyan lehet a tartalmakat áttekinthetően strukturálni.
+
+---
+
 ## 2.1 – Kedvenc filmek listája ⭐
 Készíts egy weboldalt (`feladat1.html`), amely az 5 kedvenc filmedet tartalmazza rendezetlen listában (`<ul>`, `<li>`).
 
@@ -47,6 +51,12 @@ Készíts egy weboldalt (`feladat6.html`), amely egy komplett „Kedvenc dolgaim
 - `<span>` használat szövegrészek megjelölésére
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

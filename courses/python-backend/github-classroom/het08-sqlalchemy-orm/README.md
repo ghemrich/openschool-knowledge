@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz az SQLAlchemy ORM-mel, amivel Python objektumok segítségével kezelheted az adatbázist SQL lekérdezések írása nélkül. Beállítod az adatbázis-kapcsolatot és létrehozod az első modelleidet.
+
+---
+
 ## 8.1 – Database modul ⭐
 Készíts `database.py`-t: engine (PostgreSQL URL-lel), SessionLocal, Base, `get_db`. A URL jöjjön `.env`-ből.
 
@@ -28,6 +32,13 @@ Készíts `Szerzo` modellt (id, nev, szuletes_ev). Módosítsd a `Konyv`-et: `sz
 - [SQLAlchemy ORM](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
 - [Alembic Tutorial](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
 - [FastAPI SQL Databases](https://fastapi.tiangolo.com/tutorial/sql-databases/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: SQLAlchemy ORM](../../doksik/tanulok/leckek/08-sqlalchemy-orm.md)
+- 📝 [Gyakorlófeladatok: SQLAlchemy ORM](../../doksik/tanulok/feladatok/08-sqlalchemy-orm.md)
 
 ## Beadás
 

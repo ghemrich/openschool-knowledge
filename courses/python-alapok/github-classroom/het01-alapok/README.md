@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megírod az első Python programjaidat. Megismerkedsz a változókkal, az alapvető adattípusokkal (`int`, `float`, `str`, `bool`) és a `print()` függvénnyel. A hét végére már önállóan írsz egyszerű programokat.
+
+---
+
 ## 1.1 – Bemutatkozás ⭐
 Írj programot (`feladat1.py`), amely kiírja a neved, a korod, a lakóhelyedet és a kedvenc hobbid külön-külön sorokban. Használj változókat!
 
@@ -32,6 +36,13 @@ Cím:    Budapest, Fő u. 1.
 ```
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Bevezetés és alapok](../../doksik/tanulok/leckek/01-bevezetes-alapok.md)
+- 📝 [Gyakorlófeladatok: Bevezetés és alapok](../../doksik/tanulok/feladatok/01-bevezetes-alapok.md)
 
 ## Dokumentáció
 

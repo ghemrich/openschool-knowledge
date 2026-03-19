@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a FastAPI keretrendszerrel és elkészíted az első API-dat. A FastAPI a Python egyik legmodernebb web-keretrendszere, ami automatikus dokumentációt és típusellenőrzést biztosít.
+
+---
+
 ## 2.1 – Hello API ⭐
 Készíts FastAPI alkalmazást (`main.py`), amely a `GET /` végponton `{"message": "Helló, világ!"}` választ ad. Készíts `requirements.txt`-t (`fastapi`, `uvicorn`).
 
@@ -28,6 +32,13 @@ Egészítsd ki a `POST /gyumolcsok` (hozzáadás) és `DELETE /gyumolcsok/{index
 - [FastAPI First Steps](https://fastapi.tiangolo.com/tutorial/first-steps/)
 - [FastAPI Path Parameters](https://fastapi.tiangolo.com/tutorial/path-params/)
 - [REST API fogalmak](https://restfulapi.net/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: FastAPI bevezetés](../../doksik/tanulok/leckek/02-fastapi-bevezetes.md)
+- 📝 [Gyakorlófeladatok: FastAPI bevezetés](../../doksik/tanulok/feladatok/02-fastapi-bevezetes.md)
 
 ## Beadás
 

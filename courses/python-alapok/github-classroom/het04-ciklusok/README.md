@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a ciklusokkal (`for` és `while`), amikkel kódrészleteket tudsz ismételtetni. A ciklusok a programozás egyik legalapvetőbb eszközei – segítségükkel hatékonyan dolgozhatsz fel nagy mennyiségű adatot.
+
+---
+
 ## 4.1 – Visszaszámlálás ⭐
 Írj programot (`feladat1.py`), amely 10-től 1-ig visszaszámol, majd kiírja: „Start!"
 
@@ -35,6 +39,13 @@
 Írj programot (`feladat7.py`). Írd ki az összes tökéletes számot 1 és 1000 között! (Egy szám tökéletes, ha egyenlő az osztóinak összegével, önmagát nem számítva. Pl. 6 = 1 + 2 + 3.)
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Ciklusok](../../doksik/tanulok/leckek/04-ciklusok.md)
+- 📝 [Gyakorlófeladatok: Ciklusok](../../doksik/tanulok/feladatok/04-ciklusok.md)
 
 ## Dokumentáció
 

@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod a feltételes elágazásokat (`if`, `elif`, `else`). Ezzel a programjaid képesek lesznek döntéseket hozni – más-más kódrész fut le attól függően, milyen adatot kap a program.
+
+---
+
 ## 3.1 – Pozitív/negatív ⭐
 Írj programot (`feladat1.py`). Kérj be egy számot, és írd ki, hogy pozitív, negatív, vagy nulla.
 
@@ -35,6 +39,13 @@
 Számold ki és írd ki a jegy végső árát.
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Feltételes elágazások](../../doksik/tanulok/leckek/03-felteteles-elagazasok.md)
+- 📝 [Gyakorlófeladatok: Feltételes elágazások](../../doksik/tanulok/feladatok/03-felteteles-elagazasok.md)
 
 ## Dokumentáció
 

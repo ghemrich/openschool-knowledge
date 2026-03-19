@@ -78,6 +78,12 @@ Készíts egy teljes reszponzív weboldalt (`feladat3.html`) és stílusfájlt (
 
 ---
 
+## 📚 Segédanyagok
+
+- [Kurzus tananyagok és leckék](../../doksik/tanulok/README.md)
+- [HTML referencia (W3Schools)](https://www.w3schools.com/tags/)
+- [CSS referencia (W3Schools)](https://www.w3schools.com/cssref/)
+
 ## Beadás
 
 1. `git add .`

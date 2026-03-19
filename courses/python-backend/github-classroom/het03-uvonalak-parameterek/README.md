@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan fogadj paramétereket az API végpontokon: útvonal-paraméterek (`/items/{id}`), lekérdezési paraméterek (`?skip=0&limit=10`) és ezek kombinációja.
+
+---
+
 ## 3.1 – Köszöntés ⭐
 Készíts végpontot (`main.py`): `GET /koszontes/{nev}` → `{"uzenet": "Helló, {nev}!"}`.
 
@@ -28,6 +32,13 @@ Készíts `GET /termekek/{kategoria}` végpontot, ahol `kategoria` Enum (elektro
 - [Path Parameters](https://fastapi.tiangolo.com/tutorial/path-params/)
 - [Query Parameters](https://fastapi.tiangolo.com/tutorial/query-params/)
 - [Query Validation](https://fastapi.tiangolo.com/tutorial/query-params-str-validations/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Útvonalak és paraméterek](../../doksik/tanulok/leckek/03-uvonalak-parameterek.md)
+- 📝 [Gyakorlófeladatok: Útvonalak és paraméterek](../../doksik/tanulok/feladatok/03-uvonalak-parameterek.md)
 
 ## Beadás
 

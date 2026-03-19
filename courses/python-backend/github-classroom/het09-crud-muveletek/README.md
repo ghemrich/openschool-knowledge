@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megvalósítod a CRUD (Create, Read, Update, Delete) műveleteket adatbázissal. Ezek a legalapvetőbb adatkezelési műveletek, amik szinte minden webes alkalmazásban megtalálhatók.
+
+---
+
 ## 9.1 – Sémák ⭐
 Készíts `schemas.py`-t: `KonyvBase`, `KonyvCreate(KonyvBase)`, `KonyvResponse(KonyvBase)` (id-vel, `from_attributes = True`).
 
@@ -33,6 +37,13 @@ Integráld a teljes alkalmazást: `main.py` → router → crud → database. In
 - [FastAPI SQL Databases](https://fastapi.tiangolo.com/tutorial/sql-databases/)
 - [Pydantic Model Config](https://docs.pydantic.dev/latest/concepts/config/)
 - [SQLAlchemy Query](https://docs.sqlalchemy.org/en/20/orm/queryguide/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: CRUD műveletek](../../doksik/tanulok/leckek/09-crud-muveletek.md)
+- 📝 [Gyakorlófeladatok: CRUD műveletek](../../doksik/tanulok/feladatok/09-crud-muveletek.md)
 
 ## Beadás
 

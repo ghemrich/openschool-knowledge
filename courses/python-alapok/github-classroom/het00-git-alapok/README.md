@@ -4,6 +4,8 @@
 > **Beadás:** commitold és pushold a megoldásaidat ebbe a repoba!
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
 
+Ezen a héten a Git és GitHub alapjait sajátítod el. Ha még nem dolgoztál verziókezeléssel, ne aggódj – a feladatok lépésről lépésre vezetnek végig!
+
 ---
 
 ## 0.1 – Első repo ⭐
@@ -16,6 +18,13 @@ Módosítsd a `bemutatkozas.py` fájlt háromszor, és mindegyik módosítás ut
 Futtasd a `git log --oneline` parancsot, és készíts egy képernyőképet vagy másold be a terminál kimenetét egy `git_naplo.txt` fájlba. Commitold és pushold.
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Git alapok](../../doksik/tanulok/leckek/00-git-alapok.md)
+- 📝 [Gyakorlófeladatok: Git alapok](../../doksik/tanulok/feladatok/00-git-alapok.md)
 
 ## Beadás
 

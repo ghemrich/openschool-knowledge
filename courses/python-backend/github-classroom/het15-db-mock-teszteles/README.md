@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan tesztelj adatbázist használó kódot úgy, hogy a tesztek ne függjenek valós adatbázistól. A mock-olás segítségével gyors és megbízható teszteket írhatsz.
+
+---
+
 ## Feladat
 
 Készíts egy **Termék API**-t adatbázissal, amelyhez a tesztek SQLite mock DB-t használnak.
@@ -58,6 +62,13 @@ pytest tests/ -v
 
 - [FastAPI Testing Database](https://fastapi.tiangolo.com/advanced/testing-database/)
 - [SQLAlchemy SQLite](https://docs.sqlalchemy.org/en/20/dialects/sqlite.html)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: DB mock teszt](../../doksik/tanulok/leckek/15-db-mock-teszteles.md)
+- 📝 [Gyakorlófeladatok: DB mock teszt](../../doksik/tanulok/feladatok/15-db-mock-teszteles.md)
 
 ## Beadás
 

@@ -119,6 +119,15 @@ Készíts egy `hello.py` fájlt. Végezd el az alábbi lépéseket, és minden l
 
 ---
 
+## 📚 Kapcsolódó anyagok
+
+Az összes korábbi heti anyagot és a vizsgafelkészüléshez szükséges anyagokat itt találod:
+
+- 📖 [Lecke: Vizsgafelkészítés](../../doksik/tanulok/leckek/12-vizsgafelkeszites.md)
+- 📝 [Gyakorlófeladatok: Vizsgafelkészítés](../../doksik/tanulok/feladatok/12-vizsgafelkeszites.md)
+- [Tanterv](../../doksik/tanterv/tanterv.md)
+- [Vizsgafeladatok és pontozás](../../vizsgak/README.md)
+
 ## Beadás
 
 1. `git add .` → `git commit -m "próbavizsga megoldás"` → `git push`

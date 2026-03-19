@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a Flexbox elrendezési rendszerrel, ami jelentősen megkönnyíti az elemek sorba vagy oszlopba rendezését. A Flexbox a modern webdesign egyik legfontosabb eszköze.
+
+---
+
 ## 9.1 – Flexbox alapok ⭐
 Készíts egy weboldalt (`feladat1.html`) és stílusfájlt (`feladat1.css`):
 - Egy szülő `<div>` (`display: flex`), benne 4 színes doboz
@@ -50,6 +54,12 @@ Készíts egy weboldalt (`feladat6.html`) és stílusfájlt (`feladat6.css`) tel
 - Az egész oldal `min-height: 100vh`, a lábléc mindig alul (`flex-grow` a fő tartalmon)
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

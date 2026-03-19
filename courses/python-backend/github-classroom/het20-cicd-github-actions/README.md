@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a CI/CD (Continuous Integration / Continuous Deployment) fogalmával és a GitHub Actions eszközzel. Automatizált pipeline-t építesz, ami minden push után lefuttatja a teszteket és ellenőrzi a kódodat.
+
+---
+
 ## Feladat
 
 Készíts CI/CD pipeline-t a projektedhez.
@@ -31,6 +35,13 @@ Adj CI status badge-et a README.md-hoz.
 
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [actions/setup-python](https://github.com/actions/setup-python)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: CI/CD és GitHub Actions](../../doksik/tanulok/leckek/20-cicd-github-actions.md)
+- 📝 [Gyakorlófeladatok: CI/CD és GitHub Actions](../../doksik/tanulok/feladatok/20-cicd-github-actions.md)
 
 ## Beadás
 

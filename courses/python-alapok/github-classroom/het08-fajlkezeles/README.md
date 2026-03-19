@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan olvashatsz és írhatsz fájlokat Pythonban. A fájlkezelés nélkülözhetetlen, ha adatokat szeretnél elmenteni vagy betölteni – például szöveges fájlokból, CSV-ből vagy naplófájlokból.
+
+---
+
 ## 8.1 – Fájl létrehozás ⭐
 Írj programot (`feladat1.py`), amely létrehoz egy `naplo.txt` fájlt, és beleír 3 sort (pl. a mai nap eseményei).
 
@@ -29,6 +33,13 @@
 4. A program menüből vezérelve fusson (1 = új jegyzet, 2 = listázás, 3 = kilépés)
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Fájlkezelés](../../doksik/tanulok/leckek/08-fajlkezeles.md)
+- 📝 [Gyakorlófeladatok: Fájlkezelés](../../doksik/tanulok/feladatok/08-fajlkezeles.md)
 
 ## Dokumentáció
 

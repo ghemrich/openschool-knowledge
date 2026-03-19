@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a Dependency Injection mintával, az APIRouter-rel és a konfigurációkezeléssel. Ezek segítségével a kódodat modulokra bonthatod és könnyebben karbantarthatóvá teheted.
+
+---
+
 ## 6.1 – Dependency ⭐
 Készíts `common_params(skip, limit)` dependency-t. Használd `Depends()`-szel két végpontban.
 
@@ -38,6 +42,13 @@ Készíts `get_api_key` dependency-t, amely ellenőrzi az `X-API-Key` headert. H
 - [Dependencies](https://fastapi.tiangolo.com/tutorial/dependencies/)
 - [Bigger Applications](https://fastapi.tiangolo.com/tutorial/bigger-applications/)
 - [Settings](https://fastapi.tiangolo.com/advanced/settings/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Dependency Injection](../../doksik/tanulok/leckek/06-dependency-injection.md)
+- 📝 [Gyakorlófeladatok: Dependency Injection](../../doksik/tanulok/feladatok/06-dependency-injection.md)
 
 ## Beadás
 

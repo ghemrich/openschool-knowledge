@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod a függvények írását és használatát. A függvények segítségével újrafelhasználható kódrészleteket készíthetsz, és áttekinthetőbbé teheted a programjaidat.
+
+---
+
 ## 6.1 – Köszöntő függvény ⭐
 Írj programot (`feladat1.py`). Írj egy `koszont(nev)` függvényt, amely kiírja: „Szia, [név]! Üdv a programban!" Hívd meg 3 különböző névvel.
 
@@ -39,6 +43,13 @@ A főprogram hívja meg a három függvényt a megfelelő sorrendben.
 Írj programot (`feladat6.py`). Írj egy `prim_e(szam)` függvényt, amely `True`-t ad vissza, ha a szám prím, `False`-t ha nem. A főprogramban írd ki az összes prímet 1 és 100 között!
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Függvények](../../doksik/tanulok/leckek/06-fuggvenyek.md)
+- 📝 [Gyakorlófeladatok: Függvények](../../doksik/tanulok/feladatok/06-fuggvenyek.md)
 
 ## Dokumentáció
 

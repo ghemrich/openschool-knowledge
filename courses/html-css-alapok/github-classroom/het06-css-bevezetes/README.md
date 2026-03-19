@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten áttérünk a HTML szerkezetről a vizuális megjelenésre: megismerkedsz a CSS-sel. Megtanulod az inline, belső és külső stíluslapok közti különbséget, és a szelektorok segítségével célzottan formázod az elemeket.
+
+---
+
 ## 6.1 – Inline stílusok ⭐
 Készíts egy weboldalt (`feladat1.html`) legalább 5 elemmel, mindegyiken különböző inline stílussal (`style=""`):
 - Egy `<h1>` szín beállítással (`color`)
@@ -44,6 +48,12 @@ Készíts egy weboldalt (`feladat6.html`) és stílusfájlt (`feladat6.css`):
 - Az egész oldal legyen vizuálisan igényes
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

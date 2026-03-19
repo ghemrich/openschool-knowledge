@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a CSS box modellel, ami meghatározza, hogyan foglalnak helyet az elemek az oldalon. Megtanulod a `margin`, `padding`, `border` és `width`/`height` tulajdonságok működését.
+
+---
+
 ## 7.1 – Padding és border ⭐
 Készíts egy weboldalt (`feladat1.html`) és stílusfájlt (`feladat1.css`). Hozz létre 3 dobozt (`<div>`), mindegyiknek:
 - Más-más `padding` (pl. 10px, 20px, 40px)
@@ -49,6 +53,12 @@ Készíts egy weboldalt (`feladat6.html`) és stílusfájlt (`feladat6.css`) egy
 - `max-width` beállítás, középre igazítás
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

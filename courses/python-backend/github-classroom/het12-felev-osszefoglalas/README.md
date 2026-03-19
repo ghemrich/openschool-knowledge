@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten összefoglalod az első félév anyagát és egy próbavizsga feladatsoron keresztül gyakorolsz. Ez a tökéletes alkalom, hogy felmérd, mit tudsz már magabiztosan és miben kell még gyakorolnod.
+
+---
+
 ## 12.1 – Gyors API ⭐
 Építs egy "Leltár" API-t 10 perc alatt: `GET /`, `GET /eszkozok`, `POST /eszkozok`. Pydantic modell: `Eszkoz(nev, kategoria, ertek)`.
 
@@ -23,6 +27,14 @@ Oldd meg a [próbavizsga feladatot](probavizsga.md) **120 perc** alatt: Könyv A
 ## Dokumentáció
 
 - Lásd az összes korábbi hét dokumentációját
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Félév összefoglalás](../../doksik/tanulok/leckek/12-felev-osszefoglalas.md)
+- 📝 [Gyakorlófeladatok: Félév összefoglalás](../../doksik/tanulok/feladatok/12-felev-osszefoglalas.md)
+- [Összes heti anyag](../../doksik/tanulok/README.md)
 
 ## Beadás
 

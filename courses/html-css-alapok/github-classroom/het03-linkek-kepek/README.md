@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan helyezhetsz el linkeket és képeket a weboldalaidon. A hiperhivatkozások (`<a>`) és a képek (`<img>`) a web alapvető építőkövei – ezek nélkül nem létezne az internet, ahogy ismerjük.
+
+---
+
 ## 3.1 – Kedvenc oldalak ⭐
 Készíts egy weboldalt (`feladat1.html`), amely legalább 5 kedvenc weboldaladra mutató linket tartalmaz (`<a href="">`). Minden link mellett legyen egy rövid leírás.
 
@@ -36,6 +40,12 @@ Készíts egy 3 oldalas mini-weboldalt:
 Minden oldalon legyen navigációs menü a többi oldalra mutató relatív linkekkel!
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

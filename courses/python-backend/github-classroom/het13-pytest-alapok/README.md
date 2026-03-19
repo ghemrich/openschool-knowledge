@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a pytest keretrendszerrel és megírod az első tesztjeidet. Az automatikus tesztelés biztosítja, hogy a kódod a várt módon működik, és a változtatások nem törnek el meglévő funkciókat.
+
+---
+
 ## 13.1 – Alap tesztek ⭐
 Hozz létre `utils.py` fájlt a következő függvényekkel:
 - `osszead(a, b)` → a + b
@@ -42,6 +46,13 @@ pytest -v
 - [pytest](https://docs.pytest.org/)
 - [pytest assert](https://docs.pytest.org/en/stable/how-to/assert.html)
 - [pytest.raises](https://docs.pytest.org/en/stable/how-to/assert.html#assertions-about-expected-exceptions)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: pytest alapok](../../doksik/tanulok/leckek/13-pytest-alapok.md)
+- 📝 [Gyakorlófeladatok: pytest alapok](../../doksik/tanulok/feladatok/13-pytest-alapok.md)
 
 ## Beadás
 

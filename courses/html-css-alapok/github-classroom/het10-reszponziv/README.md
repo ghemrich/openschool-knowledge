@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan készíts reszponzív weboldalt, ami mobilon, tableten és asztali gépen is jól néz ki. A `@media` lekérdezések segítségével különböző képernyőméretekhez igazítod a megjelenést.
+
+---
+
 ## 10.1 – Viewport meta tag ⭐
 Készíts egy weboldalt (`feladat1.html`) és stílusfájlt (`feladat1.css`):
 - Viewport meta tag a `<head>`-ben: `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
@@ -51,6 +55,12 @@ Készíts egy weboldalt (`feladat6.html`) és stílusfájlt (`feladat6.css`) tel
 - Legalább 2 töréspontot használj (`@media`)
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

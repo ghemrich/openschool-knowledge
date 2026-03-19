@@ -5,6 +5,10 @@
 
 ---
 
+Ezen a héten megtervezed a záró projektedet. Kiválasztod a témát, megtervezed az API-t és az adatbázis-struktúrát, majd előkészíted a fejlesztési környezetet.
+
+---
+
 ## Feladat
 
 Tervezd meg a záró projektedet.
@@ -27,6 +31,13 @@ Hozd létre: könyvtárstruktúra, `requirements.txt`, `.env.example`, `docker-c
 `GET /` és `GET /health` működjön. `docker compose up --build` sikeresen elinduljon.
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Projekt tervezés](../../doksik/tanulok/leckek/21-projekt-tervezes.md)
+- 📝 [Gyakorlófeladatok: Projekt tervezés](../../doksik/tanulok/feladatok/21-projekt-tervezes.md)
 
 ## Beadás
 

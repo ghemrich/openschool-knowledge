@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a HTML alapjaival: hogyan épül fel egy weboldal, milyen elemekből áll, és hogyan jeleníthetsz meg szöveget a böngészőben. A feladatok végére már önállóan készítesz egyszerű weboldalakat.
+
+---
+
 ## 1.1 – Bemutatkozó oldal ⭐
 Készíts egy weboldalt (`feladat1.html`), amely tartalmazza a neved egy `<h1>` címsorban, és legalább 2 bekezdést (`<p>`) magadról.
 
@@ -36,6 +40,12 @@ Készíts egy weboldalt (`feladat5.html`) a kedvenc recepteddel:
 - A dokumentum `<title>` eleme tartalmazza az étel nevét
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

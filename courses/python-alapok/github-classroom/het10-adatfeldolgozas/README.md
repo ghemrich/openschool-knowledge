@@ -6,6 +6,22 @@
 
 ---
 
+Ezen a héten összekapcsolod az eddig tanultakat: fájlokból olvasol adatokat, feldolgozod őket szótárak és listák segítségével, és riportokat készítesz. Ez a valós programozási munka alapja.
+
+### A `filmek.txt` formátuma
+
+A 10.4–10.6 feladatokhoz szükséges fájl felépítése:
+
+```
+cím;kategória;év;hossz_perc;értékelés
+```
+
+Példa: `Végső visszaszámlálás;akció;2005;118;7.2`
+
+> 💡 **Tipp:** A fájlt UTF-8 kódolással olvasd: `open('filmek.txt', 'r', encoding='utf-8')`
+
+---
+
 ## 10.1 – Számlálás ⭐
 Írj programot (`feladat1.py`). Adott egy szavakat tartalmazó lista: `["alma", "körte", "alma", "szilva", "körte", "alma"]`. Számold meg, melyik szó hányszor fordul elő! Használj szótárat.
 
@@ -32,13 +48,12 @@
 
 ---
 
-## A `filmek.txt` formátuma
+## 📚 Kapcsolódó anyagok
 
-```
-cím;kategória;év;hossz_perc;értékelés
-```
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-Példa: `Végső visszaszámlálás;akció;2005;118;7.2`
+- 📖 [Lecke: Adatfeldolgozás](../../doksik/tanulok/leckek/10-adatfeldolgozas.md)
+- 📝 [Gyakorlófeladatok: Adatfeldolgozás](../../doksik/tanulok/feladatok/10-adatfeldolgozas.md)
 
 ## Dokumentáció
 

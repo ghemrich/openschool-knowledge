@@ -27,3 +27,13 @@
 1. Oldd meg a próbavizsgákat 240 perc alatt
 2. Gyakorold a teljes projekt felépítést a nulláról (SQLAlchemy + Auth + Docker)
 3. Készíts sablon projektet amit gyorsan tudsz módosítani
+
+## 📚 Kapcsolódó anyagok
+
+Az összes korábbi heti anyagot és a vizsgafelkészüléshez szükséges anyagokat itt találod:
+
+- 📖 [Lecke: Vizsga](../../doksik/tanulok/leckek/24-vizsga.md)
+- 📝 [Gyakorlófeladatok: Vizsga](../../doksik/tanulok/feladatok/24-vizsga.md)
+- [Tanterv](../../doksik/tanterv/tanterv.md)
+- [Összes heti anyag](../../doksik/tanulok/README.md)
+- [Vizsgafeladatok és pontozás](../../vizsgak/README.md)

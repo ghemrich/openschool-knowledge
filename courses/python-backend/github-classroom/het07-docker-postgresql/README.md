@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a Dockerrel és a PostgreSQL adatbázissal. A Docker segítségével izolált környezetben futtathatod az alkalmazásodat, a PostgreSQL pedig egy professzionális, nyílt forráskódú adatbázis.
+
+---
+
 ## 7.1 – Dockerfile ⭐
 Készíts `Dockerfile`-t a FastAPI alkalmazásodhoz. Építsd meg és futtasd. Add a repóba a `Dockerfile`-t.
 
@@ -28,6 +32,13 @@ Egészítsd ki a `docker-compose.yml`-t: `api` és `db` szolgáltatás. Az API `
 - [Docker Get Started](https://docs.docker.com/get-started/)
 - [PostgreSQL Docker](https://hub.docker.com/_/postgres)
 - [Docker Compose](https://docs.docker.com/compose/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Docker és PostgreSQL](../../doksik/tanulok/leckek/07-docker-postgresql.md)
+- 📝 [Gyakorlófeladatok: Docker és PostgreSQL](../../doksik/tanulok/feladatok/07-docker-postgresql.md)
 
 ## Beadás
 

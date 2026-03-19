@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a middleware-ekkel és a CORS (Cross-Origin Resource Sharing) beállítással. A middleware-ek minden kérés előtt/után futnak (pl. naplózás), a CORS pedig lehetővé teszi, hogy más domainről is elérjék az API-dat.
+
+---
+
 ## 11.1 – Naplózó middleware ⭐
 Készíts middleware-t, amely minden kérésről kiírja: `[GET] /konyvek - 200 (0.015s)`. Adj hozzá a `main.py`-hoz.
 
@@ -28,6 +32,13 @@ Készítsd el a végleges `main.py`-t: CORS, naplózó middleware, lifespan, ös
 - [Middleware](https://fastapi.tiangolo.com/tutorial/middleware/)
 - [CORS](https://fastapi.tiangolo.com/tutorial/cors/)
 - [Lifespan](https://fastapi.tiangolo.com/advanced/events/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Middleware és CORS](../../doksik/tanulok/leckek/11-middleware-cors.md)
+- 📝 [Gyakorlófeladatok: Middleware és CORS](../../doksik/tanulok/feladatok/11-middleware-cors.md)
 
 ## Beadás
 

@@ -174,6 +174,13 @@ Készíts `requirements.txt` fájlt a szükséges csomagokkal.
 
 ---
 
+## 📚 Segédanyagok
+
+- [Kurzus tananyagok és leckék](../../doksik/tanulok/README.md)
+- [FastAPI dokumentáció](https://fastapi.tiangolo.com/)
+- [SQLAlchemy dokumentáció](https://docs.sqlalchemy.org/en/20/)
+- [Pydantic dokumentáció](https://docs.pydantic.dev/latest/)
+
 ## Beadás
 
 1. Commitold és pushold a megoldásod a GitHub Classroom repóba

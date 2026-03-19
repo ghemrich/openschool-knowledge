@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan kérhetsz be adatot a felhasználótól az `input()` függvénnyel, és hogyan dolgozhatsz szövegekkel (string műveletek, f-string formázás). Interaktív programokat készítesz, amik reagálnak a felhasználó válaszaira.
+
+---
+
 ## 2.1 – Köszöntő ⭐
 Írj programot (`feladat1.py`). Kérd be a felhasználó nevét, majd írd ki: „Üdvözöllek, [név]!"
 
@@ -28,6 +32,13 @@
 Írj programot (`feladat6.py`). Kérd be egy távolságot kilométerben (tizedestört is lehet)! Váltsd át mérföldre (1 km = 0.621371 mérföld), méterre, és centiméterbe. Írd ki mindhárom eredményt 2 tizedesjegyre kerekítve.
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Bevitel és szövegkezelés](../../doksik/tanulok/leckek/02-bevitel-szoveg.md)
+- 📝 [Gyakorlófeladatok: Bevitel és szövegkezelés](../../doksik/tanulok/feladatok/02-bevitel-szoveg.md)
 
 ## Dokumentáció
 

@@ -4,6 +4,8 @@
 > **Beadás:** commitold és pushold a megoldásaidat ebbe a repóba!
 > A feladatok nehézség szerint vannak jelölve: ⭐ könnyű | ⭐⭐ közepes | ⭐⭐⭐ nehéz
 
+Ezen a héten a parancssort, a Git haladóbb funkcióit és a GitHub munkafolyamatot sajátítod el. Ha már ismered a Git alapokat az előző kurzusról, most mélyebbre merülsz!
+
 ---
 
 ## 0.1 – Parancssor navigáció ⭐
@@ -31,6 +33,13 @@ Hozz létre két branch-et, mindkettőben módosítsd ugyanazt a fájlt. Merge-e
 - [Git alapok](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 - [Parancssor alapok](https://ubuntu.com/tutorials/command-line-for-beginners)
 - [.gitignore](https://www.w3schools.com/git/git_ignore.asp)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Git, GitHub, Linux](../../doksik/tanulok/leckek/00-git-github-linux.md)
+- 📝 [Gyakorlófeladatok: Git, GitHub, Linux](../../doksik/tanulok/feladatok/00-git-github-linux.md)
 
 ## Beadás
 

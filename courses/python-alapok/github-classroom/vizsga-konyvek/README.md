@@ -94,6 +94,11 @@ A nyelvek: angol, német, francia. A műfajok: fantasy, krimi, sci-fi, történe
 
 ---
 
+## 📚 Segédanyagok
+
+- [Kurzus tananyagok és leckék](../../doksik/tanulok/README.md)
+- [Python referencia (W3Schools)](https://www.w3schools.com/python/)
+
 ## Beadás
 
 1. `git add .`

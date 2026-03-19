@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten haladó tesztelési mintákat tanulsz: fixture-ök, parametrizált tesztek, és teszt lefedettség mérése. Ezek segítségével átfogóbb és hatékonyabb teszteket írhatsz.
+
+---
+
 ## Feladat
 
 Készíts egy **Felhasználó + Termék API**-t auth-tal, és írj hozzá haladó teszteket.
@@ -38,6 +42,13 @@ pytest tests/ -v --cov=app
 
 - [pytest parametrize](https://docs.pytest.org/en/stable/how-to/parametrize.html)
 - [pytest-cov](https://pytest-cov.readthedocs.io/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Haladó tesztelés](../../doksik/tanulok/leckek/16-halado-teszteles.md)
+- 📝 [Gyakorlófeladatok: Haladó tesztelés](../../doksik/tanulok/feladatok/16-halado-teszteles.md)
 
 ## Beadás
 

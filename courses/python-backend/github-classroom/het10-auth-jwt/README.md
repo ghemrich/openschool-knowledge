@@ -6,20 +6,32 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan védd le az API végpontjaidat felhasználói hitelesítéssel (authentikáció). JWT (JSON Web Token) tokenek segítségével a felhasználók biztonságosan igazolhatják a személyazonosságukat.
+
+---
+
 ## 10.1 – Jelszó hash ⭐
-Készíts `auth.py`-t `hash_jelszo()` és `jelszo_ellenorzes()` függvényekkel (passlib + bcrypt). Teszteld a `main.py`-ból.
+Készíts egy `auth.py` fájlt, benne `hash_jelszo(jelszo: str)` és `jelszo_ellenorzes(jelszo: str, hash: str)` függvényekkel. Használd a `passlib` csomagot `bcrypt` algoritmussal. A `main.py`-ból teszteld, hogy a hash-elés és ellenőrzés működik.
+
+> 💡 Telepítsd: `pip install passlib[bcrypt]`
 
 ## 10.2 – Regisztráció ⭐⭐
-Készíts `Felhasznalo` modellt (id, nev, email, jelszo_hash). `POST /auth/regisztracio` végpont: hash-eli a jelszót, elmenti az adatbázisba. Dupla email → 400.
+Készíts `Felhasznalo` modellt (id, nev, email, jelszo_hash). Hozz létre egy `POST /auth/regisztracio` végpontot, ami:
+- Fogadja a felhasználó nevét, emailjét és jelszavát
+- Hash-eli a jelszót a 10.1-es `hash_jelszo()` függvénnyel
+- Elmenti az adatbázisba
+- Ha az email már létezik, `400 Bad Request` választ ad
 
 ## 10.3 – JWT Login ⭐⭐
-Egészítsd ki `auth.py`-t JWT token generálással. `POST /auth/login` végpont: email + jelszó → access_token.
+Egészítsd ki az `auth.py`-t egy `create_access_token(data: dict)` függvénnyel. Készíts `POST /auth/login` végpontot, ami email + jelszó alapján ellenőrzi a felhasználót, és sikeres belépés esetén visszaad egy JWT tokent.
+
+> 💡 Telepítsd: `pip install python-jose[cryptography]`
 
 ## 10.4 – Védett végpont ⭐⭐
-Készíts `get_current_user` dependency-t (token dekódolás). `GET /auth/profil` → visszaadja a bejelentkezett user adatait. Token nélkül 401.
+Készíts egy `get_current_user` dependency-t (FastAPI `Depends`), ami a kérés fejlécéből kiszedi a JWT tokent, dekódolja, és visszaadja a felhasználó adatait. Hozz létre egy `GET /auth/profil` végpontot, ami a bejelentkezett felhasználó adatait adja vissza. Token nélkül `401 Unauthorized` választ adj.
 
 ## 10.5 – Jogosultság ⭐⭐⭐
-A `POST /konyvek` és `DELETE /konyvek/{id}` végpontok csak bejelentkezett felhasználóknak legyenek elérhetők. Teszteld a Swagger UI 🔒 gombbal.
+A `POST /konyvek` és `DELETE /konyvek/{id}` végpontok csak bejelentkezett felhasználóknak legyenek elérhetők. Használd a `get_current_user` dependency-t a végpontok paramétereként. Teszteld a Swagger UI 🔒 gombbal (Authorize).
 
 ---
 
@@ -28,6 +40,13 @@ A `POST /konyvek` és `DELETE /konyvek/{id}` végpontok csak bejelentkezett felh
 - [FastAPI Security](https://fastapi.tiangolo.com/tutorial/security/)
 - [python-jose](https://github.com/mpdavis/python-jose)
 - [passlib](https://passlib.readthedocs.io/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Autentikáció és JWT](../../doksik/tanulok/leckek/10-auth-jwt.md)
+- 📝 [Gyakorlófeladatok: Autentikáció és JWT](../../doksik/tanulok/feladatok/10-auth-jwt.md)
 
 ## Beadás
 

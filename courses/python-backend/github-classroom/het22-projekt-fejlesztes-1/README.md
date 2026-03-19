@@ -5,6 +5,10 @@
 
 ---
 
+Ezen a héten elkezded a záró projekted fejlesztését. Az alapvető CRUD műveletekre, az adatbázis-integrációra és az authentikációra fókuszálj.
+
+---
+
 ## Feladat
 
 Fejleszd a záró projektedet.
@@ -24,6 +28,14 @@ Fejleszd a záró projektedet.
 - Auth + védett végpontok
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Projekt fejlesztés I.](../../doksik/tanulok/leckek/22-projekt-fejlesztes-1.md)
+- 📝 [Gyakorlófeladatok: Projekt fejlesztés I.](../../doksik/tanulok/feladatok/22-projekt-fejlesztes-1.md)
+- [Összes korábbi heti anyag](../../doksik/tanulok/README.md)
 
 ## Beadás
 

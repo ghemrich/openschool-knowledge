@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a táblázatokkal és az űrlapokkal. A táblázatok adatok rendezett megjelenítésére szolgálnak, az űrlapok pedig lehetővé teszik, hogy a felhasználók adatokat küldjenek a weboldalnak (pl. regisztráció, bejelentkezés).
+
+---
+
 ## 4.1 – Órarend ⭐
 Készíts egy weboldalt (`feladat1.html`) az órarendeddel táblázat formájában. A táblázat tartalmazzon:
 - `<caption>` címet
@@ -51,6 +55,12 @@ Készíts egy weboldalt (`feladat6.html`), amely tartalmaz:
   - Hozzáadás gomb
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

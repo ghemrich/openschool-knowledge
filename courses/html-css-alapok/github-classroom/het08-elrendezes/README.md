@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megtanulod, hogyan rendezd el az elemeket az oldalon. Megismered a `display`, `position`, `float` tulajdonságokat, és megtanítod a böngészőt, hová kerüljenek a tartalmaid.
+
+---
+
 ## 8.1 – Relatív pozícionálás ⭐
 Készíts egy weboldalt (`feladat1.html`) és stílusfájlt (`feladat1.css`):
 - 3 színes doboz egymás alatt
@@ -44,6 +48,12 @@ Készíts egy weboldalt (`feladat6.html`) és stílusfájlt (`feladat6.css`) tel
 - `z-index` használata a rétegek kezeléshez
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
 
 ## Dokumentáció
 

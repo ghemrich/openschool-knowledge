@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz az összetett adatszerkezetekkel: szótárak (dictionary), tuple-ök és halmazok (set). Ezek segítségével hatékonyabban tárolhatsz és kereshetsz adatokat.
+
+---
+
 ## 9.1 – Lista listája ⭐
 Írj programot (`feladat1.py`). Hozz létre egy 3×3-as „mátrixot" (lista listája számokkal), és írd ki formázottan.
 
@@ -29,6 +33,13 @@ név;kor;város;átlag
 Írd ki az adatokat táblázatszerűen, és keresd meg a legjobb átlagú tanulót.
 
 ---
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Összetett adatszerkezetek](../../doksik/tanulok/leckek/09-osszetett-adatszerkezetek.md)
+- 📝 [Gyakorlófeladatok: Összetett adatszerkezetek](../../doksik/tanulok/feladatok/09-osszetett-adatszerkezetek.md)
 
 ## Dokumentáció
 

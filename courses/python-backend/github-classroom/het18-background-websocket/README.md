@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten megismerkedsz a háttérfeladatokkal (Background Tasks) és a valós idejű kommunikációval (WebSocket). A háttérfeladatok hosszabb műveleteket futtatnak anélkül, hogy a felhasználónak várnia kellene.
+
+---
+
 ## Feladat
 
 ### 18.1 – Background Task ⭐⭐
@@ -26,6 +30,13 @@ Készíts `/ws/chat` végpontot `ConnectionManager`-rel: több kliens csatlakozh
 
 - [Background Tasks](https://fastapi.tiangolo.com/tutorial/background-tasks/)
 - [WebSockets](https://fastapi.tiangolo.com/advanced/websockets/)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Background Tasks és WebSocket](../../doksik/tanulok/leckek/18-background-websocket.md)
+- 📝 [Gyakorlófeladatok: Background Tasks és WebSocket](../../doksik/tanulok/feladatok/18-background-websocket.md)
 
 ## Beadás
 

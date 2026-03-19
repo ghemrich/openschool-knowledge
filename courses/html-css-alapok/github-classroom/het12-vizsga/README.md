@@ -44,6 +44,13 @@ Készíts egy teljes reszponzív weboldalt (`feladat3.html`) és stílusfájlt (
 
 ---
 
+## 📚 Kapcsolódó anyagok
+
+Az összes korábbi heti anyagot és gyakorlófeladatot a kurzus dokumentációjában találod:
+
+- [Heti tananyagok és gyakorlófeladatok](../../doksik/tanulok/README.md)
+- [Tanterv](../../doksik/tanterv/tanterv.md)
+
 ## Emlékeztető – vizsgán elvárt ismeretek
 
 - HTML5 dokumentum szerkezet
@@ -59,6 +66,7 @@ Készíts egy teljes reszponzív weboldalt (`feladat3.html`) és stílusfájlt (
 
 - [HTML referencia](https://www.w3schools.com/tags/)
 - [CSS referencia](https://www.w3schools.com/cssref/)
+- [Vizsgafeladatok és pontozás](../../vizsgak/README.md)
 
 ## Beadás
 

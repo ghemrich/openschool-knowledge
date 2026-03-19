@@ -6,6 +6,10 @@
 
 ---
 
+Ezen a héten átismétled a Python alapokat és megismerkedsz a virtuális környezetekkel (`venv`). A venv biztosítja, hogy minden projekt a saját függőségeivel dolgozzon – ez professzionális fejlesztésben alapvető.
+
+---
+
 ## 1.1 – Virtuális környezet ⭐
 Hozz létre virtuális környezetet (`venv`), aktiváld, telepítsd a `requests` csomagot. Készíts `requirements.txt` fájlt (`pip freeze`). A `venv/` mappa **ne** kerüljön a repóba (`.gitignore`).
 
@@ -28,6 +32,13 @@ Készíts egy `utils.py` modult `atlag(lista)`, `maximum(lista)`, `minimum(lista
 - [Python venv](https://docs.python.org/3/library/venv.html)
 - [Python dict](https://www.w3schools.com/python/python_dictionaries.asp)
 - [Python file handling](https://www.w3schools.com/python/python_file_handling.asp)
+
+## 📚 Kapcsolódó anyagok
+
+Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
+
+- 📖 [Lecke: Python, venv, pip](../../doksik/tanulok/leckek/01-python-venv.md)
+- 📝 [Gyakorlófeladatok: Python, venv, pip](../../doksik/tanulok/feladatok/01-python-venv.md)
 
 ## Beadás
 
