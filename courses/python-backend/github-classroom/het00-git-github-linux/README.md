@@ -37,7 +37,7 @@ Hozz létre két branch-et, mindkettőben módosítsd ugyanazt a fájlt. Merge-e
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Git, GitHub, Linux](../../doksik/tanulok/leckek/00-git-github-linux.md)
+- 📖 [Lecke: Git, GitHub, Linux](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/doksik/tanulok/leckek/00-git-github-linux.md)
 - 📝 [Gyakorlófeladatok: Git, GitHub, Linux](../../doksik/tanulok/feladatok/00-git-github-linux.md)
 
 ## Beadás
