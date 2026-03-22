@@ -8,6 +8,9 @@ A formátum a [Keep a Changelog](https://keepachangelog.com/hu/1.0.0/) ajánlás
 
 ## [Kiadatlan]
 
+### Módosítva
+- **Dokumentáció szinkronizálás** — README.md, CONTRIBUTING.md, tools/README.md frissítése a tényleges repószerkezethez: nem létező kurzusok (html-css-alapok, projekt-labor), guides/ mappa és hivatkozásaik eltávolítva, hiányzó github-update szkriptek hozzáadva
+
 ## [0.5.0] – 2025-03-12
 
 ### Hozzáadva

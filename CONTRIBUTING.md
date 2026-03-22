@@ -42,9 +42,7 @@ Típusok:
 ```
 courses/
 ├── python-alapok/       # Python alapok kurzus
-├── python-backend/      # Backend FastAPI kurzus
-└── projekt-labor/       # Projekt Labor
-guides/                  # Kurzusokon átívelő útmutatók
+└── python-backend/      # Backend FastAPI kurzus
 tools/                   # Automatizálási szkriptek
 ```
 

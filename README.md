@@ -43,59 +43,23 @@ Az OpenSchool megközelítése: **a munkafolyamat maga legyen a tananyag része*
 | Kurzus | Időtartam | Technológia | Leírás |
 |--------|-----------|-------------|--------|
 | [Python alapok](courses/python-alapok/) | 13 hét | Python 3.10+ | Változók, ciklusok, függvények, fájlkezelés, adatfeldolgozás |
-| [HTML & CSS alapok](courses/html-css-alapok/) | 13 hét | HTML5 + CSS3 | Dokumentum szerkezet, szemantikus HTML, CSS box model, Flexbox, reszponzív dizájn |
 | [Backend FastAPI](courses/python-backend/) | 25 hét | Python + FastAPI + PostgreSQL | REST API, autentikáció, tesztelés, Docker, CI/CD |
-| [Projekt Labor](courses/projekt-labor/) | 7 modul, egyéni tempó | FastAPI + Docker + Astro | Az OpenSchool platform felépítése nulláról élesig |
-
-A **Projekt Labor** nem hagyományos kurzus: a résztvevő az OpenSchool platform kódját építi fel az alapoktól — a végeredmény egy működő, open source webalkalmazás.
 
 ## Projekt szerkezet
 
 ```
 ├── courses/                     # Kurzusok
 │   ├── python-alapok/           #   Python alapok (13 hét)
-│   ├── html-css-alapok/         #   HTML & CSS alapok (13 hét)
-│   ├── python-backend/          #   Backend FastAPI (25 hét)
-│   └── projekt-labor/           #   Projekt Labor (7 modul)
-├── guides/                      # Kurzusokon átívelő útmutatók
-│   ├── tanuloknak/              #   Tanulói útmutatók
-│   ├── puskak/                  #   Gyors referenciák (Git, Docker)
-│   ├── mentoroknak/             #   Mentori útmutatók
-│   └── uzemeltetoknek/          #   Üzemeltetési útmutatók
+│   └── python-backend/          #   Backend FastAPI (25 hét)
 ├── tools/                       # Automatizálási szkriptek
 │   ├── github-setup.sh / .ps1  #   Template repók létrehozása
+│   ├── github-update.sh / .ps1 #   Template repók frissítése
 │   └── discord-webhook.py      #   Discord értesítések
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md                 # Változásnapló
 ├── LICENSE                      # MIT (kód)
 └── LICENSE-CC-BY-SA             # CC BY-SA 4.0 (tartalom)
 ```
-
-## Útmutatók
-
-Kurzusokon átívelő dokumentumok: → [guides/](guides/)
-
-### Tanulóknak
-- **[Kezdő útmutató — Hogyan kezdj hozzá?](guides/tanuloknak/kezdo-utmutato.md)** — tanulási útvonal, kurzus előfeltételek, hol kezdd
-- **[Környezet beállítás](guides/tanuloknak/kornyezet-beallitas.md)** — Python, Git, VS Code, Docker telepítés minden operációs rendszeren
-- **[GitHub Classroom — Tanuló útmutató](guides/tanuloknak/github-classroom-tanulo-utmutato.md)** — feladat elfogadás, tesztek értelmezése, munkafolyamat
-- **[Hibaelhárítás](guides/tanuloknak/hibaelharitas.md)** — gyakori problémák és megoldásaik
-- **[Hogyan keress dokumentációt?](guides/tanuloknak/dokumentacio-kereses.md)** — önálló tanulás, hatékony keresés
-- **[Szótár](guides/tanuloknak/szotar.md)** — technikai fogalmak magyar magyarázattal
-
-### Gyors referenciák
-- **[Git puskalap](guides/puskak/git-puskalap.md)** — leggyakoribb Git parancsok
-- **[Docker puskalap](guides/puskak/docker-puskalap.md)** — Docker és Docker Compose parancsok
-
-### Mentoroknak
-- **[Mentor útmutató](guides/mentoroknak/mentor-utmutato.md)** — mentorálás, kód-átnézés, visszajelzés
-- **[Kurzus készítési útmutató](guides/mentoroknak/kurzus-keszitesi-utmutato.md)** — mappastruktúra, elnevezési konvenciók, autograding
-- **[Közösségi útmutató](guides/mentoroknak/kozossegi-utmutato.md)** — Discord csatornák, szerepkörök, viselkedési kódex
-- **[Open source projekt útmutató](guides/mentoroknak/open-source-projekt-utmutato.md)** — hasznos linkek
-
-### Üzemeltetőknek
-- **[Discord szerver útmutató](guides/uzemeltetoknek/discord-szerver-utmutato.md)** — szerver beállítás, csatornák, webhook-ok
-- **[Integrált munkafolyamat](guides/uzemeltetoknek/integralt-munkafolyamat.md)** — félév eleji beállítástól a félév végéig
 
 ## Eszközök
 
@@ -104,6 +68,7 @@ Automatizálási szkriptek: → [tools/](tools/)
 | Eszköz | Leírás |
 |--------|--------|
 | `github-setup.sh` / `.ps1` | Template repók létrehozása egy GitHub Organization alatt |
+| `github-update.sh` / `.ps1` | Template repók frissítése |
 | `discord-webhook.py` | Bejelentések, emlékeztetők és szálnyitók küldése Discord csatornákra |
 
 ## Kapcsolódó projekt
