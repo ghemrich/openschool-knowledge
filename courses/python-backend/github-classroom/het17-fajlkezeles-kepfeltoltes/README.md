@@ -53,8 +53,7 @@ response = client.post("/feltoltes/kep", files={"file": ("test.jpg", file, "imag
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Fájlkezelés és képfeltöltés](../../doksik/tanulok/leckek/17-fajlkezeles-kepfeltoltes.md)
-- 📝 [Gyakorlófeladatok: Fájlkezelés és képfeltöltés](../../doksik/tanulok/feladatok/17-fajlkezeles-kepfeltoltes.md)
+- 📖 [Lecke: Fájlkezelés és képfeltöltés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/17-fajlkezeles-kepfeltoltes.md)
 
 ## Beadás
 

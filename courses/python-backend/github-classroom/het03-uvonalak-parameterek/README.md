@@ -36,8 +36,7 @@ Készíts `GET /termekek/{kategoria}` végpontot, ahol `kategoria` Enum (elektro
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Útvonalak és paraméterek](../../doksik/tanulok/leckek/03-uvonalak-parameterek.md)
-- 📝 [Gyakorlófeladatok: Útvonalak és paraméterek](../../doksik/tanulok/feladatok/03-uvonalak-parameterek.md)
+- 📖 [Lecke: Útvonalak és paraméterek](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/03-uvonalak-parameterek.md)
 
 ## Beadás
 

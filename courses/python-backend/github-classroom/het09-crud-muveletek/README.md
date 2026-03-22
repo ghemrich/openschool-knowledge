@@ -41,8 +41,7 @@ Integráld a teljes alkalmazást: `main.py` → router → crud → database. In
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: CRUD műveletek](../../doksik/tanulok/leckek/09-crud-muveletek.md)
-- 📝 [Gyakorlófeladatok: CRUD műveletek](../../doksik/tanulok/feladatok/09-crud-muveletek.md)
+- 📖 [Lecke: CRUD műveletek](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/09-crud-muveletek.md)
 
 ## Beadás
 

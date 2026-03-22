@@ -37,8 +37,7 @@ név;kor;város;átlag
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Összetett adatszerkezetek](../../doksik/tanulok/leckek/09-osszetett-adatszerkezetek.md)
-- 📝 [Gyakorlófeladatok: Összetett adatszerkezetek](../../doksik/tanulok/feladatok/09-osszetett-adatszerkezetek.md)
+- 📖 [Lecke: Összetett adatszerkezetek](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/09-osszetett-adatszerkezetek.md)
 
 ## Dokumentáció
 

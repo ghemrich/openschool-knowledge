@@ -50,8 +50,7 @@ pytest -v
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: pytest alapok](../../doksik/tanulok/leckek/13-pytest-alapok.md)
-- 📝 [Gyakorlófeladatok: pytest alapok](../../doksik/tanulok/feladatok/13-pytest-alapok.md)
+- 📖 [Lecke: pytest alapok](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/13-pytest-alapok.md)
 
 ## Beadás
 

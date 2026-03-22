@@ -66,8 +66,7 @@ pytest tests/ -v
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: DB mock teszt](../../doksik/tanulok/leckek/15-db-mock-teszteles.md)
-- 📝 [Gyakorlófeladatok: DB mock teszt](../../doksik/tanulok/feladatok/15-db-mock-teszteles.md)
+- 📖 [Lecke: DB mock teszt](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/15-db-mock-teszteles.md)
 
 ## Beadás
 

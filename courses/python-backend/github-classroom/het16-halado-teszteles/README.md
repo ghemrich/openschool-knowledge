@@ -46,8 +46,7 @@ pytest tests/ -v --cov=app
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Haladó tesztelés](../../doksik/tanulok/leckek/16-halado-teszteles.md)
-- 📝 [Gyakorlófeladatok: Haladó tesztelés](../../doksik/tanulok/feladatok/16-halado-teszteles.md)
+- 📖 [Lecke: Haladó tesztelés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/16-halado-teszteles.md)
 
 ## Beadás
 

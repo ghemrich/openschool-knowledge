@@ -35,8 +35,7 @@ Hozd létre: könyvtárstruktúra, `requirements.txt`, `.env.example`, `docker-c
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Projekt tervezés](../../doksik/tanulok/leckek/21-projekt-tervezes.md)
-- 📝 [Gyakorlófeladatok: Projekt tervezés](../../doksik/tanulok/feladatok/21-projekt-tervezes.md)
+- 📖 [Lecke: Projekt tervezés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/21-projekt-tervezes.md)
 
 ## Beadás
 

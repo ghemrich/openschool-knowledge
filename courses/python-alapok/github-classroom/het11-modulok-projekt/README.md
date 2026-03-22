@@ -56,8 +56,7 @@ Példa: `Végső visszaszámlálás;akció;2005;118;7.2`
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Modulok és projekt](../../doksik/tanulok/leckek/11-modulok-projekt.md)
-- 📝 [Gyakorlófeladatok: Modulok és projekt](../../doksik/tanulok/feladatok/11-modulok-projekt.md)
+- 📖 [Lecke: Modulok és projekt](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/11-modulok-projekt.md)
 
 ## Dokumentáció
 

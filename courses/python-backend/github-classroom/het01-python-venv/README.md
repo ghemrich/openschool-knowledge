@@ -36,8 +36,7 @@ Készíts egy `utils.py` modult `atlag(lista)`, `maximum(lista)`, `minimum(lista
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Python, venv, pip](../../doksik/tanulok/leckek/01-python-venv.md)
-- 📝 [Gyakorlófeladatok: Python, venv, pip](../../doksik/tanulok/feladatok/01-python-venv.md)
+- 📖 [Lecke: Python, venv, pip](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/01-python-venv.md)
 
 ## Beadás
 

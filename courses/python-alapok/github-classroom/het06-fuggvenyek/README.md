@@ -47,8 +47,7 @@ A főprogram hívja meg a három függvényt a megfelelő sorrendben.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Függvények](../../doksik/tanulok/leckek/06-fuggvenyek.md)
-- 📝 [Gyakorlófeladatok: Függvények](../../doksik/tanulok/feladatok/06-fuggvenyek.md)
+- 📖 [Lecke: Függvények](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/06-fuggvenyek.md)
 
 ## Dokumentáció
 

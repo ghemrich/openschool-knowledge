@@ -36,8 +36,7 @@ Készíts `entrypoint.sh`-t: alembic migrate → uvicorn start. Teszteld: `docke
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Docker Compose éles környezet](../../doksik/tanulok/leckek/19-docker-compose-eles.md)
-- 📝 [Gyakorlófeladatok: Docker Compose éles környezet](../../doksik/tanulok/feladatok/19-docker-compose-eles.md)
+- 📖 [Lecke: Docker Compose éles környezet](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/19-docker-compose-eles.md)
 
 ## Beadás
 

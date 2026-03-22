@@ -51,8 +51,7 @@ Példa: `Végső visszaszámlálás;akció;2005;118;7.2`
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Adatfeldolgozás](../../doksik/tanulok/leckek/10-adatfeldolgozas.md)
-- 📝 [Gyakorlófeladatok: Adatfeldolgozás](../../doksik/tanulok/feladatok/10-adatfeldolgozas.md)
+- 📖 [Lecke: Adatfeldolgozás](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/10-adatfeldolgozas.md)
 
 ## Dokumentáció
 

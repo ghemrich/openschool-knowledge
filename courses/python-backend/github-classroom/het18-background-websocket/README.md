@@ -34,8 +34,7 @@ Készíts `/ws/chat` végpontot `ConnectionManager`-rel: több kliens csatlakozh
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Background Tasks és WebSocket](../../doksik/tanulok/leckek/18-background-websocket.md)
-- 📝 [Gyakorlófeladatok: Background Tasks és WebSocket](../../doksik/tanulok/feladatok/18-background-websocket.md)
+- 📖 [Lecke: Background Tasks és WebSocket](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/18-background-websocket.md)
 
 ## Beadás
 

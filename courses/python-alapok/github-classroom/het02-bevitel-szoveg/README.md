@@ -36,8 +36,7 @@ Ezen a héten megtanulod, hogyan kérhetsz be adatot a felhasználótól az `inp
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Bevitel és szövegkezelés](../../doksik/tanulok/leckek/02-bevitel-szoveg.md)
-- 📝 [Gyakorlófeladatok: Bevitel és szövegkezelés](../../doksik/tanulok/feladatok/02-bevitel-szoveg.md)
+- 📖 [Lecke: Bevitel és szövegkezelés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/02-bevitel-szoveg.md)
 
 ## Dokumentáció
 

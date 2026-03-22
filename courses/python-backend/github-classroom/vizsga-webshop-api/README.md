@@ -181,7 +181,7 @@ Készíts `requirements.txt` fájlt a szükséges csomagokkal.
 
 ## 📚 Segédanyagok
 
-- [Kurzus tananyagok és leckék](../../doksik/tanulok/README.md)
+- [Kurzus tananyagok és leckék](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-backend/leckek)
 - [FastAPI dokumentáció](https://fastapi.tiangolo.com/)
 - [SQLAlchemy dokumentáció](https://docs.sqlalchemy.org/en/20/)
 - [Pydantic dokumentáció](https://docs.pydantic.dev/latest/)

@@ -32,8 +32,6 @@
 
 Az összes korábbi heti anyagot és a vizsgafelkészüléshez szükséges anyagokat itt találod:
 
-- 📖 [Lecke: Vizsga](../../doksik/tanulok/leckek/24-vizsga.md)
-- 📝 [Gyakorlófeladatok: Vizsga](../../doksik/tanulok/feladatok/24-vizsga.md)
-- [Tanterv](../../doksik/tanterv/tanterv.md)
-- [Összes heti anyag](../../doksik/tanulok/README.md)
-- [Vizsgafeladatok és pontozás](../../vizsgak/README.md)
+- 📖 [Lecke: Vizsga](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/24-vizsga.md)
+- [Összes heti anyag](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-backend/leckek)
+- [Vizsgafeladatok és pontozás](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-backend/vizsgak)

@@ -44,8 +44,7 @@ A `POST /konyvek` és `DELETE /konyvek/{id}` végpontok csak bejelentkezett felh
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Autentikáció és JWT](../../doksik/tanulok/leckek/10-auth-jwt.md)
-- 📝 [Gyakorlófeladatok: Autentikáció és JWT](../../doksik/tanulok/feladatok/10-auth-jwt.md)
+- 📖 [Lecke: Autentikáció és JWT](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/10-auth-jwt.md)
 
 ## Beadás
 

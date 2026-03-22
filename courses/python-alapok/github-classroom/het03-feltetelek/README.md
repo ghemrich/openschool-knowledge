@@ -43,8 +43,7 @@ Számold ki és írd ki a jegy végső árát.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Feltételes elágazások](../../doksik/tanulok/leckek/03-felteteles-elagazasok.md)
-- 📝 [Gyakorlófeladatok: Feltételes elágazások](../../doksik/tanulok/feladatok/03-felteteles-elagazasok.md)
+- 📖 [Lecke: Feltételes elágazások](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/03-felteteles-elagazasok.md)
 
 ## Dokumentáció
 

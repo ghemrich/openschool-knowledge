@@ -31,9 +31,8 @@ Oldd meg a [próbavizsga feladatot](probavizsga.md) **120 perc** alatt: Könyv A
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Félév összefoglalás](../../doksik/tanulok/leckek/12-felev-osszefoglalas.md)
-- 📝 [Gyakorlófeladatok: Félév összefoglalás](../../doksik/tanulok/feladatok/12-felev-osszefoglalas.md)
-- [Összes heti anyag](../../doksik/tanulok/README.md)
+- 📖 [Lecke: Félév összefoglalás](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/12-felev-osszefoglalas.md)
+- [Összes heti anyag](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-backend/leckek)
 
 ## Beadás
 

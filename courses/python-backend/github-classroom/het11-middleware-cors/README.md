@@ -36,8 +36,7 @@ Készítsd el a végleges `main.py`-t: CORS, naplózó middleware, lifespan, ös
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Middleware és CORS](../../doksik/tanulok/leckek/11-middleware-cors.md)
-- 📝 [Gyakorlófeladatok: Middleware és CORS](../../doksik/tanulok/feladatok/11-middleware-cors.md)
+- 📖 [Lecke: Middleware és CORS](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/11-middleware-cors.md)
 
 ## Beadás
 

@@ -42,8 +42,7 @@ A program a végén írja ki, hány tippből találta el.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Random és játéklogika](../../doksik/tanulok/leckek/07-random-jatek.md)
-- 📝 [Gyakorlófeladatok: Random és játéklogika](../../doksik/tanulok/feladatok/07-random-jatek.md)
+- 📖 [Lecke: Random és játéklogika](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/07-random-jatek.md)
 
 ## Dokumentáció
 

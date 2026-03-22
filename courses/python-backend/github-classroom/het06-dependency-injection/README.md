@@ -46,8 +46,7 @@ Készíts `get_api_key` dependency-t, amely ellenőrzi az `X-API-Key` headert. H
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Dependency Injection](../../doksik/tanulok/leckek/06-dependency-injection.md)
-- 📝 [Gyakorlófeladatok: Dependency Injection](../../doksik/tanulok/feladatok/06-dependency-injection.md)
+- 📖 [Lecke: Dependency Injection](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/06-dependency-injection.md)
 
 ## Beadás
 

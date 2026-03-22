@@ -32,9 +32,8 @@ Fejleszd a záró projektedet.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Projekt fejlesztés I.](../../doksik/tanulok/leckek/22-projekt-fejlesztes-1.md)
-- 📝 [Gyakorlófeladatok: Projekt fejlesztés I.](../../doksik/tanulok/feladatok/22-projekt-fejlesztes-1.md)
-- [Összes korábbi heti anyag](../../doksik/tanulok/README.md)
+- 📖 [Lecke: Projekt fejlesztés I.](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/22-projekt-fejlesztes-1.md)
+- [Összes korábbi heti anyag](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-backend/leckek)
 
 ## Beadás
 

@@ -36,8 +36,7 @@ Egészítsd ki a `POST /gyumolcsok` (hozzáadás) és `DELETE /gyumolcsok/{index
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: FastAPI bevezetés](../../doksik/tanulok/leckek/02-fastapi-bevezetes.md)
-- 📝 [Gyakorlófeladatok: FastAPI bevezetés](../../doksik/tanulok/feladatok/02-fastapi-bevezetes.md)
+- 📖 [Lecke: FastAPI bevezetés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/02-fastapi-bevezetes.md)
 
 ## Beadás
 

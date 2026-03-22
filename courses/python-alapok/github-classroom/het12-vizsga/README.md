@@ -122,10 +122,8 @@ Készíts egy `hello.py` fájlt. Végezd el az alábbi lépéseket, és minden l
 
 Az összes korábbi heti anyagot és a vizsgafelkészüléshez szükséges anyagokat itt találod:
 
-- 📖 [Lecke: Vizsgafelkészítés](../../doksik/tanulok/leckek/12-vizsgafelkeszites.md)
-- 📝 [Gyakorlófeladatok: Vizsgafelkészítés](../../doksik/tanulok/feladatok/12-vizsgafelkeszites.md)
-- [Tanterv](../../doksik/tanterv/tanterv.md)
-- [Vizsgafeladatok és pontozás](../../vizsgak/README.md)
+- 📖 [Lecke: Vizsgafelkészítés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/12-vizsgafelkeszites.md)
+- [Vizsgafeladatok és pontozás](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-alapok/vizsgak)
 
 ## Beadás
 

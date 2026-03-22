@@ -36,8 +36,7 @@ Ezen a héten megismerkedsz a listákkal, amik több érték tárolására szolg
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Listák](../../doksik/tanulok/leckek/05-listak.md)
-- 📝 [Gyakorlófeladatok: Listák](../../doksik/tanulok/feladatok/05-listak.md)
+- 📖 [Lecke: Listák](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/05-listak.md)
 
 ## Dokumentáció
 

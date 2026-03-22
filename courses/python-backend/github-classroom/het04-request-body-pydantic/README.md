@@ -41,8 +41,7 @@ Készíts `TermekUpdate` modellt ahol minden mező opcionális. A `PUT /termekek
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Request body és Pydantic](../../doksik/tanulok/leckek/04-request-body-pydantic.md)
-- 📝 [Gyakorlófeladatok: Request body és Pydantic](../../doksik/tanulok/feladatok/04-request-body-pydantic.md)
+- 📖 [Lecke: Request body és Pydantic](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/04-request-body-pydantic.md)
 
 ## Beadás
 

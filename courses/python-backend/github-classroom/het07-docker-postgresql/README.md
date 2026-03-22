@@ -36,8 +36,7 @@ Egészítsd ki a `docker-compose.yml`-t: `api` és `db` szolgáltatás. Az API `
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Docker és PostgreSQL](../../doksik/tanulok/leckek/07-docker-postgresql.md)
-- 📝 [Gyakorlófeladatok: Docker és PostgreSQL](../../doksik/tanulok/feladatok/07-docker-postgresql.md)
+- 📖 [Lecke: Docker és PostgreSQL](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/07-docker-postgresql.md)
 
 ## Beadás
 

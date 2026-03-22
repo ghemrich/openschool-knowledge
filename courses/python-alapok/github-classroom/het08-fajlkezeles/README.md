@@ -37,8 +37,7 @@ Ezen a héten megtanulod, hogyan olvashatsz és írhatsz fájlokat Pythonban. A 
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Fájlkezelés](../../doksik/tanulok/leckek/08-fajlkezeles.md)
-- 📝 [Gyakorlófeladatok: Fájlkezelés](../../doksik/tanulok/feladatok/08-fajlkezeles.md)
+- 📖 [Lecke: Fájlkezelés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/08-fajlkezeles.md)
 
 ## Dokumentáció
 

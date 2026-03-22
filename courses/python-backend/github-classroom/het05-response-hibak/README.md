@@ -39,8 +39,7 @@ Készíts API-t, ami 5 különböző HTTP hibakódot ad vissza: `400 Bad Request
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Response és hibakezelés](../../doksik/tanulok/leckek/05-response-hibak.md)
-- 📝 [Gyakorlófeladatok: Response és hibakezelés](../../doksik/tanulok/feladatok/05-response-hibak.md)
+- 📖 [Lecke: Response és hibakezelés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/05-response-hibak.md)
 
 ## Beadás
 

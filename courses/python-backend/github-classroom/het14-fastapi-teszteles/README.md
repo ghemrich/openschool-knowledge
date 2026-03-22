@@ -46,8 +46,7 @@ python3 -c "from fastapi.testclient import TestClient; from main import app; c =
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: FastAPI tesztelés](../../doksik/tanulok/leckek/14-fastapi-teszteles.md)
-- 📝 [Gyakorlófeladatok: FastAPI tesztelés](../../doksik/tanulok/feladatok/14-fastapi-teszteles.md)
+- 📖 [Lecke: FastAPI tesztelés](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/14-fastapi-teszteles.md)
 
 ## Beadás
 

@@ -39,8 +39,7 @@ Adj CI status badge-et a README.md-hoz.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: CI/CD és GitHub Actions](../../doksik/tanulok/leckek/20-cicd-github-actions.md)
-- 📝 [Gyakorlófeladatok: CI/CD és GitHub Actions](../../doksik/tanulok/feladatok/20-cicd-github-actions.md)
+- 📖 [Lecke: CI/CD és GitHub Actions](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/20-cicd-github-actions.md)
 
 ## Beadás
 

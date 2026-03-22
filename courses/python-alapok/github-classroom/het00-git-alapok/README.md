@@ -22,8 +22,7 @@ Futtasd a `git log --oneline` parancsot, és készíts egy képernyőképet vagy
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Git alapok](../../doksik/tanulok/leckek/00-git-alapok.md)
-- 📝 [Gyakorlófeladatok: Git alapok](../../doksik/tanulok/feladatok/00-git-alapok.md)
+- 📖 [Lecke: Git alapok](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/00-git-alapok.md)
 
 ## Beadás
 

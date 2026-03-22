@@ -43,8 +43,7 @@ Ezen a héten megismerkedsz a ciklusokkal (`for` és `while`), amikkel kódrész
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Ciklusok](../../doksik/tanulok/leckek/04-ciklusok.md)
-- 📝 [Gyakorlófeladatok: Ciklusok](../../doksik/tanulok/feladatok/04-ciklusok.md)
+- 📖 [Lecke: Ciklusok](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/04-ciklusok.md)
 
 ## Dokumentáció
 

@@ -40,8 +40,7 @@ Cím:    Budapest, Fő u. 1.
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: Bevezetés és alapok](../../doksik/tanulok/leckek/01-bevezetes-alapok.md)
-- 📝 [Gyakorlófeladatok: Bevezetés és alapok](../../doksik/tanulok/feladatok/01-bevezetes-alapok.md)
+- 📖 [Lecke: Bevezetés és alapok](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-alapok/leckek/01-bevezetes-alapok.md)
 
 ## Dokumentáció
 

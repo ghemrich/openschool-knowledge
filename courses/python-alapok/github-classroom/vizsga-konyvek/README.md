@@ -96,7 +96,7 @@ A nyelvek: angol, német, francia. A műfajok: fantasy, krimi, sci-fi, történe
 
 ## 📚 Segédanyagok
 
-- [Kurzus tananyagok és leckék](../../doksik/tanulok/README.md)
+- [Kurzus tananyagok és leckék](https://github.com/ghemrich/openschool-knowledge/tree/master/courses/python-alapok/leckek)
 - [Python referencia (W3Schools)](https://www.w3schools.com/python/)
 
 ## Beadás

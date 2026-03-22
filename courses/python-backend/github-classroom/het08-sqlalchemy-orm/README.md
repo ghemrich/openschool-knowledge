@@ -36,8 +36,7 @@ Készíts `Szerzo` modellt (id, nev, szuletes_ev). Módosítsd a `Konyv`-et: `sz
 
 Az ehhez a héthez tartozó elméleti anyagot és további gyakorlófeladatokat itt találod:
 
-- 📖 [Lecke: SQLAlchemy ORM](../../doksik/tanulok/leckek/08-sqlalchemy-orm.md)
-- 📝 [Gyakorlófeladatok: SQLAlchemy ORM](../../doksik/tanulok/feladatok/08-sqlalchemy-orm.md)
+- 📖 [Lecke: SQLAlchemy ORM](https://github.com/ghemrich/openschool-knowledge/blob/master/courses/python-backend/leckek/08-sqlalchemy-orm.md)
 
 ## Beadás
 
